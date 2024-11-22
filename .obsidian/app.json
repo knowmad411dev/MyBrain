@@ -1,4 +1,10 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "propertiesInDocument": "source",
+  "attachmentFolderPath": "Attachments",
+  "userIgnoreFilters": [
+    "Templates/"
+  ],
+  "trashOption": "none"
 }

@@ -1,7 +1,0 @@
-{
-  "apiKey": "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",
-  "maxTokens": 1000,
-  "defaultPrompt": "Generate a detailed summary of the following note in 3-4 paragraphs:\n\n",
-  "putSummaryInFrontmatter": false,
-  "model": "gpt-4o"
-}

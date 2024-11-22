@@ -1,0 +1,7 @@
+"SmartSource:RAG.md": {"path":"RAG.md","class_name":"SmartSource","blocks":{"#---frontmatter---":[1,3],"#":[5,8],"##{1}":[9,9],"##{2}":[10,10],"##{3}":[11,11],"##{4}":[12,12]},"mtime":1728936211693,"size":695,"hash":"ba43968574af419f255bd4286c91a998fef3b08d400aad14017eeb7a32726c81","last_read_hash":"ba43968574af419f255bd4286c91a998fef3b08d400aad14017eeb7a32726c81","outlinks":[]}
+"SmartBlock:RAG.md#---frontmatter---": {"class_name":"SmartBlock","embeddings":{},"key":"RAG.md#---frontmatter---","outlinks":[],"size":17,"hash":"5c54cfcbd0a19a7767dccced70eca89ab80e0280f3d2e3931d1053ab485643c5"}
+"SmartBlock:RAG.md#": {"class_name":"SmartBlock","embeddings":{},"key":"RAG.md#","outlinks":[],"size":334,"hash":"e07a55b4bc8f73e0ee881e574e5871e012fd02762cdf85df29ca60c52030abe2"}
+"SmartBlock:RAG.md##{1}": {"class_name":"SmartBlock","embeddings":{},"key":"RAG.md##{1}","outlinks":[],"size":85,"hash":"c57d5b0c632989d99e1c1765ecc1fdb0cb631e2e9f5e19ae0f2c6d31a82093a9"}
+"SmartBlock:RAG.md##{2}": {"class_name":"SmartBlock","embeddings":{},"key":"RAG.md##{2}","outlinks":[],"size":92,"hash":"47eabd52879cccec3b0b64e286f743894794fea0538f873f68e3ac727dca4610"}
+"SmartBlock:RAG.md##{3}": {"class_name":"SmartBlock","embeddings":{},"key":"RAG.md##{3}","outlinks":[],"size":72,"hash":"af6e3a2a6f57916a385ec156257cd1fd5e0722b1fba7bbf2332966c748c73b9f"}
+"SmartBlock:RAG.md##{4}": {"class_name":"SmartBlock","embeddings":{},"key":"RAG.md##{4}","outlinks":[],"size":87,"hash":"cebb5320f7b20731aeb19d9b7737d318e51e706941ee282c4cd624cdcd627714"}

@@ -1,0 +1,3 @@
+"SmartSource:Ollama.md": {"path":"Ollama.md","class_name":"SmartSource","blocks":{"#---frontmatter---":[1,3],"#":[5,5]},"mtime":1728917481043,"size":1083,"hash":"46c59d446d29e6f64135132e56feaa01c58aab147f296405148f8164e20b9c2a","last_read_hash":"46c59d446d29e6f64135132e56feaa01c58aab147f296405148f8164e20b9c2a","outlinks":[]}
+"SmartBlock:Ollama.md#---frontmatter---": {"class_name":"SmartBlock","embeddings":{},"key":"Ollama.md#---frontmatter---","outlinks":[],"size":20,"hash":"37bbd8e77950dceb35eced1410b5d20db3ebb29fabb3b3ceb17177f6e4a4ac91"}
+"SmartBlock:Ollama.md#": {"class_name":"SmartBlock","embeddings":{},"key":"Ollama.md#","outlinks":[],"size":1061,"hash":"95ab698245882b59c2e171ea0af6b9349f71bd8fae6f5a911233a36d1d6112cb"}

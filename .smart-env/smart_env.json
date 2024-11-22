@@ -1,5 +1,7 @@
 {
+  "is_obsidian_vault": true,
   "smart_blocks": {
+    "embed_blocks": true,
     "embed_model": {
       "model_key": "TaylorAI/bge-micro-v2",
       "None": {}
@@ -9,10 +11,15 @@
   "smart_sources": {
     "embed_model": {
       "model_key": "TaylorAI/bge-micro-v2",
+      "legacy_transformers": true,
       "TaylorAI/bge-micro-v2": {}
+    },
+    "smart_change": {
+      "active": "true"
     }
   },
-  "is_obsidian_vault": true,
+  "file_exclusions": "Untitled",
+  "folder_exclusions": "smart-chats",
   "new_user": false,
   "chat_folder": "smart chat",
   "smart_sources_embed_model": "TaylorAI/bge-micro-v2",
@@ -34,10 +41,8 @@
   },
   "api_key": "",
   "excluded_headings": "",
-  "file_exclusions": "Untitled",
-  "folder_exclusions": "smart-chats",
   "show_full_path": false,
-  "expanded_view": true,
+  "expanded_view": false,
   "language": "en",
   "log_render": false,
   "log_render_files": false,
@@ -51,5 +56,9 @@
   },
   "smart_notices": {
     "muted": {}
+  },
+  "smart_view_filter": {
+    "exclude_inlinks": "false",
+    "exclude_outlinks": "false"
   }
 }

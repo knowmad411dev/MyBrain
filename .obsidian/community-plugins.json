@@ -1,19 +1,13 @@
 [
-  "dataview",
-  "table-editor-obsidian",
-  "obsidian-excalidraw-plugin",
   "templater-obsidian",
-  "obsidian-style-settings",
   "obsidian-git",
   "better-word-count",
-  "omnisearch",
-  "obsidian-linter",
   "editing-toolbar",
-  "note-refactor-obsidian",
-  "copilot",
-  "media-extended",
-  "chatgpt-md",
-  "ai-summarize",
-  "obsidian-textgenerator-plugin",
-  "systemsculpt-ai"
+  "recent-files-obsidian",
+  "url-into-selection",
+  "lazy-plugins",
+  "google-calendar",
+  "global-search-and-replace",
+  "code-styler",
+  "code-files"
 ]
