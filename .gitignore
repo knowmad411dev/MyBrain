@@ -1,4 +1,12 @@
+# Ignore Obsidian metadata
 .obsidian/
+
+# Ignore log files
 *.log
-.obsidian/
-*.log
+
+# Ignore backups and temp files
+*.bak
+*.tmp
+
+# Ignore smart-env folder
+.smart-env/
