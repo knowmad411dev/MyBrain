@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "870e1b1c64d28694",
+        "id": "17129ed435aafc5a",
         "type": "tabs",
         "children": [
           {
-            "id": "f9f215959136c19c",
+            "id": "0cc68689d9154971",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Journal/Daily Notes/2024-11-22.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Attachments/Images/2aef257553f0d5e9f8b6d9d31b871fc3_MD5.jpg"
               },
-              "icon": "lucide-file",
-              "title": "2024-11-22"
+              "icon": "lucide-image",
+              "title": "2aef257553f0d5e9f8b6d9d31b871fc3_MD5"
             }
           }
         ]
@@ -216,12 +213,37 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "f9f215959136c19c",
+  "active": "0cc68689d9154971",
   "lastOpenFiles": [
-    "API Keys.md",
-    "Journal/Daily Notes/2024-11-22.md",
-    "Atomic Notes/Docker Containers.md",
+    "Attachments/Images/1a17f59d214892c00a1e0efb75701492_MD5.jpg",
+    "Attachments/Images/2cc07b857dd36ed4010fc176ac7ae050_MD5.jpg",
+    "Attachments/Images/zero-cot.png",
+    "Attachments/Images/TOT2.png",
+    "Attachments/Images/img/TOT3.png",
+    "Attachments/Images/TOT.png",
+    "Attachments/Images/rag.png",
+    "Attachments/Images/img/react.png",
+    "Attachments/Images/pal.png",
+    "Attachments/Images/multimodal-cot.png",
+    "Attachments/Images/guided-cot.png",
+    "Journal/Daily Notes/2024-11-23.md",
+    "Atomic Notes/Virtual Sign Language Avatars.md",
+    "Program Flow.md",
+    "Atomic Notes/How to Build an AI Chatbot with Spring AI, React, and Docker.md",
+    "Atomic Notes/Graphs.md",
+    "Learning/Deep Learning with Python.md",
+    "Atomic Notes/Competence Understanding.md",
     "Atomic Notes/Ollama - Run Local.md",
+    "Attachments/PDFs/AI Roadmap_ based on Stanford AI Graduate Certificate.pdf",
+    "Attachments/PDFs/Building-Knowledge-Graphs-Guide.pdf",
+    "Learning/Artificial Intelligence Basics - A Non-Technical Introduction.md",
+    "Learning/Artificial Intelligence - A Modern Approach.md",
+    "Learning/AI Courses.md",
+    "Learning/AI Coding for Free.md",
+    "Learning/Absorb More Faster.md",
+    "Journal/Daily Notes/2024-11-22.md",
+    "API Keys.md",
+    "Atomic Notes/Docker Containers.md",
     "Atomic Notes/Humanism and Spirituality.md",
     "Journal/Daily Notes/2024-11-21.md",
     "Prompting/Prompt - Provide Guidance.md",
@@ -231,24 +253,7 @@
     "Ollama Update",
     "Learn Anything with ChatGPT.md",
     "Atomic Notes/AI SaaS.md",
-    "Learning/AI Courses.md",
-    "Learning/AI Coding for Free.md",
-    "Learning/Absorb More Faster.md",
     "Sync Obsidian with GitHub.md",
-    "Atomic Notes/TOP APIs for Free.md",
-    "Python AI Projects.md",
-    "OpenAPI Key in .env.md",
-    "Atomic Notes/Open Web UI.md",
-    "Atomic Notes/Free AI Tools.md",
-    "Journal/Daily Notes/2024-11-20.md",
-    "Templates/Cornell Note.md",
-    "Templates/YouTube.md",
-    "Templates/Person.md",
-    "Journal/Daily Notes/2024-11-19.md",
-    "Attachments/Images/1a17f59d214892c00a1e0efb75701492_MD5.jpg",
-    "Attachments/99a09f4f0d91a1f9adb4530f4c2d5e84_MD5.jpg",
-    "Attachments/556efaf2ec62249d7ff0a3abcc00d06b_MD5.jpg",
-    "Attachments/PDFs/AI Roadmap_ based on Stanford AI Graduate Certificate.pdf",
     "Attachments/PDFs/AI Roadmap_ based on Stanford AI Graduate Certificate.pdf.crdownload",
     "atomic_note_suggestions_report.txt",
     "Unconfirmed 581510.crdownload",
@@ -256,14 +261,6 @@
     "Unconfirmed 328873.crdownload",
     "Unconfirmed 565707.crdownload",
     "Learning",
-    "UI",
-    "Attachments/Images/d66181b0f9bdf9731b5c627cadbcfa06_MD5.jpg",
-    "Attachments/Images/2eaf043b9438c39b3b123640c9714776_MD5.jpg",
-    "Attachments/Images/fbbbcf71823821b5ce705d44576cdc81_MD5.jpg",
-    "Attachments/Images/305a9bd25739a2ba2c42af87d8b29f87_MD5.jpg",
-    "Attachments/Images/58853c6f4337dfd27b7befab99de286c_MD5.jpg",
-    "Attachments/Images/4602aec4806c59eeda65d83136a42465_MD5.jpg",
-    "Attachments/Images/a9efcfa3cda5c8c8348773102805020d_MD5.jpg",
     "Untitled.canvas"
   ]
 }
