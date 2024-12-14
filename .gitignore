@@ -1,0 +1,9 @@
+# Ignore Obsidian metadata
+.obsidian/
+
+# Ignore log files
+*.log
+
+# Ignore backups and temp files
+*.bak
+*.tmp
