@@ -1,6 +1,7 @@
 ---
 tags:
 - learning
+- machine-learning
 ---
 
 ## **AI Courses
@@ -52,4 +53,4 @@ Here are the top seven AI courses discussed in the transcript, along with detail
 
 These certifications aim to enhance understanding and skills in AI, offering stepping stones for a wide range of roles in emerging AI fields.
 
-[[Artificial intelligence]]  [[Learning]]
+  [[Learning]]  [[Machine learning]]  

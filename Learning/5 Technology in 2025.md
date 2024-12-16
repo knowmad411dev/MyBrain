@@ -1,8 +1,8 @@
 ---
 tags:
 - learning
+- machine-learning
 ---
-
 ## **Overview: "The Top 5 Technologies to Learn in 2025
 
 This transcript outlines five transformative technologies poised to redefine industries by 2025. Each technology is paired with real-world examples, learning resources, and its significance for staying competitive in the evolving job market.
@@ -57,4 +57,4 @@ This transcript outlines five transformative technologies poised to redefine ind
         - OpenAI Fine-Tuning Course
         - Hugging Face’s LLM Engineering Course
 
-[[Learning]]  [[Artificial intelligence]]
+[[Learning]]   [[Machine learning]] 

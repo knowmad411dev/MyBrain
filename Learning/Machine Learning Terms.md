@@ -4,7 +4,6 @@ tags:
 - learning
 video-url: https://www.youtube.com/watchv=Fa_V9fP2tpU&list=WL&index=2&t=136s
 ---
-
 ## **Machine Learning Terms
 
 ### **1. Artificial Intelligence (AI)**

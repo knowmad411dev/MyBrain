@@ -7,3 +7,17 @@
 # Ignore backups and temp files
 *.bak
 *.tmp
+
+# Ignore environment files
+*.env
+
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS-specific metadata
+.DS_Store

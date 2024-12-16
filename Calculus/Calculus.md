@@ -6,7 +6,7 @@ tags:
 
 ## **Overview of Calculus
 
-Calculus is a branch of mathematics that studies change, motion, and rates of variation. Developed independently by Isaac Newton and Gottfried Wilhelm Leibniz in the 17th century, calculus provides tools for analyzing how things change over time and space. It is foundational for fields such as physics, engineering, economics, and increasingly, computer science and [[Artificial intelligence]].
+Calculus is a branch of mathematics that studies change, motion, and rates of variation. Developed independently by Isaac Newton and Gottfried Wilhelm Leibniz in the 17th century, calculus provides tools for analyzing how things change over time and space. It is foundational for fields such as physics, engineering, economics, and increasingly, computer science and Artificial intelligence.
 
 Calculus has two main branches:
 

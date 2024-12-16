@@ -168,4 +168,4 @@ Comprehensive guide for individuals aspiring to transition into **machine learn
 
 This guide serves as a roadmap for beginners to transition into machine learning or data science while avoiding common pitfalls.
 
-[[Machine learning]]
+[[Machine learning]]  [[Learning]]  

@@ -2,7 +2,6 @@
 tags:
 - prompt
 ---
-
 ## **Prompt -Coding & Programmers
 
 - **CAN - Code Anything Master Prompt**

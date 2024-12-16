@@ -3,7 +3,6 @@ tags:
 - math
 - learning
 ---
-
 ## **Math and AI Resources
 
 Here's a summary of the key resources and steps for learning the math used in AI and machine learning:
@@ -49,4 +48,4 @@ Here's a summary of the key resources and steps for learning the math used in AI
 
 - **Learn Basics → Code Examples from Scratch → Analyze Outputs** → **Practice with Real Data** → **Iterate and Improve Understanding**.
 
-[[Learning]]  [[Math]]  [[AI Courses]]
+[[Learning]]  [[Math]]  

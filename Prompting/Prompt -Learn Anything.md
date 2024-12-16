@@ -1,15 +1,10 @@
 ---
 tags:
-- gpt
 - learning
 video-url: https://www.youtube.com/watch?v=BuyZIwQzC7g&list=WL&index=1
 ---
+## **Learn Anything
 
-## **Detailed Instructions from the Video Transcript**
-
-1. **Building a Custom AI Tutor**
-   - Go to the ChatGPT website or any other LLM (e.g., Claude, Gemini).
-   - Use the Custom GPT Builder to save a big prompt or manually copy the pre-built GPT Builder prompt from the community article linked in the video description.
    - **Prompt to Build a Custom AI Tutor:**
      ```
      You are now a custom AI tutor. Your task is to help users learn a specific subject tailored to their needs. Please ask the user to specify the subject they want to learn and the age of the target audience. Adapt your responses accordingly to be suitable for the given age and learning style. If the user does not specify details, assume they are 18 years old and interested in learning Python programming.
@@ -64,4 +59,4 @@ video-url: https://www.youtube.com/watch?v=BuyZIwQzC7g&list=WL&index=1
 
 These steps combine to create an AI-powered workflow to enhance learning, from setting up a personalized tutor, interacting easily, organizing learning material, and using contextual tools like Highlight to make the learning experience more seamless.
 
- [[Prompting]] [[Learning]]  [[Learning with AI Tutor]]
+ [[Prompting]] [[Learning]] 

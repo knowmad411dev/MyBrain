@@ -57,4 +57,4 @@ Probabilistic computing is still in its early stages, but it is rapidly gaining 
 
 These tools and languages are providing the foundations for the development and practical use of probabilistic computing in **AI**, **data science**, and **complex system modeling**, opening the doors for applications where **efficiency** and **handling uncertainty** are crucial. If you are interested in experimenting with probabilistic computing, **Pyro** or **TensorFlow Probability** would be excellent starting points, especially since they integrate seamlessly with the popular Python ecosystem.
 
-[[Probabilistic Computing]]  [[Artificial intelligence]]  [[Python]]
+[[Math]]  [[Learning]]  

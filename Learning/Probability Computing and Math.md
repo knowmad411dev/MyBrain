@@ -3,7 +3,6 @@ tags:
 - math
 - learning
 ---
-
 ## **Probability Computing and Math
 
 Probabilistic computing, with its emphasis on uncertainty and randomness, relies heavily on various mathematical concepts, particularly from the fields of **probability theory**, **statistics**, **linear algebra**, **calculus**, and **optimization**. Here’s how each area of mathematics plays a crucial role in understanding and working with probabilistic computing:
@@ -87,8 +86,6 @@ Here’s a suggested sequence to follow as you build your math skills for probab
 
 ### **Summary**
 
-To effectively work with probabilistic computing, the key mathematical areas you need to focus on are **probability theory**, **statistics**, **[[calculus]]**, **linear algebra**, and **optimization**. These fields provide the mathematical foundation for building and analyzing probabilistic models, optimizing them, and leveraging randomness as a computational tool. Starting with foundational topics like **basic probability** and gradually moving towards **optimization** and **advanced statistics** will help you build the knowledge necessary to navigate and apply probabilistic computing in AI, machine learning, and other complex domains.
+To effectively work with probabilistic computing, the key mathematical areas you need to focus on are **probability theory**, **statistics**, **calculus**, **linear algebra**, and **optimization**. These fields provide the mathematical foundation for building and analyzing probabilistic models, optimizing them, and leveraging randomness as a computational tool. Starting with foundational topics like **basic probability** and gradually moving towards **optimization** and **advanced statistics** will help you build the knowledge necessary to navigate and apply probabilistic computing in AI, machine learning, and other complex domains.
 
-[[Math and AI Resources]]  [[Math]]  [[Probabilistic Computing]]  [[Probability Computing Languages]]
-
-[[Artificial intelligence]]  [[Math for AI Plan]]  [[Learning]]
+[[Math]]  [[Learning]]  

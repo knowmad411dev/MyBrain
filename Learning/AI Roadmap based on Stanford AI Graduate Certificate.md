@@ -1,8 +1,6 @@
 ---
-date: 2024-11-23
 tags:
 - learning
-title: AI Roadmap based on Stanford AI Graduate Certificate
 ---
 
 # AI Roadmap based on Stanford AI Graduate Certificate
@@ -171,4 +169,4 @@ Select up to 3 elective classes from Stanford's list. Choose topics that interes
 
 ---
 
-[[Artificial intelligence]]
+[[Learning]]  

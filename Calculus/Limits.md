@@ -2,6 +2,7 @@
 tags:
 - math
 - calculus
+- python
 ---
 
 ## **Overview of Limits in Calculus
@@ -77,4 +78,4 @@ This indicates that the limit of
 
 $$sin⁡(x)/x$$ as  x → 0 is 1
 
-[[Calculus]]   [[Math]]
+[[Calculus]]   [[Math]]  [[Python]]  

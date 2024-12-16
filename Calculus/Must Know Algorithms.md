@@ -1,6 +1,7 @@
 ---
 tags:
 - math
+- learning
 ---
 
 ## **Must Know Algorithms
@@ -64,4 +65,4 @@ tags:
 
 -   Compresses data by building a Huffman tree and assigning codes to characters based on frequency.
 
-[[Math]]
+[[Math]]   [[Learning]] 

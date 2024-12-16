@@ -1,5 +1,6 @@
 ---
 tags:
+- machine-learning
 - learning
 ---
 
@@ -7,4 +8,4 @@ tags:
 
  Andrew Ng’s free course covers foundational NLP concepts and practices ([DeepLearning.AI on Coursera](https://www.coursera.org/specializations/natural-language-processing)).
 
-[[Courses]]  [[Natural Language Processing]]
+[[Learning]]  

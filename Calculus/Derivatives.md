@@ -77,8 +77,10 @@ Derivatives are widely used to analyze and solve real-world problems:
 1. **Optimization**: Derivatives help find the maximum or minimum points of a function, which is useful in optimization problems in economics, engineering, and machine learning.
 2. **Physics**: In physics, derivatives describe motion. The velocity of an object is the derivative of its position with respect to time, and acceleration is the derivative of velocity.
 3. **Economics**: Derivatives help analyze how quantities like cost, revenue, and profit change in response to changes in factors like production level or price.
-4. **[[Machine learning]]**: Derivatives are essential in training algorithms, especially through gradient descent, where derivatives are used to minimize errors in a model.
+4. **Machine learning**: Derivatives are essential in training algorithms, especially through gradient descent, where derivatives are used to minimize errors in a model.
 
 ### Summary
 
 Derivatives allow us to measure and analyze change. They are fundamental to calculus and provide a way to understand how one quantity varies in relation to another, whether for optimizing functions, modeling physical systems, or tuning algorithms in machine learning.
+
+[[Math]]  [[Calculus]]  [[Machine learning]]  [[Learning]] 
