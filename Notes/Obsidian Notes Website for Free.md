@@ -26,7 +26,7 @@ Callum, also known as Wots, presents a detailed tutorial on how to **publish an 
 
 ## **Step-by-Step Instructions**
 
-### **1. Setting Up [[GitHub]]**
+### **1. Setting Up GitHub**
 
 - **Create a GitHub Account**:
     - Visit [GitHub](https://github.com/) and sign up for a new account.
@@ -184,4 +184,4 @@ _Note: Specific URLs for starter guides and documentation were mentioned to be i
 
 Callum's tutorial provides a **comprehensive guide** to transforming an Obsidian Vault into a publicly accessible digital garden or blog. By leveraging free and low-cost tools like GitHub and Netlify, along with the Digital Garden plugin, users can create a customizable and secure website. The inclusion of a custom domain enhances professionalism and brand recognition. This setup not only facilitates the sharing of knowledge but also integrates seamlessly with other content platforms, fostering a cohesive content creation and publication ecosystem.
 
-[[Obsidian]]   [[GitHub]]  [[Obsidian Publish on Digital Garden]]
+[[Obsidian]]   [[GitHub]]

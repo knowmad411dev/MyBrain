@@ -7,7 +7,7 @@ tags:
 
 ## **Obsidian with AMA**
 
-### Detailed Summary: Using AMA for Local Large Language Models ([[LLM]]s) in Obsidian
+### Detailed Summary: Using AMA for Local Large Language Models (LLMs) in Obsidian
 
 In this video, the presenter addresses concerns about data privacy when using cloud-based AI services like ChatGPT for managing notes in Obsidian. To mitigate these concerns, the video introduces **AMA**, an open-source project that allows users to run local Large Language Models (LLMs) on their machines. This ensures that your notes remain private, as data isn't sent to third-party cloud services. Below is a comprehensive summary of the video, including step-by-step instructions and relevant commands.
 

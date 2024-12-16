@@ -4,6 +4,7 @@ tags:
 - avatars
 video-url: https://www.youtube.com/watch?v=MbQv8zoNEfY&list=WL&index=3
 ---
+
 ## **Create CONSISTENT CHARACTERS for your projects with FLUX
 
 ### **Overview**
@@ -106,4 +107,4 @@ The author explains how to:
 
 This workflow provides a comprehensive way to generate consistent characters, either for creative storytelling or branding, all through relatively accessible AI tools and techniques.
 
-[[AI Agents]]  [[AI Avatars]]
+[[AI Avatars]]

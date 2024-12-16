@@ -36,8 +36,8 @@ Book summaries condense the core ideas, key insights, and main arguments of a bo
 **Challenges**:
 
 - **Loss of Nuance**: Risk of oversimplifying complex ideas or omitting important context.
-- **Potential [[Bias]]**: Summaries may reflect the summarizer’s interpretations, which can shape how information is presented.
+- **Potential Bias**: Summaries may reflect the summarizer’s interpretations, which can shape how information is presented.
 - **Lack of Depth**: Summaries provide a surface-level understanding, which may miss subtleties found in the full text.
 
-**Related Concepts**: [[Note-Taking]], Knowledge Synthesis, [[Personal Knowledge Management]], Content Curation.
+**Related Concepts**: Note-Taking, Knowledge Synthesis, Personal Knowledge Management, Content Curation.
 

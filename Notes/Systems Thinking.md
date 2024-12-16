@@ -1,10 +1,9 @@
 ---
 Tags:
-- thinking
 - systems
 ---
 
-### **Definition**:
+## **Systems Thinking
 
 **Systems Thinking** is a holistic approach to understanding and solving problems by viewing systems as interconnected and interdependent components. It focuses on how parts of a system interact and influence each other, leading to the behavior of the entire system over time.
 
@@ -34,4 +33,4 @@ Tags:
 
 Systems Thinking shifts the mindset from simple linear cause-and-effect relationships to dynamic interdependencies, helping individuals and organizations make informed decisions in complex environments.
 
-[[Thinking]]  [[Systems]]
+  [[Systems]]

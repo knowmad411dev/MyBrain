@@ -2,8 +2,10 @@
 github_link: https://github.com/langchain-ai/report-mAIstro
 tags:
 - langchain
+- python
 video-url: https://www.youtube.com/watch?v=wSxZ7yFbbas&list=WL&index=2
 ---
+
 ## **Multi-agent research and report writing
 
 In this detailed walkthrough, Lance from LangChain builds a custom research and summarization agent from scratch, demonstrating its capabilities to create automated reports. The agent processes and structures input topics into comprehensive markdown reports, formatted based on user specifications, with web research included. Here is an overview of how the agent works, the different approaches to building it, and all relevant code examples.
@@ -141,4 +143,4 @@ final_report = compile_report(sections)
 
 Lance’s tutorial effectively showcases how to build a research and summarization agent capable of producing high-quality, automated reports. The use of a structured planning phase, parallel research, and independent writing of sections enables rapid and flexible report generation. By employing LangChain and Claude 3.5, the workflow becomes seamless, allowing users to easily customize and generate research-based content tailored to their needs.
 
-[[LangChain]]  [[AI Agents]]  [[Python]]  
+[[LangChain]]   [[Python]]

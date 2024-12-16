@@ -2,7 +2,7 @@
 tags:
 - gpt
 - python
-- web
+- web-scrapping
 ---
 
 ## **ChatGPT API RSS Scrapping
@@ -152,4 +152,4 @@ print("Summary:", summary)
 print("Tags:", tags)
 ```
 
-[[Web Scrapping]]  [[Python]]  [[ChatGPT]]
+[[Web Scrapping]]  [[Python]]  [[GPT]]

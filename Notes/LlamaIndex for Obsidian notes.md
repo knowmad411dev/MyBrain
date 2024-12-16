@@ -4,7 +4,7 @@ tags:
 - obsidian
 ---
 
-## **LlamaIndex for [[Obsidian]] notes
+## **LlamaIndex for Obsidian notes
 
 ### **Overview: What is LlamaIndex?**
 
@@ -115,4 +115,4 @@ query = "What are my thoughts on AI and personal development?" response = index.
 - **Try the Basic Setup:** Test the indexing and querying to ensure everything works smoothly.
 - **Connect to Your Avatar or Home Automation:** Once satisfied with the basic query system, integrate it with your home automation (e.g., query Obsidian through a voice command to your avatar).
 
-[[LlamaIndex Framework]]    [[Python]]
+[[LlamaIndex Framework]]    [[Python]]  [[Obsidian]]

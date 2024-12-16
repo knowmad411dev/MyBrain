@@ -2,6 +2,7 @@
 tags:
 - companion
 ---
+
 ## **Personal AI Assistant
 
 This text is a transcript from a YouTube video by Zar, discussing how to create a comprehensive AI assistant using tools like Telegram, n8n, OpenAI, Airtable, and others. Below is a detailed summary, including instructions and code examples.

@@ -6,7 +6,7 @@ tags:
 
 ## **Overview of Math
 
-Mathematics is a broad and foundational discipline that studies numbers, structures, patterns, and changes. Its branches include areas like calculus, algebra, geometry, and probability, each offering tools for analyzing and interpreting information. In modern technology, math provides the language and methods to model real-world systems, make predictions, and optimize solutions, forming the backbone of fields like physics, engineering, economics, and increasingly, [[Artificial intelligence]] (AI).
+Mathematics is a broad and foundational discipline that studies numbers, structures, patterns, and changes. Its branches include areas like calculus, algebra, geometry, and probability, each offering tools for analyzing and interpreting information. In modern technology, math provides the language and methods to model real-world systems, make predictions, and optimize solutions, forming the backbone of fields like physics, engineering, economics, and increasingly, Artificial intelligence (AI).
 
 ### The Role of Math in AI Development
 

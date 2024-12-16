@@ -4,9 +4,7 @@ tags:
 - automation
 ---
 
-## **GPT Action Retool Workflow
-
-# GPT Action Library: Retool [[Workflow]]
+## **GPT Action Library: Retool Workflow
 
 ## Introduction
 
@@ -125,4 +123,4 @@ In ChatGPT, click on "Authentication" and choose **"API Key"**. Enter in the inf
 - *Auth Error:* Ensure you have set the custom header name correctly.
 - *Invalid Workflow Error:* Ensure you have deployed your workflow within Retool.
 
-[[ChatGPT]]  [[GPT]]  [[Python]]
+  [[GPT]]  [[Python]]

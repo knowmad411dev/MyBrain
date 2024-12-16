@@ -3,8 +3,11 @@ tags:
 - rag
 - ollama
 - pdf
+- langchain
+- python
 video-url: https://www.youtube.com/watch?v=2TJxpyO3ei4&list=WL&index=2
 ---
+
 ### Python RAG Tutorial
 
 This tutorial will guide you through the process of building a Retrieval-Augmented Generation (RAG) application using Python, Langchain, and ChromaDB. You will learn how to use PDFs as a knowledge base and integrate local language models to create a conversational AI that can provide intelligent answers based on document data.

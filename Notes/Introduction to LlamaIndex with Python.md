@@ -4,6 +4,7 @@ tags:
 - python
 video-url: https://www.youtube.com/watch?v=cCyYGYyCka4&list=WL&index=2
 ---
+
 ## **Introduction to LlamaIndex with Python
 
 Good morning, everyone! Today, we're diving into Lama Index, a framework for working with large language models (LLMs). Lama Index provides tools to create LLM-based applications, such as chatbots, AI assistants, translation systems, and more. It allows you to connect unstructured data like emails, PDFs, or databases to language models, making them more knowledgeable about your specific content. Let’s break down the key components of Lama Index and how to use them step-by-step.
@@ -191,4 +192,4 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader from llama_
 
 In this lesson, we learned about LlamaIndex, a Python library that allows you to build a search engine for your documents. We saw how to install and set up LlamaIndex, how to get started with it, and how to persist the index to disk. We also learned about LlamaParse, which automates the extraction of more complicated documents. In the next lesson, we will see how to use LlamaIndex to build a RAG pipeline.
 
-[[LlamaIndex Framework]]  [[Python]]  
+[[LlamaIndex Framework]]  [[Python]]

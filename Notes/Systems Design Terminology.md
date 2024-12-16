@@ -3,6 +3,8 @@ tags:
 - systems
 ---
 
+## **Systems Design Terminology
+
 [[Systems Thinking]]   [[Systems]]   [[Systems Thinking]]
 
 ![[6476c4a76322030c4ec81a76d564f587_MD5.jpg]]
@@ -195,7 +197,7 @@ Below are the top 50 must-know system design interview terminologies that we wil
 -   **Example**: Handling failed remote service calls using a circuit breaker in a microservice architecture.
 -   **Learn More**: [Circuit Breaker Pattern](https://www.geeksforgeeks.org/what-is-circuit-breaker-pattern-in-microservices/)
 
-## 32\. [[Data]] Consistency
+## 32\. Data Consistency
 
 -   **Definition**: Ensuring that data is the same across multiple instances and is not corrupted.
 -   **Example**: Maintaining the consistency of user data through multiple replicas of a database.
@@ -310,3 +312,5 @@ Below are the top 50 must-know system design interview terminologies that we wil
 -   **Learn More**: [Introduction to Big Data](https://www.geeksforgeeks.org/what-is-big-data/)
 
 Keep in mind that it’s all about continuous learning and practice as you go further in system design. You can work with the resources, get involved in the discussions, and practice these concepts in your projects. The resources and discussions will expose you to the vocabulary and usages of the concept.
+
+[[Systems]]

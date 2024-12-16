@@ -3,6 +3,7 @@ Video-URL: https://www.youtube.com/watch?v=Ce03oEotdPs&list=WL&index=2
 tags:
 - langchain
 - agents
+- python
 ---
 
 ## **LangChain Tutorial**
@@ -154,6 +155,4 @@ The video suggests diving into advanced tutorials to build more complex LangChai
 
 This summary captures the major points, concepts, and code snippets covered in the video for learning and working with LangChain effectively.
 
-[[LangChain]] | [[LLM]] | [[LLM Frameworks]] | [[Python]]
-
-[[LangChain Tutorial]]
+[[LangChain]]  [[Python]]

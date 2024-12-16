@@ -307,4 +307,4 @@ print(description)
 
 By familiarizing yourself with the various model types available on Ollama, you can effectively leverage their unique strengths to meet your specific AI-driven objectives. Whether you're building conversational agents, generating code, creating embeddings, or processing images, Ollama provides the tools necessary to achieve your goals with ease and efficiency.
 
-[[Ollama]] [[Python]]    [[Ollama - Load md Files]]
+[[Ollama]]   [[Python]]

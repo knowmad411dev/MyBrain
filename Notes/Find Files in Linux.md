@@ -3,9 +3,8 @@ tags:
 - linux
 video-url: https://www.youtube.com/watch?v=_Q9OLNiQZxE&list=WL&index=24
 ---
-## **Find Files in Linux
 
-**Overview of Finding Files in Linux: Three Methods Explained**
+## **Overview of Finding Files in Linux: Three Methods**
 
 This guide explains three different methods for finding files in Linux from the command line: using the `find` command, `locate` command, and `fzf` (a fuzzy finder). Each of these methods offers a unique approach, with examples and details on how to use them effectively. Let's break down how to use each of these tools.
 

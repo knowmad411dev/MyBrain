@@ -1,7 +1,6 @@
 ---
 Video-URL: https://www.youtube.com/watch?v=lJOZiRoZNJw&list=WL&index=3
 tags:
-- llm
 - ollama
 - rag
 - gpt
@@ -9,7 +8,7 @@ tags:
 
 ## **Chatbot - Llama 3.2 & Flowwise + Ollama
 
-# Creating Local [[RAG]] Chatbot with Llama 3.2, [[Ollama]], and Flowise
+# Creating Local RAG Chatbot with Llama 3.2, Ollama, and Flowise
 
 This tutorial will guide you through creating a free, local Retrieval-Augmented Generation (RAG) chatbot using Meta's newly released **Llama 3.2** model. You'll learn how to download and run the model locally using **Ollama** and build your chatbot using the open-source platform **Flowise**. By the end of this guide, you'll have a personalized AI assistant capable of accessing and understanding your custom knowledge base.
 
@@ -52,10 +51,7 @@ This tutorial will guide you through creating a free, local Retrieval-Augmented 
     Open your command prompt (Windows) or terminal (macOS/Linux) and run:
 
 ```bash
-    
-    Copy code
-    
-    `olama`
+    olama
 ```
 
     If installed correctly, you should see a response from Olama.
@@ -79,10 +75,7 @@ This tutorial will guide you through creating a free, local Retrieval-Augmented 
     You will see a run command associated with the model. Copy it.
 
 ```bash
-    
-    Copy code
-    
-    `olama run llama-3b`
+    olama run llama-3b
  ```
 
 5. **Download the Model**:
@@ -97,10 +90,7 @@ This tutorial will guide you through creating a free, local Retrieval-Augmented 
 7. **Exit the Interactive Prompt**:
 
 ```bash
-    
-    Copy code
-    
-    `/bye`
+    /bye
  ```
 
 ---
@@ -114,10 +104,7 @@ You'll need an embeddings model to process your documents.
     In your command prompt or terminal, run:
 
 ```bash
-    
-    Copy code
-    
-    `olama search nomic-embed-text`
+    olama search nomic-embed-text
  ```
 
 2. **Copy the Run Command**:
@@ -125,10 +112,7 @@ You'll need an embeddings model to process your documents.
     Find the appropriate run command for the **Nomic Embed Text** model and copy it.
 
 ```bash
-    
-    Copy code
-    
-    `olama run nomic-embed-text`
+    olama run nomic-embed-text
  ```
 
 3. **Download the Model**:
@@ -159,10 +143,7 @@ You'll need an embeddings model to process your documents.
 2. **Install Flowise**:
 
 ```bash
-    
-    Copy code
-    
-    `npx flowise`
+    npx flowise
   ```
 
     - When prompted to install the Flowise package, type `Y` and press **Enter**.
@@ -170,10 +151,7 @@ You'll need an embeddings model to process your documents.
 3. **Start Flowise**:
 
 ```bash
-    
-    Copy code
-    
-    `npx flowise start`
+    npx flowise start
  ```
 
 4. **Access Flowise Interface**:
@@ -253,11 +231,9 @@ Your chatbot uses a vector database to retrieve relevant documents.
 
         Example:
 
-```plaintext
-        
-        Copy code
-        
-        `C:\Users\YourName\Documents\VectorDB`
+```bash
+
+        C:\Users\YourName\Documents\VectorDB
  ```       
 5. **Save Configuration**.
 6. **Upsert Data**:
@@ -309,10 +285,7 @@ Your chatbot uses a vector database to retrieve relevant documents.
         - You can list available models using:
 
 ```bash
-            
-            Copy code
-            
-            `olama list`
+            olama list
      ```
        
     - **Temperature**:
@@ -338,30 +311,22 @@ Your chatbot uses a vector database to retrieve relevant documents.
     - **Greet the Chatbot**:
         
         
-```plaintext
-        
-        Copy code
-        
-        `Hello`
+```bash
+
+        Hello
  ```       
     - **Ask a Knowledge-Based Question**:
         
         
-```plaintext
-        
-        Copy code
-        
+```bash
         `What are your current specials?`
  ```       
         - The chatbot should respond with information from your documents.
     - **Ask Follow-Up Questions**:
         
         
-```plaintext
-        
-        Copy code
-        
-        `How much are your lamb chops?`
+```bash
+        How much are your lamb chops?
  ```       
         - The chatbot uses memory to provide accurate answers.
 3. **Modify Knowledge Base (Optional)**:
@@ -383,8 +348,6 @@ Your chatbot uses a vector database to retrieve relevant documents.
 
 ## Conclusion
 
-You've successfully created a local [[RAG]] chatbot using **Llama 3.2**, **[[Ollama]]**, and **Flowise**. Your chatbot can now access and understand your personal documents, providing accurate and context-aware responses. Feel free to expand your knowledge base by adding more documents or experimenting with different models and settings.
+You've successfully created a local RAG chatbot using **Llama 3.2**, **Ollama**, and **Flowise**. Your chatbot can now access and understand your personal documents, providing accurate and context-aware responses. Feel free to expand your knowledge base by adding more documents or experimenting with different models and settings.
 
-[[RAG]]  [[Ollama]]    [[GPT]]   [[Chatbots]]
-
-[[Ollama - Run Local]]   [[LLM Frameworks]]
+[[RAG]]  [[Ollama]]    [[GPT]]

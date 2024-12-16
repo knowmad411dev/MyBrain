@@ -3,6 +3,7 @@ tags:
 - editors
 video-url: https://www.youtube.com/watch?v=5D3nUU1OVx8&list=WL&index=2
 ---
+
 ## **Detailed Overview of Nix**
 
 Nix is a powerful tool that lets you build any version of any software on any machine with a high degree of reproducibility. Originally developed as part of Elco Dolstra's PhD thesis, Nix uses a purely functional software deployment model that minimizes dependencies, ensuring that each software build is consistent and repeatable. This overview will guide you through how Nix works, how to get started with it, its features, and useful plugins.

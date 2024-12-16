@@ -7,7 +7,7 @@ tags:
 
 ## **Knowledge Graphs
 
-Knowledge Graphs (KGs) are a powerful tool used to represent and manage knowledge in a structured, interconnected form. They have wide applications in [[Artificial intelligence]] (AI), knowledge management, and various other domains. Here is an in-depth overview of Knowledge Graphs, including their relationship to mathematics, knowledge representation, and AI.
+Knowledge Graphs (KGs) are a powerful tool used to represent and manage knowledge in a structured, interconnected form. They have wide applications in Artificial intelligence (AI), knowledge management, and various other domains. Here is an in-depth overview of Knowledge Graphs, including their relationship to mathematics, knowledge representation, and AI.
 
 ### Overview of Knowledge Graphs
 
@@ -23,7 +23,7 @@ A famous example of a knowledge graph is the **Google Knowledge Graph**, which p
 ### Core Concepts of Knowledge Graphs
 
 1. **Triples**: Knowledge Graphs are often represented as **triples** (subject-predicate-object), which describe relationships between entities in a simple, structured manner. For example, ("Albert Einstein", "was born in", "Ulm") is a triple that captures a relationship.
-2. **[[Ontology]]**: An **ontology** defines the schema of the Knowledge Graph. It specifies entity types, relationship types, and constraints, providing a consistent framework to interpret the data.
+2. **Ontology**: An **ontology** defines the schema of the Knowledge Graph. It specifies entity types, relationship types, and constraints, providing a consistent framework to interpret the data.
 3. **Semantic Relationships**: The relationships between nodes carry meaning, allowing the graph to represent real-world information contextually and facilitate semantic reasoning.
 4. **SPARQL**: Knowledge Graphs can be queried using **SPARQL**, a query language similar to SQL but designed to extract information from graph-based data.
 
@@ -36,7 +36,7 @@ Knowledge Graphs are grounded in **graph theory**, a branch of mathematics deali
 - **Probabilistic Graphical Models**: In AI, some Knowledge Graphs incorporate **probabilistic reasoning**. This helps represent uncertainty and infer missing data by using **Bayesian networks** or **Markov Random Fields**, which are statistical models representing knowledge graphically.
 - **Optimization**: Optimization techniques are used for building and maintaining Knowledge Graphs. For example, finding the shortest path between two nodes, clustering similar entities, or even optimizing the graph schema for efficient querying.
 
-### How Knowledge Graphs Relate to [[Knowledge Representation]]
+### How Knowledge Graphs Relate to Knowledge Representation
 
 Knowledge Graphs are a powerful form of **knowledge representation** that emphasizes **context** and **relationships**. Here's how they relate to representing knowledge effectively:
 
@@ -53,7 +53,7 @@ Knowledge Graphs play a crucial role in AI, particularly in enhancing understand
 
     - **Graph Neural Networks (GNNs)**: GNNs use Knowledge Graphs as input to capture complex dependencies between data points. By leveraging graph structures, these networks can learn from the relationships and attributes of entities, leading to more powerful predictions.
 
-1. **[[Natural Language Processing]] (NLP)**:
+1. **Natural Language Processing (NLP)**:
 
     - Knowledge Graphs are extensively used in NLP for **entity linking** and **semantic search**. When processing a document, AI can extract entities (e.g., people, locations) and link them to nodes in a Knowledge Graph, thus contextualizing the extracted information.
     - **Question Answering**: Systems like **chatbots** use Knowledge Graphs to provide direct answers to questions. For example, if you ask, "Who is the author of 'Pride and Prejudice'?", the AI can traverse the graph to find the answer node ("Jane Austen").

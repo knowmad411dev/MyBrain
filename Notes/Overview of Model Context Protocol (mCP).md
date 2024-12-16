@@ -1,8 +1,10 @@
 ---
 tags:
 - editors
+- python
 video-url: https://www.youtube.com/watch?v=u6444EjemKo&list=WL&index=1
 ---
+
 ## **Overview of Model Context Protocol (mCP)
 
 The text you've provided describes a detailed walk-through of setting up and utilizing the **Model Context Protocol (mCP)**, a newly launched open-source standard by Anthropic for connecting generative AI models to external tools. Here’s a comprehensive overview including key instructions and code examples mentioned.
@@ -181,4 +183,4 @@ The **Python code examples** demonstrate:
 
 If you have any more questions or need deeper insights into any specific part of this process, feel free to ask!
 
-[[Claude Agents]] [[Code Editor]]
+[[Code Editor]]  [[Python]]

@@ -5,7 +5,7 @@ tags:
 - rag
 ---
 
-## **Building a [[GenAI|Generative AI]] Platform
+## **Building a GenAI|Generative AI Platform
 
 After studying how companies deploy generative AI applications, I noticed many similarities in their platforms. This post outlines the common components of a generative AI platform, what they do, and how they are implemented. I try my best to keep the architecture general, but certain applications might deviate. This is what the overall architecture looks like.
 
@@ -86,7 +86,7 @@ Context reranking differs from traditional search reranking in that the exact po
 
 Another pattern is ensemble. Remember that a retriever works by ranking documents by their relevance scores to the query. You use multiple retrievers to fetch candidates at the same time, then combine these different rankings together to generate a final ranking.
 
-### RAGs with tabular [[Data]]
+### RAGs with tabular Data
 
 External data sources can also be structured, such as dataframes or SQL tables. Retrieving data from an SQL table is significantly different from retrieving data from unstructured documents. Given a query, the system works as follows.
 
@@ -292,7 +292,7 @@ Cache techniques can also be used during training, but since this post is about 
 
 _KV cache for the attention mechanism is out of scope for this discussion._
 
-### [[Prompting]] cache
+### Prompting cache
 
 Many prompts in an application have overlapping text segments. For example, all queries can share the same system prompt. A prompt cache stores these overlapping segments for reuse, so you only need to process them once. A common overlapping text segment in different prompts is the system prompt. Without prompt cache, your model needs to process the system prompt with every query. With prompt cache, it only needs to process the system prompt once for the first query.
 
@@ -471,4 +471,4 @@ This post also didn’t discuss how to serve models, assuming that most people w
 -   [LLM-powered data classification for data entities at scale](https://engineering.grab.com/llm-powered-data-classification) (Grab, 2023)
 -   [From Predictive to Generative - How Michelangelo Accelerates Uber’s AI Journey](https://www.uber.com/blog/from-predictive-to-generative-ai/) (Uber, 2024)
 
-[[GenAI]]  [[GPT]]   [[Python]]  [[AI Agents]] [[RAG]]
+[[GPT]]   [[Python]]  [[RAG]]

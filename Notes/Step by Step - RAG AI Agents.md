@@ -4,6 +4,7 @@ tags:
 - agents
 video-url: https://www.youtube.com/watch?v=wEXrbtqNIqI&list=WL&index=4
 ---
+
 ## **Step by Step - RAG AI Agents
 
 **Overview:**
@@ -90,4 +91,4 @@ The video is about building a more production-ready RAG (Retrieval-Augmented Gen
 
 The video offers a comprehensive guide to building a RAG AI agent using PostgreSQL and Supabase, with additional tools like Google Drive for automation. The solution aims for greater scalability, persistence, and data safety compared to simpler window buffer memory approaches, and uses modern backend tools to enhance both usability and automation in AI-assisted workflows. The walkthrough includes practical examples, detailed explanations of configurations, and real-time demonstrations to illustrate the functionality of the setup.
 
-[[RAG]]  [[AI Agents]]
+[[RAG]]

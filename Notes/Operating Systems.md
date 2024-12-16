@@ -52,4 +52,3 @@ A developer may use **Windows** for day-to-day computing tasks while relying on 
 - [[Windows]]
 - [[Linux]]
 - [[Operating Systems]]
-- [[Virtualization]]

@@ -1,16 +1,16 @@
 ---
 tags:
 - ollama
-- web
+- docker
 ---
+
+## **Open Web UI
 
 1. **Run the Docker Container:** After building the image, run the Docker container with the following command:
 
-    bash
-
-    Copy code
-
+```bash
     `docker run -p 5000:5000 open-webui`
+```
 
     This command starts the container and maps port 5000 of the container to port 5000 on your host machine, allowing you to access Open WebUI at `http://localhost:5000`.
 

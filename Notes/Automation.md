@@ -1,6 +1,7 @@
 ---
 tags:
 - automation
+- home
 ---
 
 ## **Automation**
@@ -13,4 +14,6 @@ tags:
 - **Consistency**: Minimizes human error, ensuring tasks are performed consistently and accurately.
 - **Scalability**: Allows processes to be easily scaled to meet increased demand without proportional increases in labor.
 
-**Applications**: Automation is widely used in industries like automotive manufacturing (e.g., robotic assembly lines), IT (e.g., continuous integration and deployment), and [[Home]] systems (e.g., smart lighting or climate control).
+**Applications**: Automation is widely used in industries like automotive manufacturing (e.g., robotic assembly lines), IT (e.g., continuous integration and deployment), and Home systems (e.g., smart lighting or climate control).
+
+[[Home]]   [[Workflow]]

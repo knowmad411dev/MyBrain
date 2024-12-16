@@ -44,4 +44,4 @@ Knowledge representation is the method of organizing and structuring information
 - _Russell, S., & Norvig, P. (2010). Artificial Intelligence: A Modern Approach._
 - _Newell, A., & Simon, H. A. (1972). Human Problem Solving._
 
-[[Knowledge]]  [[Information]]  [[Knowledge Graph]]
+[[Knowledge]]

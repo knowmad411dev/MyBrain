@@ -4,7 +4,7 @@ tags:
 video-url: https://www.youtube.com/watch?v=MbQv8zoNEfY&list=WL&index=18
 ---
 
-## Summary of the AI Character [[Workflow]] Video
+## Summary of the AI Character Workflow Video
 
 This video covers **a detailed AI workflow to create consistent characters** using **Flux models** and **Stable Diffusion**. The process enables generating characters for projects such as **AI movies, children’s books, or influencers** while maintaining consistency across multiple images. Below is a structured breakdown of the video along with relevant **instructions, code, and tips**.
 
@@ -45,7 +45,7 @@ This video covers **a detailed AI workflow to create consistent characters** usi
 - Use **Flux or SDXL models** to generate the character sheet based on provided prompts.
 - Example **prompt for autumn fashion**:
 
-```text
+```bash
 Character: Fashion Model; Description: Autumn Clothing; Environment: Fashion Magazine Look.
 ```  
 - **How to Adjust Image Quality**:
@@ -114,11 +114,7 @@ Example:
 
 Generate the **Tina AI** character with a prompt like:
 
-text
-
-Copy code
-
-```text
+```bash
 Tina AI, long red hair, wearing a brown turtleneck and gray coat, standing next to a wall.
 ```
 ---
@@ -130,7 +126,7 @@ Tina AI, long red hair, wearing a brown turtleneck and gray coat, standing next 
     - Reduce model **strength** slightly to give flexibility.
     - Use **character descriptions** to avoid hybridization. Example:
 
-    ```Text
+    ```baash
      Tina AI standing next to John AI, each looking towards the camera.
      ```   
 

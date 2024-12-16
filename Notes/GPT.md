@@ -44,8 +44,8 @@ tags:
 
 ## Related Concepts
 
-- **NLP ([Natural Language Processing])**: The field of AI that focuses on the interaction between computers and human language.
+- **NLP Natural Language Processing)**: The field of AI that focuses on the interaction between computers and human language.
 - **Transformer Models**: The neural network architecture underlying GPT.
 - **Reinforcement Learning from Human Feedback (RLHF)**: A method used to fine-tune GPT models using feedback from human evaluators.
 
-[[AI Agents Overview]]  [[Machine learning]]
+[[AI Agents Overview]]

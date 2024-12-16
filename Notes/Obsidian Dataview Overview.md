@@ -4,6 +4,7 @@ tags:
 - obsidian
 video-url: https://www.youtube.com/watch?v=6p5Eb1sqgIY&list=WL&index=2
 ---
+
 ## **Overview of Dataview
 
 Dataview is a powerful plugin for Obsidian that allows you to query, filter, sort, and visualize data from your notes, treating them like a database. The plugin uses its own simple query language and can work with both built-in metadata and YAML front matter within your Markdown files. This makes it suitable for creating dynamic lists, tables, tasks, and calendars that automatically update as new notes are added or modified.

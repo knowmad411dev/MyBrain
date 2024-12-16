@@ -1,6 +1,8 @@
 ---
 tags:
 - gpt
+- python
+- agents
 ---
 
 ## **GPT - Researchers
@@ -32,10 +34,7 @@ git clone https://github.com/geekan/MetaGPT && cd MetaGPT && pip install --upgra
     python -m uvicorn main:app --reload
    ``` 
 3. **[AutoGen](https://microsoft.github.io/autogen/)**: A framework developed by Microsoft for building multi-agent AI systems. It provides a high-level abstraction for creating conversational workflows among LLM agents. To get started, you can install AutoGen with:
-    
-    bash
-    
-    Copy code
+
     ```bash
     pip install autogen-agentchat~=0.2
     ```
@@ -44,4 +43,4 @@ git clone https://github.com/geekan/MetaGPT && cd MetaGPT && pip install --upgra
 
 These resources provide all the necessary code and guidance to build a collaborative AI research system with multiple agents that can work together on complex research tasks autonomously.
 
-[[GPT]]  [[Python]] [[AI Agents]]  [[Research Agent]]
+[[GPT]]  [[Python]] 

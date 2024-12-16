@@ -105,4 +105,4 @@ The video covers the process of downloading, cloning, and running projects from 
 
 By understanding these steps, you can easily get started with running various projects hosted on GitHub, especially those based on JavaScript frameworks like React.js.
 
-[[GitHub]]   [[GitHub from VSCode]]  [[Git]]  [[Python]]
+[[GitHub]]    [[Git]]

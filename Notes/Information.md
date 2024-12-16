@@ -9,7 +9,7 @@ Tags:
 
 ### **Definition**:
 
-**Information** is raw, objective [[Data]] or facts that are processed and organized to provide meaning. It serves as the building block of knowledge and must be contextualized and interpreted to gain deeper understanding.
+**Information** is raw, objective Data or facts that are processed and organized to provide meaning. It serves as the building block of knowledge and must be contextualized and interpreted to gain deeper understanding.
 
 ### **Key Characteristics**:
 
@@ -28,4 +28,4 @@ Tags:
 
 - **[[Knowledge]]**: Information becomes knowledge when it is analyzed and understood.
 - **[[Wisdom]]**: Knowledge applied judiciously leads to wisdom.
-- [[Understanding]]
+

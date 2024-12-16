@@ -3,6 +3,7 @@ tags:
 - speech
 - avatars
 - agents
+- python
 ---
 
 ### Overview of Text-to-Speech
@@ -170,4 +171,4 @@ For your **AI Companion**, I recommend starting with **Amazon Polly** or **Azure
 
 By effectively leveraging Text-to-Speech technology, your AI Companion can communicate in a human-like manner, providing a richer and more engaging user experience.
 
-[[AI Avatars]]   [[AI Agents]]  [[Speech to Text]]
+[[AI Avatars]]     [[Speech to Text]]  [[Python]]

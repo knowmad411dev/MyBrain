@@ -3,6 +3,7 @@ tags:
 - avatars
 video-url: https://www.youtube.com/watch?v=kw8uCP4WvNs&list=WL&index=2
 ---
+
 ### Overview of Echo Mimic Version 2
 
 - **Name and Function**: Echo Mimic Version 2 is an AI tool that allows you to animate a static image of a person to sync with any provided audio. It performs both lip-syncing and upper body animation, including gestures like thumbs up, arm raises, or other expressive movements based on the audio content.

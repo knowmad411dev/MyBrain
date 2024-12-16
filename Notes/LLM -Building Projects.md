@@ -1,6 +1,8 @@
 ---
 tags:
 - llm
+- langchain
+- python
 url: https://www.freecodecamp.org/news/how-to-start-building-projects-with-llms/?ref=dailydev
 ---
 
@@ -139,7 +141,7 @@ For our project, we’ll use the YoutubeLoader to get the transcripts in the req
 #### YoutubeLoader from LangChain to Get Transcript:
 
 ```python
-## import the youtube documnent loader from LangChain from langchain_community.document_loaders import YoutubeLoader video_url = 'https://www.youtube.com/watch?v=gaWxyWwziwE' loader = YoutubeLoader.from_youtube_url(video_url, add_video_info=False) data = loader.load()
+import the youtube documnent loader from LangChain from langchain_community.document_loaders import YoutubeLoader video_url = 'https://www.youtube.com/watch?v=gaWxyWwziwE' loader = YoutubeLoader.from_youtube_url(video_url, add_video_info=False) data = loader.load()
 ```
 
 ### Process the YouTube Transcript
@@ -164,7 +166,7 @@ The system message is essentially the instructions for the LLM on how it is supp
 And the human message is simply what we want the LLM to do.
 
 ```python
-# This code creates a list of messages for the language model: # 1. A system message with instructions on how to summarize the video transcript # 2. A human message containing the actual video transcript # The messages are then passed to the language model (llm) for processing # The model's response is stored in the 'ai_msg' variable and returned messages = [ ( "system", """Read through the entire transcript carefully. Provide a concise summary of the video's main topic and purpose. Extract and list the five most interesting or important points from the transcript. For each point: State the key idea in a clear and concise manner. - Ensure your summary and key points capture the essence of the video without including unnecessary details. - Use clear, engaging language that is accessible to a general audience. - If the transcript includes any statistical data, expert opinions, or unique insights, prioritize including these in your summary or key points.""", ), ("human", data[0].page_content), ] ai_msg = llm.invoke(messages) ai_msg
+This code creates a list of messages for the language model: # 1. A system message with instructions on how to summarize the video transcript # 2. A human message containing the actual video transcript # The messages are then passed to the language model (llm) for processing # The model's response is stored in the 'ai_msg' variable and returned messages = [ ( "system", """Read through the entire transcript carefully. Provide a concise summary of the video's main topic and purpose. Extract and list the five most interesting or important points from the transcript. For each point: State the key idea in a clear and concise manner. - Ensure your summary and key points capture the essence of the video without including unnecessary details. - Use clear, engaging language that is accessible to a general audience. - If the transcript includes any statistical data, expert opinions, or unique insights, prioritize including these in your summary or key points.""", ), ("human", data[0].page_content), ] ai_msg = llm.invoke(messages) ai_msg
 ```
 
 But this method won’t work when you have more variables and when you want a more dynamic solution.
@@ -181,7 +183,7 @@ A PromptTemplate consists of:
 -   **Input Variables**: A list of variables that will be replaced in the template string at runtime.
 
 ```python
-# Set up a prompt template for summarizing a video transcript using LangChain # Import necessary classes from LangChain from langchain.prompts import PromptTemplate from langchain import LLMChain # Define a PromptTemplate for summarizing video transcripts # The template includes instructions for the AI model on how to process the transcript product_description_template = PromptTemplate( input_variables=["video_transcript"], template=""" Read through the entire transcript carefully. Provide a concise summary of the video's main topic and purpose. Extract and list the five most interesting or important points from the transcript. For each point: State the key idea in a clear and concise manner. - Ensure your summary and key points capture the essence of the video without including unnecessary details. - Use clear, engaging language that is accessible to a general audience. - If the transcript includes any statistical data, expert opinions, or unique insights, prioritize including these in your summary or key points. Video transcript: {video_transcript} """ )
+Set up a prompt template for summarizing a video transcript using LangChain # Import necessary classes from LangChain from langchain.prompts import PromptTemplate from langchain import LLMChain # Define a PromptTemplate for summarizing video transcripts # The template includes instructions for the AI model on how to process the transcript product_description_template = PromptTemplate( input_variables=["video_transcript"], template=""" Read through the entire transcript carefully. Provide a concise summary of the video's main topic and purpose. Extract and list the five most interesting or important points from the transcript. For each point: State the key idea in a clear and concise manner. - Ensure your summary and key points capture the essence of the video without including unnecessary details. - Use clear, engaging language that is accessible to a general audience. - If the transcript includes any statistical data, expert opinions, or unique insights, prioritize including these in your summary or key points. Video transcript: {video_transcript} """ )
 ```
 
 ### How to Use LLMChain / LCEL for Summarization

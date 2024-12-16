@@ -4,6 +4,7 @@ tags:
 - python
 - agents
 ---
+
 ## Detailed How-To Instructions and Programming Code for Building an AI Voice Agent
 
 In this guide, we will build an advanced AI voice agent capable of interacting with users in real-time, extracting data from websites, and responding in a conversational manner. This AI voice agent will leverage OpenAI's real-time API to create realistic conversations with low latency. We'll also include features for integrating the agent into websites and using it for lead qualification or answering queries.
@@ -193,4 +194,4 @@ In this guide, we will build an advanced AI voice agent capable of interacting w
 
 By following these steps, you will create an AI voice agent that is capable of handling complex conversations, understanding user inquiries in real-time, and providing personalized responses with impressive realism. This agent can be used in various settings such as lead qualification, customer support, or simply providing general information based on a scraped knowledge base.
 
-[[AI Agents]]  [[Python]]  [[OpenAI]]  [[AI Companion]]
+ [[Python]]  [[OpenAI]]  [[AI Companion]]

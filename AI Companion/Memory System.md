@@ -2,6 +2,7 @@
 tags:
 - companion
 ---
+
 ## **Memory System
 
 Memory systems in AI companions play a crucial role in maintaining a coherent persona, remembering past interactions, adapting over time, and providing relevant responses. Here’s a breakdown of how they work, what tools are used, and what information is retained:
@@ -51,4 +52,4 @@ Memory systems in AI companions play a crucial role in maintaining a coherent pe
 
 Memory systems enable AI companions to provide a richer, more continuous interaction experience by retaining essential details about the user and maintaining a coherent persona across interactions. This blend of memory types and tools allows AI companions to "remember" in a way that feels natural and intuitive for ongoing engagement.
 
-[[AI Companion]]   [[AI Avatars]]  
+[[AI Companion]]   [[AI Avatars]]

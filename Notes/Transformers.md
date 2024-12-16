@@ -58,9 +58,9 @@ The original transformer model has inspired several adaptations tailored to vari
 
 Transformers have revolutionized various AI domains due to their scalability and ability to capture intricate relationships in data:
 
-- **[[Natural Language Processing]] (NLP)**: Transformers power applications like chatbots, translation, sentiment analysis, summarization, and question-answering systems.
-- **Generative AI** ([[GenAI]]): Models like GPT-3 and GPT-4, based on transformer architectures, generate coherent and contextually aware responses, powering applications in writing assistance, coding, and creative tasks.
-- **[[Computer Vision]]**: Vision transformers have opened new possibilities in image classification, object detection, and video analysis, rivaling CNNs in performance.
+- **Natural Language Processing (NLP)**: Transformers power applications like chatbots, translation, sentiment analysis, summarization, and question-answering systems.
+- **Generative AI** (GenAI): Models like GPT-3 and GPT-4, based on transformer architectures, generate coherent and contextually aware responses, powering applications in writing assistance, coding, and creative tasks.
+- **Computer Vision**: Vision transformers have opened new possibilities in image classification, object detection, and video analysis, rivaling CNNs in performance.
 - **Speech Processing**: Transformers are used for tasks like speech recognition, audio analysis, and even generating synthetic voices in text-to-speech systems.
 - **Time-Series Forecasting**: Transformers have shown promise in predicting trends and making forecasts in time-series data, such as stock market predictions, weather forecasting, and energy usage.
 
@@ -85,4 +85,4 @@ Ongoing research aims to make transformers more efficient and accessible:
 
 Transformers have transformed AI by breaking previous limits in understanding language, images, and even structured data, laying the foundation for highly versatile, intelligent systems. As they continue to evolve, they remain central to advancements in artificial intelligence and machine learning.
 
-[[Deep Learning]]  [[Machine learning]]  [[Artificial intelligence]]
+  [[Machine learning]]

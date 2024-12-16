@@ -2,6 +2,7 @@
 Video-URL: https://www.youtube.com/watch?v=8BV9TW490nQ&list=WL&index=3
 tags:
 - langchain
+- python
 ---
 
 ## **LangChain Agents**
@@ -158,4 +159,4 @@ In this video, the speaker demonstrates building a LangChain agent using open-so
 - A combination of tools, including Chroma DB, LangSmith, and LangServe, is used to build and test the retrieval agent.
 - Additional enhancements like prompt engineering and document filtering are mentioned for future work to improve accuracy and relevance.
 
-[[LangChain]] | [[AI Agents]] | [[Python]] | [[LLM]] | [[LLM Frameworks]]
+[[LangChain]]  [[Python]]

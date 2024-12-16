@@ -1,10 +1,13 @@
 ---
 tags:
 - rag
+- langchain
 - pdf
 - gpt
+- python
 video-url: https://www.youtube.com/watch?v=uLrReyH5cu0&list=WL&index=2
 ---
+
 ## **Multimodal RAG Chat with PDFs (Images & Tables)
 
 Here's a detailed overview and how-to guide for the YouTube transcript you provided, which demonstrates how to build a system for chatting with a PDF document, including processing its images, tables, and other elements. This guide provides both a conceptual understanding and detailed code examples for implementation.
@@ -173,4 +176,4 @@ This tutorial effectively demonstrates how to build a PDF chatbot that considers
 
 You now have a detailed understanding of the entire process along with code examples to get started. If you have specific elements you'd like to focus on more or require further clarification, let me know!
 
-[[RAG]]  [[Chatbots]]  [[LangChain]]  [[Python]]
+[[RAG]]    [[LangChain]]  [[Python]]

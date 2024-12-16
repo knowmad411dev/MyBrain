@@ -1,6 +1,7 @@
 ---
 tags:
 - graph
+- math
 ---
 
 ## **Graphs
@@ -90,6 +91,4 @@ With this graph, one can answer these questions:
 
 [View the Supply Chain Management Graphgist](https://neo4j.com/graphgists/supply-chain-management/).
 
-[[Graph Properties]]
-
-[[Graph Structure]]  [[Graph Elements]]  [[Vector Databases]]
+[[Graph Theory]]  [[Math]]

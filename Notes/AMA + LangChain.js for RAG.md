@@ -2,7 +2,6 @@
 Video-URL: https://www.youtube.com/watch?v=3bz0nzs1tRA&list=WL&index=4
 tags:
 - python
-- ollama
 - langchain
 - rag
 ---
@@ -313,6 +312,4 @@ By following this guide, you've successfully transitioned from using Amazon Bedr
 
 Feel free to explore further by integrating more models, experimenting with different vector stores, or enhancing the memory service's capabilities. AMA's platform simplifies these processes, making it an excellent choice for developers looking to leverage open-source AI models efficiently.
 
- [[LangChain]] [[RAG]] [[LLM]]  [[Python]]
-
-[[Obsidian with AMA]]
+ [[LangChain]] [[RAG]]  [[Python]]  [[Obsidian with AMA]]

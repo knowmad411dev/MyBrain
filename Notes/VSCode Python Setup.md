@@ -4,6 +4,7 @@ tags:
 - vscode
 - editors
 ---
+
 ## **VSCode Python Setup
 
 Setting up [[VSCode]] [[Python]] programs

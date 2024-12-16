@@ -4,6 +4,7 @@ tags:
 - editors
 video-url: https://www.youtube.com/watch?v=G6hedWv7vsE&list=WL&index=9
 ---
+
 ### **Overview of Automating UI Testing with AI Using Model Context Protocol (mCP)**
 
 This guide explains how to use **Model Context Protocol (mCP)**, a framework that helps integrate **large language models (LLMs)** like Anthropic's Claude with your local systems and tools, to automate User Interface (UI) testing. With mCP, you can automate various UI testing tasks using natural language commands, without writing any code.
@@ -134,4 +135,4 @@ Using **mCP** with tools like **Puppeteer** allows you to automate User Interfac
 
 As more developers contribute to the mCP project, we can expect broader support for testing tools and richer functionality, making it a robust part of the modern automation landscape. For more insights, refer to the videos or courses where the author explains mCP in-depth, covering all necessary configurations and demonstrations.
 
-[[AI Agents]]  [[Python]]  [[Chatbots]]  [[Code Editor]]  [[Claude Agents]]
+ [[Code Editor]]

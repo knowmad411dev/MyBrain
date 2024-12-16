@@ -12,7 +12,7 @@ This guide will teach you how to use the Streamlit `st.audio_input` widget to re
 
 - Basic [Python](https://www.python.org/downloads/) knowledge
 - [Streamlit](https://docs.streamlit.io/)
-- [[OpenAI]] API key. [Sign up](https://platform.openai.com/signup) for an account
+- OpenAI API key. [Sign up](https://platform.openai.com/signup) for an account
 
 ## What is Whisper
 
@@ -176,4 +176,4 @@ Instead of using pre-recorded audio from the internet as seen in the [OpenAI doc
 
 The microphone in your device can do so much, as technology has made it possible to go beyond using it for communication during meetings and calls.
 
-[[Python]]  [[AI Voice Assistants]]  [[OpenAI]]  
+[[Python]]  [[AI Voice Assistants]]  [[OpenAI]]

@@ -76,4 +76,4 @@ These free tools provide robust, integrated coding assistance within VS Code wit
 
 If you're looking for a versatile, zero-cost coding assistant setup, these tools are excellent options to explore. Whether you want quick, inline completions or need more customized AI-generated code, Copilot Arena and AI Toolkit have you covered.
 
-[[Free AI Tools]]   [[VSCode]]
+[[Free AI Tools]]   [[VSCode]]  [[Code Editor]]

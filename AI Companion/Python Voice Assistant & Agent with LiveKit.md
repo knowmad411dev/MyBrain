@@ -4,6 +4,7 @@ tags:
 - speech
 - python
 ---
+
 ### How-To Instructions to Build Your Own Voice Assistant Using LiveKit and OpenAI
 
 In this tutorial, you will learn how to create your own version of OpenAI's voice assistant mode. This voice assistant can respond to queries, interact with various Python functions, and even manage smart home tasks like controlling room temperatures.
@@ -211,4 +212,4 @@ Then use the hosted playground provided by LiveKit to interact with your agent.
 2. **Use the Web Playground** to test voice interaction.
 3. **Ask Questions** like, "What's the temperature in the bedroom?" or "Set the temperature in the living room to 24 degrees." Your assistant should respond appropriately.
 
-[[AI Agents]]  [[AI Companion]]  [[AI Voice Assistants]]  [[Python]]  [[OpenAI]]
+[[AI Companion]]  [[AI Voice Assistants]]  [[Python]]  [[OpenAI]]

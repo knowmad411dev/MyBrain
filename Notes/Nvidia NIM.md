@@ -1,6 +1,8 @@
 ---
 tags:
 - agents
+- machine-learning
+- python
 ---
 
 ## **Video on NVIDIA NeMo (NVIDIA NEMs)**
@@ -256,4 +258,4 @@ NVIDIA NeMo provides a powerful platform for developers to build and deploy AI a
 - **NVIDIA Container Toolkit Installation**: [https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
 - **CUDA on WSL**: [https://developer.nvidia.com/cuda/wsl](https://developer.nvidia.com/cuda/wsl)
 
-[[Cloud]]  [[Python]]
+ [[Python]]  [[Docker]]  [[Machine learning]]

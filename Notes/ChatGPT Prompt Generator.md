@@ -6,7 +6,7 @@ tags:
 video-url: https://www.youtube.com/watch?v=1wTul0NjBpc&list=WL&index=18
 ---
 
-## **[[ChatGPT]] [[Prompting]] Generator**
+## **ChatGPT Prompting Generator**
 
 #### **Accessing the Prompt Generator**
 
@@ -102,7 +102,7 @@ video-url: https://www.youtube.com/watch?v=1wTul0NjBpc&list=WL&index=18
     - **Paid ChatGPT Membership:** Required to create custom GPTs.
     - **Membership Cost:** $20/month.
 
-2. **Steps to Create a Custom [[GPT]]:**
+2. **Steps to Create a Custom GPT:**
 
     - **Access Your Profile:**
         - Click on your **profile picture** and select **"My GPTs"**.
@@ -173,7 +173,7 @@ print(detailed_prompt)
 
 1. **Install OpenAI's Python Library:**
 
-    ```
+    ```bash
     pip install openai
     ```
 
@@ -204,6 +204,4 @@ print(detailed_prompt)
 - **Explore Custom GPTs:** Create and share custom GPTs tailored to specific tasks or industries.
 - **Stay Updated:** OpenAI frequently updates its models and features. Keep an eye on official announcements for new tools and enhancements.
 
----
-
-By following this guide, users can effectively utilize OpenAI's new prompt generator to enhance their interactions with ChatGPT, whether for personal projects, content creation, or development purposes.
+[[Prompting]]  [[GPT]]

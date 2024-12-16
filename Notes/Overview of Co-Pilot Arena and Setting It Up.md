@@ -1,7 +1,11 @@
 ---
 tags:
 - editors
+- python
+- vscode
+- llm
 ---
+
 ## **Overview of Co-Pilot Arena and Setting It Up
 
 Co-Pilot Arena is a VS Code extension that allows developers to experience AI-assisted coding by leveraging multiple large language models (LLMs). This tool gives you multiple suggestions for code completion, allowing you to choose the best one for your needs. Below, we will cover detailed instructions on setting up and using Co-Pilot Arena, including code examples.
@@ -103,4 +107,4 @@ Co-Pilot Arena and Exponent are useful AI-powered coding assistants that improve
 
 These tools, when used effectively, can significantly reduce coding time and improve productivity by offering multiple perspectives and fast auto-completion features. With setup instructions, code examples, and explanations provided above, you can quickly integrate these tools into your development environment.
 
-[[Overview of Co-Pilot Arena and Setting It Up]]   [[AI Coding for Free]]  [[Code Editor]]
+ [[Code Editor]]  [[Python]]  [[LLM]]

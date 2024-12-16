@@ -5,11 +5,11 @@ tags:
 - llm
 ---
 
-## **[[LLM]] Fine-Tune and Use on [[Ollama]]**
+## **LLM Fine-Tune and Use on Ollama**
 
 ### Comprehensive Guide to Fine-Tuning Large Language Models Locally with Ollama (oAMA)
 
-Fine-tuning large language models (LLMs) allows you to customize AI behavior to suit specific tasks, such as generating SQL queries based on table data. This guide walks you through the process of fine-tuning an LLM locally using Ollama (oAMA), leveraging tools like Unsloth for efficient training and Chroma [[Vector Databases]] for managing embeddings. Whether you have a powerful GPU or are utilizing cloud resources like Google Colab, this guide covers all necessary steps, including how-to instructions, relevant links, and code snippets.
+Fine-tuning large language models (LLMs) allows you to customize AI behavior to suit specific tasks, such as generating SQL queries based on table data. This guide walks you through the process of fine-tuning an LLM locally using Ollama (oAMA), leveraging tools like Unsloth for efficient training and Chroma Vector Databases for managing embeddings. Whether you have a powerful GPU or are utilizing cloud resources like Google Colab, this guide covers all necessary steps, including how-to instructions, relevant links, and code snippets.
 
 ---
 
@@ -60,7 +60,7 @@ Proper environment setup is essential for seamless fine-tuning. Follow the steps
 1. **Download Anaconda**: Visit the [Anaconda Official Website](https://www.anaconda.com/) and download the installer for Ubuntu.
 2. **Install Anaconda**:
 
-    ```
+    ```bash
     bash Anaconda3-2023.07-Linux-x86_64.sh
     ```
 
@@ -68,7 +68,7 @@ Proper environment setup is essential for seamless fine-tuning. Follow the steps
 
 3. **Initialize Anaconda**:
 
-    ```
+    ```bash
     source ~/.bashrc
     ```
 
@@ -79,7 +79,7 @@ Proper environment setup is essential for seamless fine-tuning. Follow the steps
 1. **Download CUDA 12.1**: Visit the [NVIDIA CUDA Toolkit Download Page](https://developer.nvidia.com/cuda-downloads) and select CUDA 12.1 for your Ubuntu version.
 2. **Install CUDA**:
 
-    ```
+    ```bash
     sudo dpkg -i cuda-repo-ubuntuXXXX_12.1.0-1_amd64.deb
     sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntuXXXX/x86_64/7fa2af80.pub
     sudo apt-get update
@@ -88,13 +88,13 @@ Proper environment setup is essential for seamless fine-tuning. Follow the steps
 
 3. **Verify CUDA Installation**:
 
-    ```
+    ```bash
     nvcc --version
     ```
 
     **Expected Output**:
 
-    ```
+    ```bash
     nvcc: NVIDIA (R) Cuda compiler driver
     Copyright (c) 2005-2023 NVIDIA Corporation
     Built on ...
@@ -106,32 +106,32 @@ Proper environment setup is essential for seamless fine-tuning. Follow the steps
 
 1. **Create a New Conda Environment**:
 
-    ```
+    ```bash
     conda create -n unsloth_env python=3.10
     conda activate unsloth_env
     ```
 
 2. **Install PyTorch with CUDA Support**:
 
-    ```
+    ```bash
     conda install pytorch torchvision torchaudio cudatoolkit=12.1 -c pytorch -c nvidia
     ```
 
 3. **Install Unsloth**:
 
-    ```
+    ```bash
     pip install unsloth
     ```
 
 4. **Install Jupyter Notebook (If Not Installed)**:
 
-    ```
+    ```bash
     pip install jupyter
     ```
 
 5. **Launch Jupyter Notebook**:
 
-    ```
+    ```bash
     jupyter notebook
     ```
 
@@ -139,7 +139,7 @@ Proper environment setup is essential for seamless fine-tuning. Follow the steps
 
 If you haven't installed **Jupyter** during the Unsloth installation, do so with:
 
-```
+```bash
 conda install -c conda-forge notebook
 ```
 
@@ -151,7 +151,7 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
 1. **Clone the Project Repository**:
 
-    ```
+    ```bash
     git clone https://github.com/technovangelist/videoprojects.git
     cd videoprojects/2024-09-10-buildrag
     ```
@@ -164,7 +164,7 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
     Open Jupyter Notebook from your terminal:
 
-    ```
+    ```bash
     jupyter notebook
     ```
 
@@ -211,7 +211,7 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
     **Example Prompt Format (Alpaca Style)**:
 
-    ```
+    ```plaintext
     ### Instruction:
     Generate SQL based on the following table data.
     
@@ -224,7 +224,7 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
 6. **Initialize the Trainer**:
 
-    ```
+    ```python
     from unsloth import Trainer
     
     trainer = Trainer(
@@ -248,19 +248,19 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
 7. **Start Fine-Tuning**:
 
-    ```
+    ```python
     trainer.train()
     ```
 
 8. **Save the Fine-Tuned Model**:
 
-    ```
+    ```python
     trainer.save_model()
     ```
 
 9. **Convert the Model for Local Use**:
 
-    ```
+    ```bash
     unsloth convert --model_path ./fine_tuned_model --output_path ./fine_tuned_llama
     ```
 
@@ -268,7 +268,7 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
     Use the following command to ensure the model is correctly fine-tuned:
 
-    ```
+    ```bash
     python run_model.py --model_path ./fine_tuned_llama --input "Generate SQL for the following table data."
     ```
 
@@ -282,7 +282,7 @@ Fine-tuning involves training the LLM with your specific dataset to adapt its re
 
 1. **Run Chroma as a Docker Container**:
 
-    ```
+    ```bash
     docker run -d \
       -p 8000:8000 \
       -v chroma-data:/chromadb/data \
@@ -320,4 +320,4 @@ Leverage Pre-Built Tools: Tools like Open Web UI, MSTY, and Page Assist offer RA
 
 Community and Support: Engage with the Ollama community and utilize
 
-[[Ollama]]   [[LLM]]
+[[Ollama]]   [[LLM]]  [[Python]]  [[Linux]]

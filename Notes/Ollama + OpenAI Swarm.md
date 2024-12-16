@@ -2,8 +2,10 @@
 tags:
 - openai
 - ollama
+- python
 video-url: https://www.youtube.com/watch?v=8jpVeUTNExI
 ---
+
 ## **Overview of Ollama + OpenAI Swarm Integration**
 
 OpenAI recently released an experimental tool called Swarm, which allows you to create a group of AI agents that collaborate to solve complex tasks. By default, Swarm uses OpenAI models like GPT-4, which can be costly due to the token usage involved. However, it is possible to use Ollama, a locally-hosted LLM, to power Swarm agents. This guide will walk you through modifying Swarm to work with Ollama, allowing you to run AI agents on your local machine, completely free of charge.

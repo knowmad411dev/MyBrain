@@ -1,6 +1,7 @@
 ---
 tags:
 - editors
+- python
 ---
 
 ## **Bolt.new
@@ -15,14 +16,14 @@ The video introduces a fork of the Bolt open-source project that can be used loc
 4. **Code Preview with Web Containers**: The tool uses web containers, which provide an in-browser virtual machine environment for code preview and interaction.
 5. **Additional Commands**: Allows code downloading, syncing, toggling the terminal, and pushing to GitHub from the interface.
 
-### Comparison to [[VSCode]]
+### Comparison to VSCode
 
 The Bolt fork and VSCode have some overlapping features but also differ significantly in their approach and capabilities:
 
 1. **Integration with Multiple Providers**: Unlike VSCode, which relies on extensions for integration with different API providers, the Bolt fork has built-in support for multiple providers like Gemini, Mistral, and Ollama. VSCode's extensibility is broader, allowing users to integrate various languages and services through a wide array of plugins.
 2. **Setup Complexity**: Setting up the Bolt fork requires cloning the repository, installing dependencies, and configuring environment files, which might be more complex compared to installing VSCode and adding extensions. VSCode offers a more user-friendly setup experience, especially for beginners.
 3. **Code Preview**: Bolt uses web containers to provide an in-browser virtual machine environment, enabling users to preview and interact with generated code directly. VSCode, on the other hand, allows code execution through integrated terminals and extensions, but it does not provide a built-in VM environment like Bolt's web containers.
-4. **Sync and [[GitHub]] Integration**: While both tools offer GitHub integration, Bolt allows direct publishing to GitHub and syncing files to a local folder automatically. VSCode provides similar features through its Git integration, but users need to manually configure and use Git commands or extensions to achieve the same level of automation.
+4. **Sync and GitHub Integration**: While both tools offer GitHub integration, Bolt allows direct publishing to GitHub and syncing files to a local folder automatically. VSCode provides similar features through its Git integration, but users need to manually configure and use Git commands or extensions to achieve the same level of automation.
 5. **Terminal Access**: Bolt's interface includes a terminal feature for executing commands, similar to VSCode's integrated terminal. However, VSCode's terminal is more versatile, supporting multiple shells and offering a more integrated development environment.
 6. **Usage Flexibility**: Bolt is tailored for generating and previewing code using specific models and APIs, while VSCode is a general-purpose code editor that supports a wide range of programming languages, debugging tools, and extensions for different development workflows.
 
@@ -39,14 +40,14 @@ Bolt.new can be integrated with VSCode to some extent. Here are some potential w
 
 1. **Clone the Repository**:
 
-    ```
+    ```bash
     git clone <repository_url>
     cd <repository_folder>
     ```
 
 2. **Install Dependencies**:
 
-    ```
+    ```bash
     pnpm install
     ```
 
@@ -54,7 +55,7 @@ Bolt.new can be integrated with VSCode to some extent. Here are some potential w
 
 3. **Rename the Environment File**:
 
-    ```
+    ```bash
     mv .env.example .env.local
     ```
 
@@ -62,7 +63,7 @@ Bolt.new can be integrated with VSCode to some extent. Here are some potential w
 
 4. **Running the Tool**:
 
-    ```
+    ```bash
     pnpm preview
     ```
 
@@ -86,13 +87,13 @@ Bolt.new can be integrated with VSCode to some extent. Here are some potential w
 
         - Install Light LLM using:
 
-            ```
+            ```bash
             npm install -g light-llm
             ```
 
         - Export the GitHub Models API key and start the proxy server:
 
-            ```
+            ```python
             export GITHUB_MODELS_API_KEY=<your_api_key>
             light-llm start
             ```
@@ -106,4 +107,4 @@ Bolt.new can be integrated with VSCode to some extent. Here are some potential w
 
 Overall, this fork of Bolt provides a powerful, flexible, and open-source alternative that enables local AI model usage with various free API integrations, providing an experience similar to more restricted tools like v0 but without associated costs.
 
-[[Python]]
+[[Python]]  [[GitHub]]  [[Code Editor]]

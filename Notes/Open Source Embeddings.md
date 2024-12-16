@@ -2,9 +2,10 @@
 Video-URL: https://www.youtube.com/watch?v=QdDoFfkVkcw&list=WL&index=4
 tags:
 - llm
+- python
 ---
 
-## **Open-Source [[Embeddings]]**
+## **Open-Source Embeddings**
 
 ### 1. **Understanding Embeddings**
 
@@ -34,13 +35,13 @@ tags:
 - **Hugging Face Inference API**: Provides access to many models that can be used for generating embeddings.
     - **Installation and Usage**: Requires the Hugging Face JS library for TypeScript integration.
 
-        ```
+        ```bash
         npm install @huggingface/inference
         ```
 
     - **Setting up API Access**:
 
-        ```typescript
+        ```python
         import { HfInference } from '@huggingface/inference';
         const hf = new HfInference('YOUR_HUGGING_FACE_API_KEY');
         ```
@@ -50,7 +51,7 @@ tags:
     - Popular choices include `all-MiniLM-L6-v2` and `E5-small-V2`.
     - **Example Model Usage**:
 
-        ```typescript
+        ```python
         const model = 'sentence-transformers/all-MiniLM-L6-v2';
         const result = await hf.featureExtraction({ model, inputs: 'Your text here' });
         console.log(result); // Outputs embedding
@@ -59,7 +60,7 @@ tags:
 - **Calculating Embedding Similarity**:
     - Calculate similarity between vectors using the **dot product**, cosine similarity, or Euclidean distance.
 
-    ```typescript
+    ```python
     function dotProduct(a, b) {
       return a.reduce((sum, ai, index) => sum + ai * b[index], 0);
     }
@@ -70,7 +71,7 @@ tags:
 - **Transformers.js**: A library that allows running machine learning models directly in JavaScript, either in a Node.js environment or in the browser.
     - **Installation**:
 
-        ```
+        ```bash
         npm install @xenova/transformers
         ```
 
@@ -119,4 +120,4 @@ tags:
 
 This note provides a comprehensive guide on the topic of embeddings, focusing on different open-source options, API-based methods, and the potential to self-host models directly in various environments. Whether you're using embeddings for text, images, or other modalities, the tools and frameworks discussed here offer a variety of options for different use cases and needs.
 
-[[LLM Frameworks]] | [[LLM]]
+ [[LLM]]  [[OpenAI]]  [[Python]]

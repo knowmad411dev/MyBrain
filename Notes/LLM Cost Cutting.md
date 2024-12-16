@@ -4,11 +4,12 @@ tags:
 - llm
 - langchain
 - rag
+- python
 ---
 
 ## **LLM Cost Cutting
 
-This video by Eric from [[LangChain]] focuses on integrating MongoDB's new semantic caching capabilities to reduce Large Language Model (LLM) costs. MongoDB has released an integration package with LangChain, which enables MongoDB to function as a vector store or cache, including a semantic cache. The video demonstrates two examples: a basic prompt and LLM chain with semantic caching, and a retrieval-augmented generation (RAG) example, covering the benefits and challenges of semantic caching in both contexts.
+This video by Eric from LangChain focuses on integrating MongoDB's new semantic caching capabilities to reduce Large Language Model (LLM) costs. MongoDB has released an integration package with LangChain, which enables MongoDB to function as a vector store or cache, including a semantic cache. The video demonstrates two examples: a basic prompt and LLM chain with semantic caching, and a retrieval-augmented generation (RAG) example, covering the benefits and challenges of semantic caching in both contexts.
 
 ## Key Concepts
 
@@ -29,10 +30,7 @@ This video by Eric from [[LangChain]] focuses on integrating MongoDB's new seman
 You need to install packages for LangChain and its integrations with MongoDB, Anthropic, OpenAI, and Exa.configuration
 
 ```bash
-
-Copy code
-
-`pip install langchain langchain-mongodb langchain-anthropic langchain-openai langchain-exa`
+pip install langchain langchain-mongodb langchain-anthropic langchain-openai langchain-exa
 ```
 
 ### Setting Environment Variables
@@ -49,28 +47,22 @@ LangSmith is a debugging and observability tool for LangChain applications. To e
 
 ---
 
-## Example 1: Basic [[Prompting]] and LLM Chain with Semantic Caching
+## Example 1: Basic Prompting and LLM Chain with Semantic Caching
 
 1. **Creating a Prompt and LLM**:
     - You create a model using Anthropic's Claude 3.
     - Define a prompt template that specifies how to pass context and a question to the LLM.
 
 ```python
-
-Copy code
-
-`from langchain_anthropic import ChatAnthropic from langchain_core.prompts import PromptTemplate  model = ChatAnthropic(model_name="claude-v1") 
+from langchain_anthropic import ChatAnthropic from langchain_core.prompts import PromptTemplate  model = ChatAnthropic(model_name="claude-v1") 
 # Adjust to the desired model  
-prompt_template = PromptTemplate.from_template("""     Answer the following question about the given context:     <context>     {context}     </context>     <question>     {question}     </question> """)`
+prompt_template = PromptTemplate.from_template("""     Answer the following question about the given context:     <context>     {context}     </context>     <question>     {question}     </question> """)
 ```
 
 2. **Invoking the Chain**: You can invoke the LLM by passing the context and question to get a response.
 
 ```python
-
-Copy code
-
-`context = "Eric works at LangChain" question = "Where does Eric work?" response = model.invoke({"context": context, "question": question})`
+context = "Eric works at LangChain" question = "Where does Eric work?" response = model.invoke({"context": context, "question": question})
 ```
 
 3. **Implementing Semantic Caching**: Semantic caching stores the results of similar LLM queries to reduce the number of API calls and thus reduce costs.
@@ -80,27 +72,18 @@ Copy code
 - Import and configure the semantic cache using MongoDB Atlas as the backend.
 
 ```python
-
-Copy code
-
-`from langchain_mongodb import MongoDBAtlasSemanticCache from langchain_openai import OpenAIEmbeddings import os  connection_string = os.getenv("MONGODB_ATLAS_URI") cache = MongoDBAtlasSemanticCache(     connection_string=connection_string,     collection_name="semantic_cache",     db_name="langchain_db",     index_name="cache_index",     embeddings=OpenAIEmbeddings(model_name="text-embedding-ada-002"),     threshold=0.99 # Cosine similarity threshold )`
+from langchain_mongodb import MongoDBAtlasSemanticCache from langchain_openai import OpenAIEmbeddings import os  connection_string = os.getenv("MONGODB_ATLAS_URI") cache = MongoDBAtlasSemanticCache(     connection_string=connection_string,     collection_name="semantic_cache",     db_name="langchain_db",     index_name="cache_index",     embeddings=OpenAIEmbeddings(model_name="text-embedding-ada-002"),     threshold=0.99 # Cosine similarity threshold )
 ```
 
 - **Clearing the Cache**: Clear any existing cache entries if needed.
 
 ```python
-
-Copy code
-
-`cache.clear()`
+cache.clear()
 ```
 
 - **Setting the LLM Cache**: Globally set the LLM cache to the configured semantic cache.
 
 ```python
-
-Copy code
-
 from langchain_core.globals import set_llm_cache  set_llm_cache(cache)`
 ```
 
@@ -113,28 +96,19 @@ from langchain_core.globals import set_llm_cache  set_llm_cache(cache)`
 1. **Configuring an Exa Retriever**: Use Exa to retrieve documents that form context for the LLM to answer questions.
 
 ```python
-
-Copy code
-
-`from langchain_exa import ExaSearchRetriever from langchain_exa.configuration import TextContentOptions  exa_retriever = ExaSearchRetriever(     api_key=os.getenv("EXA_API_KEY"),     text_content_options=TextContentOptions(max_characters=300),     num_documents=3 )`
+from langchain_exa import ExaSearchRetriever from langchain_exa.configuration import TextContentOptions  exa_retriever = ExaSearchRetriever(     api_key=os.getenv("EXA_API_KEY"),     text_content_options=TextContentOptions(max_characters=300),     num_documents=3 )
 ```
 
 2. **Formatting Retrieved Documents**: Join the retrieved documents into a string to serve as context.
 
 ```python
-
-Copy code
-
-`def format_docs(docs):     return "\n\n".join(doc.page_content for doc in docs)`
+def format_docs(docs):     return "\n\n".join(doc.page_content for doc in docs)
 ```
 
 3. **Building the RAG Chain**: Construct a chain where the input is passed through the Exa retriever to gather context and then to the LLM for generating a response.
 
 ```python
-
-Copy code
-
-`from langchain_core.runnables import RunnablePassThrough  question_step = RunnablePassThrough() retriever_step = exa_retriever format_step = format_docs llm_step = model  # Model previously configured`
+from langchain_core.runnables import RunnablePassThrough  question_step = RunnablePassThrough() retriever_step = exa_retriever format_step = format_docs llm_step = model  # Model previously configured
 ```
 
 4. **Handling Semantic Caching in RAG**: Since semantic caching only caches the LLM's input and output, changes in the context retrieved from the Exa retriever may cause cache misses, even if the questions are semantically similar.
@@ -151,7 +125,7 @@ Copy code
 
 ## Summary and Resources
 
-The video demonstrates how to implement MongoDB-based semantic caching for both simple LLM queries and [[RAG]] applications using LangChain. The examples help understand how caching can reduce costs but also highlight some challenges in managing semantic caching within RAG systems.
+The video demonstrates how to implement MongoDB-based semantic caching for both simple LLM queries and RAG applications using LangChain. The examples help understand how caching can reduce costs but also highlight some challenges in managing semantic caching within RAG systems.
 
 For more detailed information, refer to the documentation on:
 
@@ -162,4 +136,4 @@ For more detailed information, refer to the documentation on:
 
 By understanding these concepts and code, you can implement a similar setup for caching LLM responses in your own projects.
 
- [[LLM]] [[LLM Frameworks]]  [[LangChain]]
+ [[LLM]] [[LLM Frameworks]]  [[LangChain]]  [[Python]]

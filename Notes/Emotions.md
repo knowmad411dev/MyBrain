@@ -25,4 +25,4 @@ tags:
 
 - **Social and Cultural Factors**: Cultural norms affect how emotions are expressed (e.g., emotional restraint vs. expressiveness).
 
- [[Self]]  [[Emotional Intelligence]]  [[Emotional Intelligence Tests]]  [[Emotional Biases]]
+[[ASL Project Ideas]]

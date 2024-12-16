@@ -3,6 +3,7 @@ tags:
 - math
 video-url: https://www.youtube.com/watch?v=VElZBohyXW0&list=WL&index=2
 ---
+
 ## **The way math should be taught
 
 ### **Reframing Math as Art: A Detailed Exploration**

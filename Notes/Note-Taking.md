@@ -9,7 +9,7 @@ The **Note-Taking Principles** developed by **Andy Matuschak** emphasize the tra
 
 ---
 
-## 1. **[[Evergreen Notes]]**
+## 1. **Evergreen Notes**
 
 Evergreen notes are designed to be **durable** and **constantly evolving** in value. They are not fleeting or simple summaries but are meant to be continuously refined, interconnected, and relevant over time.
 
@@ -17,11 +17,9 @@ Evergreen notes are designed to be **durable** and **constantly evolving** in va
 - **Conceptual**: Each note stands independently, offering **valuable insight** without excessive context.
 - **Linked**: Evergreen notes should be interconnected, forming a **web of ideas** that reveals patterns and enhances understanding.
 
-For more, see: [[Atomic Notes]]
-
 ---
 
-## 2. **Notes as [[Thinking]] Tools**
+## 2. **Notes as Thinking Tools**
 
 Matuschak sees notes as **tools for thought**, not just storage. They are designed to actively foster **insights** and **connections** between ideas.
 
@@ -38,8 +36,6 @@ This method involves **gradually condensing** information to highlight the most 
 2. **Refine the highlights**, emphasizing critical points.
 3. **Distill** the material into its core concepts.
 
-For more, see: [[Progressive Summarization]]
-
 ---
 
 ## 4. **Linking Your Thinking**
@@ -49,8 +45,6 @@ Instead of strict hierarchies, Matuschak advocates for creating a **network of l
 - Surface **related ideas** when revisiting a note.
 - Discover **unexpected connections** between concepts.
 
-For more, see: [[Contextual Linking]] and [[Knowledge Graph]]
-
 ---
 
 ## 5. **Spaced Repetition & Active Recall**
@@ -58,8 +52,6 @@ For more, see: [[Contextual Linking]] and [[Knowledge Graph]]
 Incorporating **spaced repetition** and **active recall** into the note-taking system helps solidify **long-term memory**:
 
 - **Flashcards**: Convert evergreen notes into flashcards for regular review, enhancing retention.
-
-For more, see: [[Spaced Repetition and Active Recall in Note-Taking]]
 
 ---
 
@@ -92,3 +84,5 @@ Notes are part of an ongoing process of **learning** and **thinking**. They shou
 ## Conclusion
 
 Matuschak's note-taking principles transform notes into a **living system** that promotes growth, learning, and creativity, making them tools for continuous intellectual development.
+
+[[Atomic Notes]]

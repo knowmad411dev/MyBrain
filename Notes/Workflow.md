@@ -31,7 +31,7 @@ Workflow automation platforms are designed to help users, regardless of their te
 - **ActivePieces**: A low-code automation platform offering a balance between flexibility and ease of use. It's great for users who need automation without extensive technical knowledge but still want advanced customization.
 - **Microsoft Power Automate**: Part of the Microsoft ecosystem, Power Automate is a powerful tool for automating workflows within Office 365 and other Microsoft applications, making it ideal for business users in the Microsoft environment.
 
-### **Use Cases for Workflow [[Automation]]**
+### **Use Cases for Workflow Automation**
 
 1. **Personal Automation**: Workflow automation can simplify daily tasks, such as automatically turning off lights when you leave home, sending you daily weather updates, or organizing your digital files.
 2. **Business Process Automation**: Businesses often use workflow automation to streamline repetitive tasks, such as processing invoices, onboarding new employees, or handling customer service requests. This helps reduce human error and frees up employee time for more valuable tasks.
@@ -41,3 +41,5 @@ Workflow automation platforms are designed to help users, regardless of their te
 ---
 
 Workflow automation enables both individuals and businesses to streamline tasks, improve efficiency, and reduce manual work. Whether it's a simple personal task or a complex business process, these platforms offer a wide range of capabilities to meet various needs.
+
+[[Automation]]

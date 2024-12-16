@@ -64,4 +64,4 @@ video-url: https://www.youtube.com/watch?v=BuyZIwQzC7g&list=WL&index=1
 
 These steps combine to create an AI-powered workflow to enhance learning, from setting up a personalized tutor, interacting easily, organizing learning material, and using contextual tools like Highlight to make the learning experience more seamless.
 
-[[ChatGPT]] [[Prompting]] [[Learning]]  [[Learning with AI Tutor]]
+ [[Prompting]] [[Learning]]  [[Learning with AI Tutor]]

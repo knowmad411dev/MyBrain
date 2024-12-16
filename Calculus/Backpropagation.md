@@ -6,11 +6,11 @@ tags:
 
 ## **Backpropagation
 
-Backpropagation is a fundamental algorithm in [[Machine learning]], particularly in training artificial neural networks. It efficiently computes the gradient of a loss function with respect to each weight in the network, enabling the optimization of these weights to minimize prediction errors.
+Backpropagation is a fundamental algorithm in Machine learning, particularly in training artificial neural networks. It efficiently computes the gradient of a loss function with respect to each weight in the network, enabling the optimization of these weights to minimize prediction errors.
 
 **Key Concepts:**
 
-- **[[Neural Networks]]:** Composed of interconnected layers of neurons, each with associated weights and biases. The network processes input data through these layers to produce an output.
+- **Neural Networks:** Composed of interconnected layers of neurons, each with associated weights and biases. The network processes input data through these layers to produce an output.
 - **Loss Function:** Measures the discrepancy between the network's predicted output and the actual target values. Common examples include mean squared error for regression tasks and cross-entropy loss for classification tasks.
 - **Gradient Descent:** An optimization technique that adjusts the network's weights iteratively in the direction that reduces the loss function, aiming to find the optimal set of weights.
 

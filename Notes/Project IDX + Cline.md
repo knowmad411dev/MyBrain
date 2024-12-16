@@ -3,6 +3,7 @@ tags:
 - editors
 video-url: https://www.youtube.com/watch?v=1E27hJ3ByEc&list=WL&index=1
 ---
+
 ## **Project IDX + Cline
 
 **Overview of Project IDX**
@@ -114,4 +115,4 @@ video-url: https://www.youtube.com/watch?v=1E27hJ3ByEc&list=WL&index=1
 - However, the tool is still evolving, and some bugs and inefficiencies mean it's not quite as seamless as other paid solutions like **Wind Surf**.
 - For users willing to learn and experiment, **Project IDX** provides a feature-rich development environment but requires patience to navigate its current limitations.
 
-[[Code Editor]]  [[Google Project IDX]]
+[[Code Editor]]  [[Project IDX - Google]]

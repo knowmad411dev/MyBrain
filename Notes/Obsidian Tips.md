@@ -1,8 +1,10 @@
 ---
 tags:
 - obsidian
+- dataview
 video-url: https://www.youtube.com/watch?v=3qopiej4Zo0&list=WL&index=2
 ---
+
 ## **Obsidian Tips
 
 **Obsidian Customization Tips: Overview and How-To Guide**

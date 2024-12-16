@@ -22,8 +22,8 @@ LlamaIndex (formerly known as GPT Index) is a data framework designed to simplif
     - **List Index**: Processes data linearly, suitable for ordered data such as sequences or events.
     - **Keyword Table Index**: Indexes data by keyword, facilitating fast, keyword-based lookups.
     - **Graph Index**: Builds a graph of relationships between concepts, allowing complex, connected data retrieval.
-- **[[Embeddings]] and Vectorization**: LlamaIndex leverages embeddings to represent chunks of data as dense vectors, which can be compared for similarity. This is a powerful feature for applications involving semantic search, as it allows the model to understand context and meaning within the data.
-- **Retrieval-Augmented Generation ([[RAG]])**: By integrating RAG methods, LlamaIndex supports generating more informed responses by retrieving and combining relevant information from indexed data. This is especially useful in applications like Q&A systems or summarization.
+- **Embeddings and Vectorization**: LlamaIndex leverages embeddings to represent chunks of data as dense vectors, which can be compared for similarity. This is a powerful feature for applications involving semantic search, as it allows the model to understand context and meaning within the data.
+- **Retrieval-Augmented Generation (RAG)**: By integrating RAG methods, LlamaIndex supports generating more informed responses by retrieving and combining relevant information from indexed data. This is especially useful in applications like Q&A systems or summarization.
 - **Streaming and Live Data**: With LlamaIndex, developers can stream data from APIs or databases, continuously updating indexes. This feature is valuable for applications that need real-time data access or constantly changing datasets.
 - **Customizability and Modularity**: LlamaIndex provides modular building blocks that developers can adjust based on their specific use case, like customized indexing strategies, document embeddings, and integration of additional LLM prompts or APIs.
 
@@ -37,7 +37,7 @@ LlamaIndex is designed to be flexible, making it compatible with various LLM pla
 - **Enterprise Knowledge Bases**: Companies can deploy LlamaIndex to manage large-scale internal documentation, enabling employees to retrieve information efficiently across many documents or data types.
 - **Legal and Compliance**: Legal professionals can use LlamaIndex to search through large bodies of legal text, case studies, and compliance documents.
 - **Academic Research**: Researchers can index large datasets of research papers, publications, and articles for quick retrieval of relevant research findings.
-- **[[Personal Knowledge Management]]**: LlamaIndex is a helpful tool for building personal knowledge management systems, allowing users to index personal notes, articles, and other documents for easy retrieval.
+- **Personal Knowledge Management**: LlamaIndex is a helpful tool for building personal knowledge management systems, allowing users to index personal notes, articles, and other documents for easy retrieval.
 
 ### 5. Architecture and Workflow
 

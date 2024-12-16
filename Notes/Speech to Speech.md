@@ -2,6 +2,7 @@
 tags:
 - speech
 - avatars
+- py
 ---
 
 ### Overview of Speech-to-Speech
@@ -171,4 +172,4 @@ if __name__ == "__main__":
 
 With **Speech-to-Speech** integration, your AI Companion can effectively carry out real-time conversations, creating a more engaging, human-like experience by seamlessly understanding and responding to spoken language.
 
-[[AI Agents]]  [[AI Avatars]]  [[Text to Speech]]  [[Speech to Text]]
+  [[AI Avatars]]  [[Text to Speech]]  [[Speech to Text]]

@@ -3,6 +3,7 @@ tags:
 - gpt
 video-url: https://www.youtube.com/watch?v=pfwj_jZrkXQ&list=WL&index=5
 ---
+
 ## **Mistakes using ChatGPT
 
 ### Overview
@@ -143,4 +144,4 @@ The video aims to help viewers avoid common mistakes when using ChatGPT, improvi
 
 The text and video are focused on helping users avoid missteps, improve their prompting techniques, and unlock the full potential of ChatGPT. By leveraging these tips, you can improve the quality, depth, and usability of your responses—making ChatGPT an even more powerful assistant.
 
-[[ChatGPT]]
+[[GPT]]

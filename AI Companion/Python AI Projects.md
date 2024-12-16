@@ -3,6 +3,7 @@ tags:
 - python
 video-url: https://www.youtube.com/watch?v=HIvQWdqvl7o&list=WL&index=11
 ---
+
 ## **Python AI Projects
 
 Here's a detailed overview of each of the five Python AI projects described in the text, including the instructions and example code. Each project gradually increases in difficulty, from basic sentiment analysis to a more complex AI agent.

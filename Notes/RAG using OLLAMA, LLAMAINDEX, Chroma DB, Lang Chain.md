@@ -6,6 +6,7 @@ tags:
 - chromadb
 video-url: https://www.youtube.com/watch?v=NjkAMVFv8m8&list=WL&index=3
 ---
+
 # Detailed Overview of RAG Using Ollama, LLamaIndex, Chroma DB, LangChain
 
 ### Overview
@@ -163,5 +164,4 @@ response = rag_chain.run({"question": "What are the certifications Naresh has?"}
 print(response)
 ```
 
-[[Ollama]]  [[RAG]]  [[ChromaDB]]  [[LlamaIndex Framework]]  [[Python]]  
-
+[[Ollama]]  [[RAG]]  [[ChromaDB]]  [[LlamaIndex Framework]]  [[Python]]

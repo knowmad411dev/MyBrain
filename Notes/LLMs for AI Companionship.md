@@ -10,7 +10,7 @@ AI companions are not just a passing trend; they could become a $150 billion ind
 
 Popular companion apps like [Replika](https://replika.com/), [Gatebox](https://www.gatebox.ai/), [HeraHaven](https://herahaven.ai/), and [SoulMachines](https://soulmachines.com/) attract millions of users every month, based on Similarweb data.
 
-If you’re considering building an AI companion, where do you start? Which large language model ([[LLM]]) should you choose to power your app? Let’s explore some of the best open-source LLMs and why they might be the right fit for your project.
+If you’re considering building an AI companion, where do you start? Which large language model (LLM) should you choose to power your app? Let’s explore some of the best open-source LLMs and why they might be the right fit for your project.
 
 ---
 
@@ -67,4 +67,4 @@ While these models are impressive out of the box, there’s always room for impr
 
 The potential for AI companionship is vast, and the right LLM can make all the difference. Whether you’re building a large-scale app or a niche project, these open-source models provide a strong foundation for success. Dive in, experiment, and explore the power of modern LLMs.
 
-[[LLM Frameworks]] | [[AI Agents]] | [[AI Avatars]] | [[LLM]]
+[[LLM Frameworks]]  [[LLM]]

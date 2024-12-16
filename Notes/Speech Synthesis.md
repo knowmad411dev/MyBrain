@@ -2,6 +2,7 @@
 tags:
 - avatars
 - speech
+- python
 ---
 
 # Speech Synthesis for AI Avatars
@@ -140,4 +141,4 @@ This code uses **pyttsx3** to convert text to speech directly, without requiring
 
 Speech synthesis plays a pivotal role in making AI avatars interactive, relatable, and accessible. By using available TTS libraries and services, you can build avatars that not only understand users but also respond in a human-like manner. Start by choosing a TTS system, then customize the voice to align with your avatar's personality, and finally, integrate it into your overall avatar system for seamless interaction.
 
-[[AI Avatars]]  [[Atomic Notes for Python AI Avatars]]  [[Python]]  [[Text to Speech]]
+[[AI Avatars]]   [[Python]]  [[Text to Speech]]

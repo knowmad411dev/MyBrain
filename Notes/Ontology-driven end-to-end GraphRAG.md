@@ -2,8 +2,11 @@
 github_link: https://github.com/jbarrasa/goingmeta
 tags:
 - graph
+- rag
+- python
 video-url: https://www.youtube.com/watch?v=UmP0pFFsMsE&list=WL&index=2
 ---
+
 ## **Ontology-driven end-to-end GraphRAG
 
 ### Detailed Overview and Instructions: Knowledge Graph Construction and RAG with the GraphRag Python Library
@@ -187,4 +190,4 @@ print(result)
 
 This guide demonstrates how to use the GraphRag library to construct, refine, and query knowledge graphs efficiently. By leveraging ontologies, the process becomes more structured, scalable, and adaptable to various domains. Explore the provided code on GitHub for hands-on practice and extend it to your datasets and ontologies.
 
-[[Graphs]]  [[GraphRAG - Marriage of Knowledge Graphs]]   [[RAG]] [[Python]] 
+[[Graphs]]   [[RAG]]   [[Python]]

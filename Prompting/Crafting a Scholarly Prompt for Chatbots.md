@@ -81,4 +81,4 @@ Maintain the principle of layered information - each response should contain at 
 
 This creates what information designers call "progressive disclosure" - allowing readers to engage at their preferred depth while maintaining coherence across all levels of understanding.
 
-[[Chatbots]]  [[Prompting]]
+  [[Prompting]]

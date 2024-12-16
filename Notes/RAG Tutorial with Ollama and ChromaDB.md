@@ -6,6 +6,7 @@ tags:
 - rag
 video-url: https://www.youtube.com/watch?v=g8fMRuGR5z0&list=WL&index=2
 ---
+
 ## **Overview of Retrieval-Augmented Generation (RAG)**
 
 ### **Introduction to RAG**

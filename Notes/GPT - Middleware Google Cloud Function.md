@@ -1,7 +1,7 @@
 ---
 tags:
 - gpt
-- cloud
+- google
 ---
 
 # GPT Action Library (Middleware): Google Cloud Function
@@ -75,14 +75,14 @@ Follow the steps [here](https://cloud.google.com/sdk/docs/install) that are rele
 
 In this example, we will be setting up a Node.js environment.
 
-```
+```bash
 mkdir <directory_name>
 cd <directory_name>
 ```
 
 Initialize the Node.js project
 
-```
+```bash
 npm init
 ```
 
@@ -138,16 +138,16 @@ async function validateAccessToken(token) {
 
 This step below will install and add the necessary dependencies in your `package.json` file
 
-```
+```bash
 npm install @google-cloud/functions-framework
 npm install axios
 ```
 
-```
+```bash
 npx @google-cloud/functions-framework --target=executeGCPFunction
 ```
 
-```
+```bash
 gcloud functions deploy gcp-function-for-chatgpt \
   --gen2 \
   --runtime=nodejs20 \
@@ -235,4 +235,4 @@ You are now ready to test out the GPT. You can enter a simple prompt like "Test 
 2. Allow request to your Google Function
 3. Response from ChatGPT showing the response from your function - e.g. "You have connected as an authenticated user to Google Functions"
 
-   [[GPT]]   [[ChatGPT]]   [[Python]]
+   [[GPT]]     [[Python]]

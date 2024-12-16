@@ -3,6 +3,7 @@ tags:
 - editors
 video-url: https://www.youtube.com/watch?v=kNj0O7cKCU4&list=WL&index=2
 ---
+
 ## **Project IDX + ClaudeDev + Aider
 
 # Setting Up a Free Cloud AI Coding Environment with Google’s Project IDX
@@ -145,4 +146,4 @@ AER is a powerful AI coding tool for edits and refinements.
 
 Project IDX, combined with tools like Claud Dev and AER, offers a flexible, powerful, and cost-effective solution for cloud-based AI coding. It’s ideal for both beginners and experienced programmers looking for a robust remote setup. Set up your environment today and explore the possibilities of seamless AI-assisted development!
 
-[[Code Editor]]
+[[Code Editor]]  [[Project IDX - Google]]

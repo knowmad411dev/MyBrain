@@ -2,7 +2,7 @@
 tags:
 - python
 - gpt
-- web
+- web-scrapper
 video-url: https://www.youtube.com/watch?v=jNKDxUkON68&list=WL&index=13
 ---
 
@@ -28,13 +28,13 @@ This transcript discusses a tool called **GPT Crawler**, which allows users to c
 
 The first step is to clone the GPT Crawler repository using the following command:
 
-```
+```bash
 git clone [REPO_URL]
 ```
 
 After cloning, navigate to the directory:
 
-```
+```bash
 cd GPT-crawler
 ```
 
@@ -42,7 +42,7 @@ cd GPT-crawler
 
 To work on the project easily, you can open it in Visual Studio Code (VS Code):
 
-```
+```bash
 code .
 ```
 
@@ -57,7 +57,7 @@ In the **source** directory, open the `config.sys` file to customize your crawl 
 
 #### **Example config.sys:**
 
-```
+```bash
 {   "urls": ["https://example.com/docs"],   "selector": ".doc-container",   "maxPages": 50,   "outputFile": "output.json" }
 ```
 
@@ -65,7 +65,7 @@ In the **source** directory, open the `config.sys` file to customize your crawl 
 
 To start the crawling process, use the following command:
 
-```
+```bash
 npm start
 ```
 
@@ -117,4 +117,4 @@ The video also references other similar tools like **Fire Crawl** and **Crawl fo
 
 The tutorial in the video emphasizes the importance of gathering high-quality data for AI training and how tools like GPT Crawler help automate the process efficiently, without needing advanced coding skills.
 
-[[GPT]]
+[[GPT]]   [[Web Scrapping]]

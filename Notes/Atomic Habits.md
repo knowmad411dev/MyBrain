@@ -93,7 +93,7 @@ To effectively build good habits and break bad ones, Clear introduces the Four L
 - **Small Habits Lead to Big Changes**: Tiny improvements accumulate over time, leading to significant transformations.
 - **Systems Over Goals**: Focus on the processes that lead to results rather than the results themselves.
 - **Environment Shapes Behavior**: Designing your environment can make good habits inevitable and bad habits harder.
-- **[[Identity]] Drives Behavior**: Align your habits with your desired identity to make them more sustainable.
+- **Identity Drives Behavior**: Align your habits with your desired identity to make them more sustainable.
 
 ---
 
@@ -114,4 +114,4 @@ _"Atomic Habits"_ provides a practical framework for improving every day. By und
 
 By integrating these principles into your daily life, you can build a system of atomic habits that propel you toward your goals and help you become the person you aspire to be.
 
-- [[Book Summaries]]  [[Habit Formation]]
+- [[Book Summaries]]

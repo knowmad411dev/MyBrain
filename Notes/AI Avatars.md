@@ -1,6 +1,7 @@
 ---
 tags:
 - avatars
+- python
 ---
 
 ### AI Avatars
@@ -65,21 +66,4 @@ print(f"Failed to generate video. Error: {response.text}")`
 
 ---
 
-**Helpful Links:**
-
-- [A2E AI](https://a2eai.com/)
-- [Colossian](https://colossian.com/)
-- [DeepBrain](https://deepbrain.ai/)
-- [DubDub AI](https://dubb.ai/)
-- [Cool AI](https://cool.ai/)
-- [Mango AI](https://mango.ai/)
-- [Vidos AI](https://vidos.ai/)
-- [Hedra AI](https://hedra.ai/)
-- [DID Studio](https://did.ai/)
-- [Hagen AI](https://hagen.ai/)
-
-**Additional Resources:**
-
-- [ChatGPT API Documentation](https://platform.openai.com/docs/api-reference/chat)
-
-[[AI Generated Avatars]]  [[AI Agents]]
+[[Artificial intelligence]]   [[Python]]

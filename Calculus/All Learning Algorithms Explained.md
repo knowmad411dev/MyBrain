@@ -5,6 +5,7 @@ tags:
 - machine-learning
 video-url: https://www.youtube.com/watch?v=BT6Aw6Q75Yg&list=WL&index=2
 ---
+
 ## **All Learning Algorithms Explained
 
 **Machine Learning Algorithms: Comprehensive Overview**
@@ -17,10 +18,7 @@ Machine learning involves various algorithms that can be categorized based on th
 - **Application**: Used for predicting continuous values, such as house prices, temperature, or sales forecasts.
 - **Formula**: The model fits a **linear equation** of the form:
 
-
   ‘y = a + b*x’,
-
-
 
   where **y** is the dependent variable, **x** represents independent variables, and **a** and **b** are coefficients determined by minimizing the sum of squared distances between the actual data points and the predicted regression line.
 
@@ -37,10 +35,7 @@ Machine learning involves various algorithms that can be categorized based on th
 - **Application**: Text classification, spam detection, and sentiment analysis.
 - **Bayes' Theorem**: Given as:
 
-
   ‘P(A|B) = (P(B|A) * P(A)) / P(B)’,
-
-
 
   where **P(A|B)** is the posterior probability, **P(B|A)** is the likelihood, **P(A)** is the prior probability, and **P(B)** is the evidence. The classifier uses this theorem to calculate the probability of a class given a set of features.
 
@@ -50,10 +45,7 @@ Machine learning involves various algorithms that can be categorized based on th
 - **Application**: Useful for problems like email spam detection and customer churn prediction.
 - **Sigmoid Function**: Logistic regression uses the **sigmoid (logistic) function**:
 
-
   ‘f(x) = 1 / (1 + e^{-z})’,
-
-
 
   where **z** is the output of the linear combination of input features. This function maps the output to a value between 0 and 1.
 
@@ -129,4 +121,4 @@ Machine learning involves various algorithms that can be categorized based on th
 
 This overview covers the key machine learning algorithms, outlining their definitions, applications, strengths, and relevant formulas. Each algorithm has a unique application scope, and the choice depends on the specific characteristics of the dataset and the problem to solve. Understanding the differences in their use-cases helps in choosing the optimal algorithm for predictive modeling, clustering, and data interpretation tasks.
 
-[[Math]]  [[Learning]]  [[Machine learning]]  
+[[Math]]  [[Learning]]  [[Machine learning]]

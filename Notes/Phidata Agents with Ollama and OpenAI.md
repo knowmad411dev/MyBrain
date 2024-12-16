@@ -2,8 +2,11 @@
 tags:
 - ollama
 - openai
+- automation
+- python
 video-url: https://www.youtube.com/watch?v=geHPlAJanVE&list=WL&index=1
 ---
+
 ## **Phidata Agents with Ollama and OpenAI
 
 ### Introduction
@@ -160,4 +163,4 @@ if __name__ == "__main__":
 
 Phidata Agents provide a robust framework to leverage the power of both Ollama and OpenAI for building intelligent, conversational AI systems. With Ollama for local model management and OpenAI for advanced language processing, you can create versatile agents capable of performing complex tasks. The modular nature of Phidata Agents allows for easy customization, making them a great choice for anyone looking to enhance their automation capabilities or develop personalized AI assistants.
 
-[[Ollama]]  [[OpenAI]]   [[Python]]  [[AI Agents]]
+[[Ollama]]    [[Python]]  [[Workflow]]

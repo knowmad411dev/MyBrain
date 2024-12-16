@@ -155,4 +155,4 @@ tags:
 
 This version provides a detailed comparison of what each product can replace or serve as an alternative for, which may help users identify cost-effective, free, or open-source solutions.
 
-[[Artificial intelligence]]  [[AI Agents]]   [[AI Coding Assistants]]
+  [[AI Coding Assistants Overview]]

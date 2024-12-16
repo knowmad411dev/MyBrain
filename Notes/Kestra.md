@@ -21,13 +21,13 @@ The video provides an overview of Kestra, a unified orchestration platform that 
 
     - If you’re using **Mac/Linux**, use the command:
 
-        ```
+        ```bash
         docker run -d -p 8080:8080 kestra/kestra
         ```
 
     - For **Windows** users, use this command:
 
-        ```
+        ```bash
         docker run -d -p 8080:8080 kestra/kestra
         ```
 
@@ -43,7 +43,7 @@ The video provides an overview of Kestra, a unified orchestration platform that 
     - Coolify is a free, open-source alternative to Vercel and can be used for managing self-hosted applications like Kestra.
     - To set up Coolify on a VPS, run:
 
-        ```
+        ```bash
         curl -sSL https://get.coolify.io | bash
         ```
 
@@ -85,7 +85,7 @@ The video provides an overview of Kestra, a unified orchestration platform that 
 
     - Kestra workflows are written in YAML. Below is an example of a basic workflow that generates an SEO summary from a URL:
 
-        ```
+        ```kestra
         id: generate_seo_summary
         namespace: company.team
         inputs:

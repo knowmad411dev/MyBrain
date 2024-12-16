@@ -130,7 +130,7 @@ Depending on your operating system, the method to set environment variables vari
 
     This ensures environment variables are set every time a new shell session starts.
 
-### On [[Linux]]
+### On Linux
 
 1. **Open Terminal.**
 2. **Edit the ollama.service File**:

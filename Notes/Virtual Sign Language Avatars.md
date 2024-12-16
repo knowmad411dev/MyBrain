@@ -2,7 +2,10 @@
 tags:
 - ASL
 - avatars
+- python
 ---
+
+[[ASL Project Ideas]]  [[Python]]
 
 Virtual Sign Language Avatars are digital representations designed to convey sign languages through animated characters. They serve as vital tools for enhancing accessibility, enabling communication between hearing and deaf or hard-of-hearing individuals, and facilitating sign language education.
 
@@ -77,4 +80,3 @@ pygame.quit()`
 
 This example provides a basic framework. Developing a comprehensive virtual sign language avatar involves integrating advanced 3D modeling, animation, and machine learning techniques to accurately capture the nuances of sign language.
 
-[[American Sign Language (ASL)]]  [[AI Avatars]]  

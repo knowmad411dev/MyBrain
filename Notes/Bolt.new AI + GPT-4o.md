@@ -5,6 +5,7 @@ tags:
 - editors
 video-url: https://www.youtube.com/watchv=36UkRRPjgng&list=WL&index=1&t=15s
 ---
+
 ## **Bolt.new AI + GPT-4o
 
 **Detailed Overview and Instructions for Setting Up Bolt with OpenAI**
@@ -202,4 +203,4 @@ You have successfully set up Bolt, connected it to OpenAI, and built a simple Re
 
 Thank you for following along!
 
-[[VSCode]]   [[Code Editor]]  [[GPT]]  
+[[Bolt.new]]    [[Code Editor]]  [[Python]]

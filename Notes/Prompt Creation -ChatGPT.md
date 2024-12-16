@@ -8,7 +8,7 @@ url: https://metricsmule.com/ai/create-a-prompt-generator/
 
 ## **ChatGPT Prompt Creation**
 
-### Detailed Summary: Creating a [[Prompting]] Generator Using [[ChatGPT]]
+### Detailed Summary: Creating a Prompting Generator Using ChatGPT
 
 In this comprehensive guide, the speaker demonstrates how to transform ChatGPT into a powerful prompt engineering machine by creating a **Prompt Generator**. This tool automates the creation of specialized prompts for various applications such as AI image generation, content creation, SEO, social media, and more. The method is particularly beneficial for beginners or those looking to streamline their prompt creation process.
 
@@ -217,4 +217,4 @@ print(enhanced_details)
 
 By following this guide, you can effectively create a **Prompt Generator** that leverages ChatGPT's capabilities to automate and enhance your prompt engineering process, enabling the creation of high-quality, specialized prompts for a variety of applications.
 
-[[Prompting]] [[Atomic Notes]]/[[ChatGPT]] [[Python]]
+[[Prompting]]    [[Python]]

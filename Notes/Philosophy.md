@@ -10,7 +10,7 @@ Philosophy is the study of fundamental questions about existence, knowledge, val
 
 **Branches of Philosophy**
 
-1. **[[Metaphysics]]**
+1. **Metaphysics**
 
     - **Definition**: The study of the nature of reality, existence, and the fundamental nature of things.
     - **Key Questions**: What is reality? What is existence? Is there a difference between mind and body? Are there universal truths?
@@ -18,7 +18,7 @@ Philosophy is the study of fundamental questions about existence, knowledge, val
         - _Ontology_: Explores what entities exist and how they relate to each other.
         - _Dualism vs. Monism_: Debates over the relationship between mind and matter.
         - _Time and Space_: Investigates if these are objective realities or human constructs.
-2. **[[Epistemology]]**
+2. **Epistemology**
 
     - **Definition**: The study of knowledge, its nature, sources, limits, and validity.
     - **Key Questions**: What does it mean to "know" something? How do we acquire knowledge? Can knowledge be certain, or is it always probabilistic?
@@ -78,14 +78,14 @@ Philosophy is the study of fundamental questions about existence, knowledge, val
 
 **Importance of Philosophy**
 
-- **[[Critical Thinking]]**: Philosophy sharpens analytical and reasoning skills, helping individuals examine beliefs and arguments critically.
+- **Critical Thinking**: Philosophy sharpens analytical and reasoning skills, helping individuals examine beliefs and arguments critically.
 - **Ethical Guidance**: Offers frameworks for making moral decisions, particularly relevant in fields like medicine, law, and business.
 - **Foundations of Science**: Epistemology and metaphysics underpin scientific inquiry by exploring how we know things and what constitutes reality.
-- **[[Self]]-[[Understanding]]**: Helps individuals explore questions about identity, purpose, and personal values.
+- **Self-Understanding**: Helps individuals explore questions about identity, purpose, and personal values.
 
 **Applications of Philosophy**
 
-- **[[Artificial intelligence]]**: Philosophical questions about mind and ethics are foundational to AI development.
+- **Artificial intelligence**: Philosophical questions about mind and ethics are foundational to AI development.
 - **Law and Politics**: Philosophy of justice and rights directly influences legal and political systems.
 - **Environmental Philosophy**: Provides ethical guidance on sustainability and our relationship with nature.
 - **Education**: Philosophy is essential for teaching reasoning, ethics, and the development of an inquisitive mindset.

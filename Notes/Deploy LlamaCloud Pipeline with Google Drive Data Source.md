@@ -1,11 +1,12 @@
 ---
 tags:
 - llm
-- cloud
 - python
+- google
 - automation
 video-url: https://www.youtube.com/watch?v=i3tlWUDF-t4
 ---
+
 ## **Deploy LlamaCloud Pipeline with Google Drive Data Source
 
 **Overview**
@@ -227,4 +228,4 @@ llama-ctl deploy --file deployment.yaml
 
 This structured process creates and deploys a Llama Cloud pipeline, enabling seamless querying of Google Drive data.
 
-[[LLM]]  [[Python]]  [[Cloud]]
+[[LLM]]  [[Python]]

@@ -1,6 +1,7 @@
 ---
 tags:
 - ASL
+- python
 ---
 
 ## **ASL Avatar for Zoom
@@ -153,20 +154,15 @@ By following these steps and utilizing the provided resources, you can successfu
 4. **Install Python Libraries**
 
     - Install the `obs-websocket-py` library:
-
-        bash
-
-        Copy
-
+```bash
         pip install obs-websocket-py
+```
 
-    - For GUI (optional), install `tkinter` (usually included with Python):
+	- For GUI (optional), install `tkinter` (usually included with Python):
 
-        bash
-
-        Copy
-
+```bash
         pip install tk
+```
 
 5. **Create the Python Script**
 
@@ -187,18 +183,17 @@ By following these steps and utilizing the provided resources, you can successfu
 
 Below is a Python script that connects to OBS WebSockets and controls the virtual camera:
 
-python
-
-Copy
-
+```python
 import obsws_python as obs
 
 import tkinter as tk
 
 from tkinter import messagebox
+```
 
 # Configuration variables
 
+```python
 OBS_HOST = 'localhost'
 
 OBS_PORT = 4444
@@ -278,6 +273,7 @@ def main():
 if __name__ == "__main__":
 
     main()
+```
 
 **Notes**
 
@@ -290,11 +286,9 @@ if __name__ == "__main__":
 
 - **Run the Script**: Save the script as `obs_controller.py` and run it with Python:
 
-    bash
-
-    Copy
-
+```bash
     python obs_controller.py
+```
 
 - **Connect to OBS**: Click "Connect to OBS" in the GUI to establish a connection.
 - **Start/Stop Virtual Camera**: Use the corresponding buttons to control the virtual camera in OBS Studio.
@@ -303,6 +297,4 @@ if __name__ == "__main__":
 
 This Python script provides a basic interface to control OBS Studio's virtual camera via WebSockets. You can expand this script to include additional functionalities, such as automating the ASL avatar software, managing scenes, or handling audio inputs. Always refer to the official documentation of the software you're using for the most accurate and up-to-date information.
 
-[[American Sign Language (ASL)]]  [[AI Avatars]]  [[Communication]]
-
-[[Virtual Sign Language Avatars]]
+[[American Sign Language (ASL)]]

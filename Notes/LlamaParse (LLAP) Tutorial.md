@@ -2,6 +2,7 @@
 Video-URL: https://www.youtube.com/watch?v=dTVjx1kEJrc&list=WL&index=4
 tags:
 - llamaindex
+- python
 ---
 
 ## **LlamaParse (LLAP) Tutorial**
@@ -27,7 +28,7 @@ In this comprehensive summary, we delve into a demonstration by **Lri Devell** f
 
 To begin using LLAP Parse, install the necessary packages using `pip`. You'll need to install both `llama-index` and `llama-parse` as separate packages.
 
-```
+```bash
 pip install llama-index llama-parse
 ```
 

@@ -2,6 +2,8 @@
 Video-URL: https://www.youtube.com/watch?v=8BV9TW490nQ&list=WL&index=2
 tags:
 - langchain
+- python
+- rag
 ---
 
 ## **LangChain Tutorial**
@@ -153,6 +155,4 @@ The video suggests diving into advanced tutorials to build more complex LangChai
 
 This summary captures the major points, concepts, and code snippets covered in the video for learning and working with LangChain effectively.
 
-[[LangChain]] | [[LLM]] | [[LLM Frameworks]] | [[Python]]
-
-[[LangChain Agents]]
+[[LangChain]]  [[Python]]

@@ -3,13 +3,15 @@ Video-URL: https://www.youtube.com/watch?v=F6yXY0F8lig&list=WL&index=6
 tags:
 - chromadb
 - database
+- linux
+- python
 ---
 
 # How to Deploy ChromaDB as a Server Instance on AWS EC2 Using Docker
 
 ChromaDB is a vector database that allows for efficient storage and retrieval of embeddings, making it ideal for applications involving natural language processing and similarity search. While you can use ChromaDB as a local library, deploying it as a server instance provides the flexibility to access it from anywhere, including from Google Colab notebooks or multiple client applications.
 
-In this guide, we'll walk through the steps to deploy [[ChromaDB]] on an [[AWS EC2]] instance using [[Docker]]. We'll cover how to set up the EC2 instance, install Docker, run the ChromaDB Docker image, and connect to the ChromaDB server from a client.
+In this guide, we'll walk through the steps to deploy ChromaDB on an AWS EC2 instance using Docker. We'll cover how to set up the EC2 instance, install Docker, run the ChromaDB Docker image, and connect to the ChromaDB server from a client.
 
 ---
 
@@ -371,4 +373,4 @@ By following this guide, you've successfully deployed ChromaDB as a server insta
 - **Beginner Tutorial on ChromaDB**:
     - _Note_: In the original video, the speaker refers to a previous tutorial. You can find tutorials on ChromaDB usage in their documentation or community resources.
 
- [[Linux]]  [[ChromaDB Vector Database]]  [[Python]]
+ [[Linux]]   [[Python]]  [[ChromaDB]]  [[Vector Databases]]  [[Docker]]

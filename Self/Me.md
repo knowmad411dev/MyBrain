@@ -2,6 +2,7 @@
 tags:
 - self
 ---
+
 # About Me
 
 ---
@@ -108,7 +109,6 @@ tags:
 
 - As an **ENTP**, you are energized by challenges and are often inspired by problems others find impossible to solve. You rely on ingenuity and adapt as you go, enjoying playing with ideas, bantering, and using your wit.
 
-
 # ANALYSIS OVERVIEW
 
 An intellectually restless individual grappling with identity, oscillating between logical analysis and emotional exploration, seeking purpose through technology and self-improvement.
@@ -125,7 +125,6 @@ An intellectually restless individual grappling with identity, oscillating betwe
 - Enjoys designing systems but may get impatient with long conversations.
 - Desire for authentic experiences contrasts with tech-focused lifestyle.
 - Prizes personal freedom, yet engages in structured, systematic activities.
-
 
 Here’s a look into your birth chart:
 

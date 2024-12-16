@@ -3,7 +3,7 @@ Tags:
 - systems
 ---
 
-### **Definition**:
+## **Systems
 
 A **System** is a set of interconnected elements that interact to achieve a particular goal or perform a specific function. Systems can be found in nature, technology, organizations, and societies, and they function through the relationships and dependencies between their parts.
 
@@ -29,11 +29,13 @@ A **System** is a set of interconnected elements that interact to achieve a part
 
 ### **Applications**:
 
-- **[[Problem Solving]]**: Understanding systems helps in diagnosing problems and designing effective solutions.
-- **[[Systems Thinking]]**: A holistic approach to analyzing how parts of a system interact to influence overall behavior.
+- **Problem Solving**: Understanding systems helps in diagnosing problems and designing effective solutions.
+- **Systems Thinking**: A holistic approach to analyzing how parts of a system interact to influence overall behavior.
 
 ### **Related Concepts**:
 
-- **[[Systems Thinking]]**: A methodology for understanding the behavior of complex systems.
+- **Systems Thinking**: A methodology for understanding the behavior of complex systems.
 - **Feedback Loops**: Mechanisms within systems that regulate and influence behavior.
-- [[Systems Design Terminology]]
+- Systems Design Terminology
+
+[[Systems Thinking]]  [[Systems Design Terminology]]

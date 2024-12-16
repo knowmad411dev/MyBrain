@@ -4,6 +4,7 @@ tags:
 - editors
 video-url: https://www.youtube.com/watch?v=k9yKm_k5cVA&list=WL&index=2
 ---
+
 ## **Nix Home Manager for Dotfiles
 
 **Overview of Nix and Home Manager for Dotfiles Management**
@@ -175,4 +176,4 @@ This tells Home Manager to link the `zshrc` file from the specified path (`./zsh
 
 Home Manager is a robust solution for managing configuration files in a way that traditional tools like Stow or manual symlinks cannot offer, especially with the added advantage of reproducibility and rollback functionality.
 
-[[Code Editor]]  [[Nix]]  [[dotfiles 101 1]] 
+[[Code Editor]]  [[Nix]]  [[Dotfiles Overview]]

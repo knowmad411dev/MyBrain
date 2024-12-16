@@ -1,7 +1,7 @@
 ---
 tags:
 - obsidian
-- - math
+- math
 video-url: https://www.youtube.com/watch?v=AaCVP7zqOMU&list=WL&index=12
 ---
 

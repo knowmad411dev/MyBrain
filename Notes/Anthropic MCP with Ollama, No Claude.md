@@ -3,8 +3,10 @@ github_link: https://github.com/chrishayuk/mcp-cli
 tags:
 - ollama
 - editors
+- python
 video-url: https://www.youtube.com/watch?v=9mciRwpcLNY&list=WL&index=2
 ---
+
 ## **Anthropic MCP with Ollama, No Claude
 
 ### **Overview of the Model Context Protocol (MCP)**
@@ -45,7 +47,7 @@ The text introduces **Model Context Protocol (MCP)**, a framework designed to co
 1. **Prepare the Environment**:
    - Install necessary Python libraries.
    - Set up an `.env` file to include API keys:
-     ```plaintext
+     ```bash
      OPENAI_API_KEY=<your_openai_api_key>
      ```
 
@@ -231,4 +233,4 @@ if __name__ == "__main__":
 
 By following these steps, you can implement a custom MCP system to connect LLMs with diverse tools and resources. Use these examples as starting points for your implementation to build and extend your own capabilities.
 
-[[Claude Agents]]  [[Ollama]]  [[Python]]  [[LLM]]  [[Code Editor]]  
+  [[Ollama]]  [[Python]]   [[Code Editor]]

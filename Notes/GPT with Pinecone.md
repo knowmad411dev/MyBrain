@@ -1,7 +1,6 @@
 ---
 Video-URL: https://www.youtube.com/watch?v=w1amPWUsl_Y&list=WL&index=3
 tags:
-- database
 - gpt
 - database
 ---
@@ -100,9 +99,6 @@ Custom GPTs often struggle to answer specific questions about complex documents 
     - Use the following JSON schema to define the action:
 
 ```json
-    
-    Copy code
-    
     `{   "type": "schema",   "version": "1.0",   "actions": [     {       "name": "ask_question",       "description": "Ask a question to the Pinecone Assistant.",       "parameters": {         "type": "object",         "properties": {           "question": {             "type": "string",             "description": "The question to ask."           }         },         "required": ["question"]       }     }   ] }`
    ```
 
@@ -124,9 +120,6 @@ Custom GPTs often struggle to answer specific questions about complex documents 
     - Update the GPT's instructions to use the `ask_question` action when appropriate. For example:
 
 ```css
-        
-        Copy code
-        
         `When I ask a question, use the 'ask_question' action to retrieve the answer from the Pinecone Assistant.`
       ```  
 5. **Test the Integration**:
@@ -167,9 +160,6 @@ Custom GPTs often struggle to answer specific questions about complex documents 
 ### Replit Microservice Code (Python FastAPI Example)
 
 ```python
-
-Copy code
-
 `from fastapi import FastAPI, Request import requests import os  app = FastAPI()  PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY") ASSISTANT_NAME = os.environ.get("ASSISTANT_NAME")  @app.post("/ask_question") async def ask_question(request: Request):     data = await request.json()     question = data.get("question")     
 # Send the question to Pinecone Assistant API     
 response = requests.post(         f"https://assistant.pinecone.io/assistants/{ASSISTANT_NAME}/chat",         headers={"Authorization": f"Bearer {PINECONE_API_KEY}"},         json={"message": question}     )     return response.json()`

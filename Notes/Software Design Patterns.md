@@ -4,6 +4,7 @@ tags:
 - python
 video-url: https://www.youtube.com/watch?v=BJatgOiiht4&list=WL&index=6
 ---
+
 ## **Software Design Patterns
 
 **Overview of Software Design Patterns**
@@ -243,4 +244,4 @@ subject.notify("Event Occurred")
 
 Design patterns offer robust, reusable solutions for common programming challenges. Understanding when and how to use these patterns can significantly enhance your software's quality and maintainability. Practice implementing these patterns in real-world scenarios to master their nuances.
 
-[[Programming]]  [[Python]]  
+[[Programming]]  [[Python]]

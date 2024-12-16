@@ -29,13 +29,12 @@ Intelligence refers to the ability to acquire, understand, and apply knowledge a
 ### **Applications**:
 
 - **Learning and Education**: Intelligence plays a critical role in how individuals acquire knowledge and skills, adapt to challenges, and solve problems.
-- **[[Problem Solving]]**: Intelligence is key to analyzing situations, understanding complex information, and making decisions.
+- **Problem Solving**: Intelligence is key to analyzing situations, understanding complex information, and making decisions.
 - **Personal Growth**: Understanding one’s intelligence can help in self-improvement and personal development.
 
 ### **Related Concepts**:
 
 - **[[Learning]]**: Intelligence is closely related to the ability to learn and adapt.
 - **[[Self]]**: Intelligence contributes to self-awareness and personal development.
-- **[[Cognitive Bias]]**: Intelligence can be influenced or hindered by cognitive biases that affect judgment and decision-making.
 
-[[Cognition]]
+[[Knowledge]]  [[Wisdom]]

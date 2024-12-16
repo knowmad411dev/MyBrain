@@ -4,6 +4,7 @@ tags:
 - openai
 - python
 ---
+
 ## Detailed How-To Instructions and Programming Code for Building Samantha-like Assistant
 
 In this guide, we'll explore how to build a chatbot assistant similar to "Samantha," capable of handling a variety of tasks such as fetching the latest information, generating LinkedIn posts, creating Python scripts, and more. We'll use Python and popular APIs and libraries to implement different tools to empower this assistant.
@@ -85,7 +86,6 @@ In this guide, we'll explore how to build a chatbot assistant similar to "Samant
 
 5. **Create Python Script to Generate Random Number and Check Even/Odd**: This function dynamically creates a Python script based on user input.
 
-
 ```python
 def create_python_script()
     script_content = """
@@ -101,7 +101,6 @@ else:
     with open('random_number_checker.py', 'w') as file:
         file.write(script_content)>)
 ```
-
 
 ```python
    # Run the script and capture the output

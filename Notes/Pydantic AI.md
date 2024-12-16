@@ -5,6 +5,7 @@ tags:
 - python
 video-url: https://www.youtube.com/watch?v=hoIy26Rlk5s&list=WL&index=2
 ---
+
 # Overview of Pydantic AI
 
 Pydantic AI is an agent framework developed by the creators of Pydantic, a popular Python library known for its data validation features. Pydantic AI aims to make the development of production-grade applications with generative AI less painful, offering type-safe integration and leveraging familiar Python development practices. In this overview, we will explore Pydantic AI, including its key features, usage examples, how to get started, and where to find it on GitHub.
@@ -123,4 +124,4 @@ Pydantic AI is a powerful addition to the growing list of agent frameworks. By l
 
 Happy coding with Pydantic AI!
 
-[[Python]]  [[AI Agents]]
+[[Python]]

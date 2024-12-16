@@ -1,6 +1,7 @@
 ---
 tags:
 - openai
+- python
 video-url: https://www.youtube.com/watch?v=HF3gLMI18jg&list=WL&index=12
 ---
 
@@ -189,4 +190,4 @@ if __name__ == "__main__":
 
 Swarm offers a **simple yet powerful framework** for building multi-agent systems. While it’s still not as feature-rich as competitors like Crew AI or LangChain, it’s a great choice for users who need **transparent and customizable** automation tools. With just a few lines of code, you can create agents to handle various tasks such as fetching weather data or stock prices.
 
-[[OpenAI]]  [[Python]]
+  [[Python]]   [[OpenAI How-to LLM Models]]

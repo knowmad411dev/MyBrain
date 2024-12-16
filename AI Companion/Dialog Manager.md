@@ -2,6 +2,7 @@
 tags: 
 - companion
 ---
+
 ## **Dialog Manager
 
 A Dialog Manager (DM) is essential in an AI companion, as it orchestrates the flow of conversation, manages context, and ensures coherence across various conversational turns. Here’s a detailed look at how a Dialog Manager operates in handling coordination, prioritizing requests, retrieving data, and generating contextually relevant responses:
@@ -78,4 +79,4 @@ In this example:
 
 By managing interactions between components, maintaining context, and prioritizing requests, a Dialog Manager enables the AI companion to respond naturally, enhancing user experience and building a coherent, long-term relationship with the user.
 
-[[AI Companion]]  
+[[AI Companion]]

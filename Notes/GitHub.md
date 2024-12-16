@@ -15,4 +15,4 @@ Key features include:
 
 GitHub is widely used for both individual and large-scale projects, from simple websites to complex applications. It also provides tools like **GitHub Actions** for automating workflows, and **GitHub Pages** for hosting websites directly from a repository.
 
-[[Git]]  [[Cloud]]  [[VSCode]]  [[Python]]
+[[Git]]

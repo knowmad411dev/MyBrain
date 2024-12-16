@@ -1,6 +1,7 @@
 ---
 tags: 
 - github
+- editors
 video-url: https://www.youtube.com/watch?v=H5Nr-8bYvXU&list=WL&index=12
 ---
 
@@ -147,4 +148,4 @@ export API_KEY=<your_api_key_here>
 1. Install **Live Server Extension**.
 2. Right-click HTML file → Preview on Live Server.
 
-[[GitHub]] [[Python]]
+[[GitHub]]

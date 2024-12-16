@@ -4,13 +4,13 @@ author:
 - Jim Webber
 tags: 
 - graph
-- knowledge
+- book-summaries
 title: 'Building Knowledge Graphs: A Practioner''s Guide'
 ---
 
 ## **Building Knowledge Graphs**
 
-"Building Knowledge Graphs: A Practitioner's Guide" by Jesús Barrasa and Jim Webber is a comprehensive resource for data scientists and engineers looking to create and utilize knowledge graphs. [Read more on Neo4j](https://neo4j.com/knowledge-graphs-practitioners-guide/) or [visit Jim Webber's site](https://jimwebber.org/publication/building-knowledge-graphs/). Published by O'Reilly Media, this practical book offers hands-on examples and insights into the world of [[Knowledge Graphs]]. [Find it on Amazon](https://www.amazon.com/Building-Knowledge-Graphs-Practitioners-Guide/dp/1098127102) or [view on O'Reilly](https://www.oreilly.com/library/view/building-knowledge-graphs/9781098127091/).
+"Building Knowledge Graphs: A Practitioner's Guide" by Jesús Barrasa and Jim Webber is a comprehensive resource for data scientists and engineers looking to create and utilize knowledge graphs. [Read more on Neo4j](https://neo4j.com/knowledge-graphs-practitioners-guide/) or [visit Jim Webber's site](https://jimwebber.org/publication/building-knowledge-graphs/). Published by O'Reilly Media, this practical book offers hands-on examples and insights into the world of Knowledge Graphs. [Find it on Amazon](https://www.amazon.com/Building-Knowledge-Graphs-Practitioners-Guide/dp/1098127102) or [view on O'Reilly](https://www.oreilly.com/library/view/building-knowledge-graphs/9781098127091/).
 
 ## Key Topics Covered
 
@@ -35,7 +35,7 @@ The book covers a wide range of topics related to knowledge graphs:
 - Using languages like Cypher for graph queries
 - Data analytics and visualization methods
 
-### **[[Machine learning]] Integration**
+### **Machine learning Integration**
 
 - Enriching knowledge graphs with machine learning
 - Mining features from knowledge graphs for predictive modeling
@@ -61,4 +61,4 @@ This technical book is primarily aimed at computing professionals, including sof
 
 Knowledge graphs are presented as a powerful tool for organizing and leveraging data across various domains, from medical research to cybersecurity and GDPR compliance. [Explore more on Amazon](https://www.amazon.com/Building-Knowledge-Graphs-Practitioners-Guide/dp/1098127102). The book highlights how these graphs become increasingly valuable as more data is added and augmented with algorithms and machine learning. By providing both theoretical knowledge and practical implementation guidance, "Building Knowledge Graphs: A Practitioner's Guide" serves as an essential resource for professionals looking to harness the power of knowledge graphs in their data management and analysis endeavors. [More details on Neo4j](https://neo4j.com/knowledge-graphs-practitioners-guide/) or [Neo4j Books](https://neo4j.com/books/knowledge-graphs-practitioners-guide/).
 
-[[Knowledge Graph]]  [[Book Summaries]]
+ [[Book Summaries]]

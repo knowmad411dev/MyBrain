@@ -2,10 +2,11 @@
 github_link: https://github.com/ShawhinT/YouTube-Blog/tree/main/LLMs/text-embeddings
 tags:
 - python
+- llm
 video-url: https://www.youtube.com/watch?v=sNa_uiqSlJo&list=WL&index=67
 ---
 
-## **[[Python]] Text [[Embeddings]], Classification, & [[Semantic Search]]**
+## **Python Text Embeddings, Classification, & Semantic Search**
 
 This video by Sha explores the potential of **text embeddings** and discusses two primary use cases: **text classification** and **semantic search**. Here's a detailed summary of the key concepts, step-by-step instructions, and relevant code snippets covered in the video.
 
@@ -157,4 +158,4 @@ The output from this classifier shows how effectively it identifies job descript
 
 ---
 
-[[Python]]  [[Python Cheetsheet]]
+[[Python]]  [[LLM]]

@@ -2,6 +2,7 @@
 tags:
 - chromadb
 - database
+- python
 ---
 
 ## **ChromaDB**
@@ -228,4 +229,4 @@ The result should correctly provide the document about the nutrition needs of pe
 
 ---
 
-[[Vector Databases]]  [[ChromaDB Vector Database]]
+[[Vector Databases]]   [[Python]]

@@ -2,7 +2,9 @@
 tags:
 - editors
 - ollama
+- python
 ---
+
 ## **Qwen 2.5 Coder (32B) Local
 
 ### Overview
@@ -154,4 +156,4 @@ The video discusses the new **32 billion parameter Quen 2.5 Coder Model** and co
 
 The **Quen 2.5 Coder Model** is a powerful tool that can run locally, providing a high-quality coding experience with both small and large parameter models. While not on par with **Claude** or **GPT-4.0** in every aspect, it is a viable option for those who prefer local deployment without relying on cloud services.
 
-[[Overview of Co-Pilot Arena and Setting It Up]]  [[AI Coding for Free]]  [[Free AI Tools]]  [[Python]]  [[Ollama]]  [[Code Editor]]
+ [[Python]]  [[Ollama]]  [[Code Editor]]

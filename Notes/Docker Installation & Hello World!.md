@@ -2,11 +2,12 @@
 tags:
 - docker
 ---
+
 ## **Docker Installation & Hello World!
 
 [![Cover image for Day 2: Docker Installation & Hello World!](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2nriyj9jrz7cori2vnfj.png)](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2nriyj9jrz7cori2vnfj.png)
 
-This is a crosspost from [adventofdocker.com](https://adventofdocker.com/posts/day-2-installation-hello-world/)
+This is a cross post from [adventofdocker.com](https://adventofdocker.com/posts/day-2-installation-hello-world/)
 
 Today we are going to start with the installation of Docker and run our first container! This blog post should take you about 10 minutes.
 
@@ -43,15 +44,5 @@ For that, again open your terminal and run the following command:
 [![docker run output](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fomnag08z8z7zdpy5oip5.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fomnag08z8z7zdpy5oip5.png)
 
 If you see the output above, your Docker installation was successful! 🎉
-
-If not, please comment under this post or reach out to me via mail ([jonas@sliplane.io](mailto:jonas@sliplane.io)) and I will help you out!
-
-## [](https://dev.to/code42cate/day-2-docker-installation-hello-world-50n#whats-next)What's next?
-
-Tomorrow we are going to learn how to build our first container! If you want to get a head start, run `docker help` and have a look at the different commands that Docker offers.
-
-Until tomorrow, happy coding! 🚀
-
-Jonas
 
 [[Docker]]

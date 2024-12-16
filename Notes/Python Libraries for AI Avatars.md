@@ -178,4 +178,4 @@ Creating AI avatars involves several functionalities like natural language under
 
 Building an AI avatar involves multiple components, each requiring different Python libraries. Whether it's understanding user input, generating speech, managing dialogs, or detecting user emotions, Python has a wealth of libraries that make building an AI avatar more approachable. By leveraging the right combination of tools—such as Rasa for dialog management, pyttsx3 or gTTS for speech, and spaCy or Transformers for NLP—you can create sophisticated and interactive AI avatars capable of providing a natural user experience.
 
-[[AI Avatars]]  [[Atomic Notes for Python AI Avatars]]   [[Python Cheetsheet]]
+[[Python]]

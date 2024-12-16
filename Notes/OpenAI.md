@@ -1,8 +1,7 @@
 ---
-tags:
-- openai
+tags: openai
 ---
 
 ## **OpenAI
 
-OpenAI is an [[Artificial intelligence]] research lab and company founded in 2015 with the mission to ensure that artificial general intelligence (AGI) benefits all of humanity. Initially founded as a non-profit, OpenAI later transitioned to a "capped-profit" model to attract investment while maintaining its commitment to its mission. It has been instrumental in the development of advanced AI technologies, including large language models like GPT-3 and GPT-4, which are used in a variety of applications, including [[ChatGPT]]. OpenAI’s research spans many areas of AI, including natural language processing, reinforcement learning, and robotics. The organization places a strong emphasis on safety and ethics, ensuring that its advancements contribute positively to society.
+**OpenAI** is an artificial intelligence research and deployment company dedicated to ensuring that AI benefits all of humanity. It develops and promotes advanced AI technologies, with a focus on safety, accessibility, and responsible usage. OpenAI is known for creating powerful AI models like **ChatGPT**, **DALL·E**, and **Codex**, which serve various applications in natural language processing, image generation, and programming. The organization combines cutting-edge research with real-world implementation to advance AI's potential while addressing ethical and societal concerns.

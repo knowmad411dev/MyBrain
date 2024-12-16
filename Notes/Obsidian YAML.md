@@ -1,6 +1,7 @@
 ---
 tags:
 - obsidian
+- yaml
 video-url: https://www.youtube.com/watch?v=diZ4AFh-ZNI&list=WL&index=74
 ---
 

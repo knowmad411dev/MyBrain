@@ -2,6 +2,7 @@
 Video-URL: https://www.youtube.com/watch?v=AV4Ei1qW89o&list=WL&index=3
 tags:
 - data
+- python
 ---
 
 # Understanding File Storage and Object Storage: A Comprehensive Guide
@@ -36,7 +37,7 @@ In today's data-driven world, choosing the right storage solution is crucial for
 
 ### Architecture
 
-File storage, also known as **file-level storage**, is a traditional method where [[Data]] is stored in files within a hierarchical directory structure, similar to folders on a personal computer.
+File storage, also known as **file-level storage**, is a traditional method where Data is stored in files within a hierarchical directory structure, similar to folders on a personal computer.
 
 - **Hierarchical Structure**: Files are organized in directories and subdirectories.
 - **File Paths**: Each file is accessed via a specific path (e.g., `/home/user/documents/file.txt`).
@@ -234,4 +235,4 @@ s3.upload_file(
 
 Understanding the differences between file storage and object storage is essential for optimizing data management strategies. **File storage** excels in scenarios requiring hierarchical structures and quick access to small files with detailed permissions. In contrast, **object storage** is ideal for handling massive amounts of unstructured data with rich metadata and scalability needs.
 
- [[Python]] [[Cloud]] [[Operating Systems]]
+ [[Python]]

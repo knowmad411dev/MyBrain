@@ -25,10 +25,4 @@ Visual Studio Code (VSCode) is a free, open-source code editor developed by Micr
 - Supports a wide variety of languages and frameworks, making it a universal tool for developers.
 - Easy to set up, configure, and extend, which saves time and improves workflow.
 
-**Related Notes**
-
-- [Python Programming](#)
-- [Code Linters](#)
-- [Version Control (Git)](#)
-
-[[Python]]  [[GitHub]]
+[[Code Editor]]

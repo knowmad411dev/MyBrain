@@ -1,13 +1,13 @@
 ---
 tags:
-- cloud
+- API
 ---
 
 ## **20 Free APIs to Kickstart Your Side Projects
 
 Here’s a curated list of 20 free APIs that can transform your side projects, whether you’re building a simple app, experimenting with AI, or just trying something new.
 
-**1\. [[OpenAI]] API (Free Tier)**
+**1\. OpenAI API (Free Tier)**
 Create smarter, more interactive applications with AI at their core. OpenAI’s GPT models can handle tasks like writing text, summarizing articles, and even generating code. Their free tier is perfect for small experiments and side projects.
 
 Use it for: Personal chatbots, productivity tools, or quirky text-based games.
@@ -149,4 +149,4 @@ Use it for: Brewery locators, travel apps, or just beer-inspired fun.
 
 These save time, reduce complexity, and let you focus on what matters—your creative ideas. With this list, you’ve got everything you need to start building.
 
-   [[APIs]]
+   [[OpenAI]]

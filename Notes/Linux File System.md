@@ -1,43 +1,100 @@
 ---
 tags:
 - linux
+video-url: https://www.youtube.com/watch?v=HbgzrKJvDRw&list=WL&index=2
 ---
 
 ## **Linux File System
 
-###  [Filesystem Hierarchy Standard (FHS)](https://dev.to/prodevopsguytech/understanding-the-linux-filesystem-an-in-depth-guide-for-devops-engineers-ona?ref=dailydev#2-filesystem-hierarchy-standard-fhs)
+**Understanding Linux Root Directory for Windows Users**
 
-The Filesystem Hierarchy Standard (FHS) defines the directory structure and directory contents in Linux systems. Adherence to FHS ensures that software behaves predictably across different Linux distributions.
+This guide is intended for new Linux users coming from Windows, to help navigate the unfamiliar file directory structure. Here, we break down the key directories found in the Linux root system, their purpose, and how they differ from what you might be used to in a Windows environment.
 
-The root directory (`/`) serves as the starting point of the filesystem. Key subdirectories include:
+### Overview of Linux vs Windows Directory Structures
 
-- **`/bin`**: Essential command binaries, like `ls`, `cp`, and `mv`.
-- **`/boot`**: Bootloader files, including the kernel.
-- **`/dev`**: Device files representing hardware components.
-- **`/etc`**: Configuration files for the system.
-- **`/home`**: User home directories.
-- **`/lib`**: Essential shared libraries.
-- **`/mnt`**: Temporary mount points for filesystems.
-- **`/opt`**: Optional software packages.
-- **`/proc`**: Virtual filesystem providing process and kernel information.
-- **`/root`**: Home directory for the root user.
-- **`/sbin`**: System binaries, typically for administrative tasks.
-- **`/tmp`**: Temporary files.
-- **`/usr`**: Secondary hierarchy for user programs and data.
-- **`/var`**: Variable data files like logs, databases, and email.
-- ### [Important Directories and Their Purposes](https://dev.to/prodevopsguytech/understanding-the-linux-filesystem-an-in-depth-guide-for-devops-engineers-ona?ref=dailydev#5-important-directories-and-their-purposes)
+- **Windows Background**: Windows systems typically use drive letters (C:, D:, etc.) to organize drives and folders, whereas Linux uses a root directory (`/`) and treats all attached devices and directories as files branching from that root.
+- **Case Sensitivity**: Unlike Windows, Linux is case-sensitive, meaning `File`, `file`, and `FILE` are all treated as distinct files. This distinction allows for more flexibility, but it requires attention to naming conventions.
 
-Each directory in the Linux filesystem has a specific role. Here’s a deeper look into some of the most critical directories:
+### Important Directories in Linux Root System
 
-- **`/` (Root Directory)**: The starting point of the filesystem. All other directories and files branch off from here.
-- **`/bin`**: Contains essential command binaries needed for the system to function in single-user mode. These are available to all users.
-- **`/sbin`**: Similar to `/bin`, but contains system binaries that are typically used by the root user for administrative tasks.
-- **`/lib`**: Contains shared libraries required by the binaries in `/bin` and `/sbin`.
-- **`/usr`**: A secondary hierarchy that contains user programs, libraries, documentation, and more. It’s split into subdirectories like `/usr/bin`, `/usr/sbin`, and `/usr/lib`.
-- **`/var`**: Stores variable data like logs, databases, and spools. This directory often grows in size over time.
-- **`/etc`**: The nerve center for system configuration files. Nearly every service or application has a configuration file located here.
-- **`/home`**: Contains personal directories for each user. This is where users store their personal files and directories.
-- **`/proc`**: A virtual filesystem that provides an interface to kernel data structures. It’s used to access process information, kernel parameters, and more.
-- **`/dev`**: Contains device files that represent hardware components. These files act as interfaces to the corresponding hardware.
+Below is a comprehensive description of the root (`/`) directory and its various subdirectories.
+
+1. **`/bin` (Binaries)**
+   - Contains essential user command binaries, like `ls` (list files) and `cat` (view file contents). These programs are necessary for the system to operate in single-user mode.
+
+2. **`/sbin` (System Binaries)**
+   - Holds system binaries used by the system administrator (root). Standard users can only access these commands with elevated permissions.
+
+3. **`/boot`**
+   - Contains the files required for booting the system, including boot loaders like GRUB. This folder is crucial for startup and should be handled with care.
+
+4. **`/dev` (Devices)**
+   - Represents hardware devices as files. For example, a hard drive might appear as `/dev/sda`, and its partitions as `/dev/sda1`, `/dev/sda2`, etc. This structure follows the Unix philosophy that "everything is a file."
+
+5. **`/etc` (Configuration Files)**
+   - Stores system-wide configuration files, such as those for the APT package manager or network configurations. This is where administrators make global changes to system behavior.
+
+6. **`/home` (User Home Directories)**
+   - Each user has a dedicated directory under `/home`, e.g., `/home/username`. User files, documents, and application settings are stored here. Hidden files (starting with `.`) within `/home` contain settings specific to the user and can be viewed using the command `ls -a`.
+
+7. **`/lib`, `/lib32`, `/lib64` (Libraries)**
+   - Contains shared library files needed by the binaries in `/bin` and `/sbin`. These libraries are akin to DLLs in Windows.
+
+8. **`/media` and `/mnt` (Mount Points)**
+   - `/media` is used for auto-mounted devices like USB drives, while `/mnt` is used for manually mounted filesystems. If you plug in a USB drive, it is usually mounted under `/media/username/device_name`.
+
+9. **`/opt` (Optional Software)**
+   - Holds optional, manually-installed software that isn’t managed by the system’s package manager. For example, proprietary software or manually compiled programs can reside here.
+
+10. **`/proc` (Process Information)**
+    - A virtual filesystem containing runtime system information (like CPU, memory, etc.). Each process running on your system is represented as a folder within `/proc`. For example, `/proc/1234` would represent the process with ID 1234.
+
+11. **`/root` (Root Home Directory)**
+    - The home directory for the root user (administrator). Unlike user home directories, it resides directly under the root (`/`) to ensure root has access even if other partitions aren’t accessible.
+
+12. **`/run`**
+    - A temporary filesystem (usually mounted in RAM) used to store system information that needs to be accessed early during the boot process.
+
+13. **`/snap`**
+    - Directory for applications packaged as Snap packages, mainly used on Ubuntu-based systems.
+
+14. **`/srv` (Service Data)**
+    - Contains data for services provided by the system, such as web servers or FTP servers.
+
+15. **`/sys`**
+    - Similar to `/proc`, `/sys` provides access to kernel information as a virtual filesystem. It’s used to interact with the kernel and adjust settings, like power management or device parameters.
+
+16. **`/tmp` (Temporary Files)**
+    - Used for temporary files generated by applications. This directory is usually cleared upon reboot. If your system accumulates too much data here, you might need to clear it manually.
+
+17. **`/usr` (User System Resources)**
+    - Contains user programs and binaries. Most software packages installed by your package manager reside here, making `/usr/bin` the most common directory for binaries.
+
+18. **`/var` (Variable Data)**
+    - Stores variable data like log files, database files, and email queues. It is expected to change over time, unlike other directories that contain more static information.
+
+### Key Differences to Keep in Mind
+
+- **Single Root Structure**: Unlike Windows, which splits the system into multiple drives, Linux uses a single root (`/`) from which all other directories branch out. This simplifies management and integration.
+- **Mount Points**: In Linux, drives and devices are mounted under specific directories like `/mnt` or `/media`, not as separate drive letters.
+- **Package Management**: Software in Linux is managed through a package manager, which tracks files for easy installation and removal, a more organized approach compared to the default behavior of many Windows installers.
+
+### Practical How-To Tips
+
+- **Accessing Hidden Files**: In the Linux terminal, use `ls -a` to view all files, including hidden ones. Hidden files are those whose names start with a dot (`.`).
+- **Editing System Files**: To edit configuration files in `/etc`, you typically need root permissions. For example, use `sudo nano /etc/filename` to edit a configuration file using the nano text editor.
+- **Mounting Drives**: To manually mount a drive, use a command like `sudo mount /dev/sdb1 /mnt/mydrive`. Remember to unmount it with `sudo umount /mnt/mydrive` before removing the device.
+- **Boot Issues**: If your Linux system won’t boot, you can use **single-user mode** to perform recovery operations. This mode boots directly into a root session, where you can repair system configurations.
+
+### Backup and Configuration Tips
+
+- **Home Directory Backup**: To keep your personal files and application settings safe, back up the entire `/home` directory. To also save your application settings and desktop configuration, make sure to include hidden files and folders.
+- **System Backup**: It’s wise to back up critical configuration files from `/etc`, as well as your `/var` logs if you are troubleshooting issues.
+
+### Summary
+
+Linux’s file structure may initially seem more complicated than Windows, but it follows a logical, standardized format that allows easy system maintenance, resource sharing, and stability. The root directory (`/`) branches into organized subdirectories that each serve specific purposes, from user applications in `/usr` to system binaries in `/bin`.
+
+Navigating these directories effectively can help you become comfortable with Linux, making tasks like troubleshooting, software installation, and system management straightforward and efficient.
 
 [[Linux]]

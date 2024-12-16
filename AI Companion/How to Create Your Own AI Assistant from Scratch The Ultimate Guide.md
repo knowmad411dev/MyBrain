@@ -2,6 +2,7 @@
 tags:
 - companion
 ---
+
 ## **Create Your Own AI Assistant
 
 Have you ever wondered what goes on behind the scenes when you ask Siri a question or place an order with Alexa? Artificial intelligence (AI) assistants have become ubiquitous in our daily lives, simplifying tasks and enhancing productivity. However, few truly understand the intricate technical architecture empowering these remarkable tools.
@@ -20,23 +21,23 @@ The anatomy of a typical AI assistant comprises:
 
 ![[eef2cbb6187176099bac44c65ddfc6b0_MD5.jpg]]
 
-### [[Natural Language Processing]] (NLP)
+### Natural Language Processing (NLP)
 
 This AI subset focuses on facilitating natural human-computer interaction. NLP algorithms empower assistants to decode speech and written text, comprehend semantic meanings, and generate relevant responses.
 
 Popular NLP libraries used are spaCy, NLTK, Rasa and, more recently, transformer-based models like GPT-3.
 
-### [[Machine learning]] (ML)
+### Machine learning (ML)
 
 ML lies at the heart of AI assistants, enabling them to dynamically learn patterns from data without explicit programming. As the assistant absorbs more data through interactions, ML models help to improve its performance.
 
 ML algorithms like regression, clustering and neural networks are leveraged to enhance capabilities.
 
-### [[Knowledge Graph]]
+### Knowledge Graph
 
 A knowledge graph is a structured semantic representation of different real-world entities and the relations between them. It serves as a vital knowledge source for the AI assistant to respond accurately to user requests.
 
-### [[Dialog Manager]]
+### Dialog Manager
 
 This module handles the coordination between other components and maintains contextual flow across long conversations. It determines priority requests, gathers essential info from databases, and provides appropriate responses.
 
@@ -68,7 +69,7 @@ With over 8,000 customers across 20 industries, IBM Watson helps enterprises int
 
 ### 2\. Amazon Lex
 
-A fully managed AI service, Amazon Lex powers chatbots leveraging automatic speech recognition (ASR) and [[Natural Language Understanding]] (NLU).
+A fully managed AI service, Amazon Lex powers chatbots leveraging automatic speech recognition (ASR) and Natural Language Understanding (NLU).
 
 -   Chatbot templates: Pre-built bot templates for quick setup
 -   Voice and text support: Recognizes and responds in voice and text requests
@@ -92,7 +93,7 @@ The effectiveness of any AI algorithm relies heavily on the quality of [data use
 
 But what constitutes optimal data for virtual assistants? Let's find out:
 
-### Sources of [[Data]]
+### Sources of Data
 
 -   Public datasets: Text corpus like Wikipedia or Reddit discussion threads
 -   Web scraping: Extracting information from websites and online repositories
@@ -112,7 +113,7 @@ Raw data rarely comes ready for direct usage. Tasks like cleaning, normalization
 
 -   Language detection: Identifying language of textual data
 -   Spell correction: Rectifying spelling mistakes
--   [[Lemmatization]]: Grouping together word variants
+-   Lemmatization: Grouping together word variants
 -   Vectorization: Conversion of text into numeric vectors
 
 With meticulous data practices, developers can maximize their chances of creating a smart, productive and trusted AI assistant.

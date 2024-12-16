@@ -63,4 +63,4 @@ To go to the interactive Jupyter version of any chapter, click any of the chapte
 -   [Chapter 19, Learner](https://nbviewer.org/github/fastai/fastbook/blob/master/19_learner.ipynb)
 -   [Chapter 20, Conclusion](https://nbviewer.org/github/fastai/fastbook/blob/master/20_conclusion.ipynb)
 
-[[Books]]  [[Deep Learning]]
+[[Books]]  [[Machine learning]]

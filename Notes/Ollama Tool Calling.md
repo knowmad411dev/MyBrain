@@ -1,8 +1,10 @@
 ---
 tags:
 - ollama
+- python
 video-url: https://www.youtube.com/watch?v=QzRPtorrZVo&list=WL&index=2
 ---
+
 ## **Ollama Tool Calling: A Detailed Overview**
 
 Ollama's native tools, also known as function calling, offer significant improvements for integrating custom functions or tools directly into language model workflows. This overview walks you through the latest updates to the Ollama Python library, highlighting how to create and integrate custom tools, use asynchronous operations, and leverage existing functions. Below, you'll find step-by-step instructions and the complete code to build your custom tools and seamlessly integrate them into the Ollama environment.

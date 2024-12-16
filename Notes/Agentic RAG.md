@@ -2,10 +2,11 @@
 tags:
 - rag
 - agents
+- python
 video-url: https://www.youtube.com/watch?v=kkF9gsBF7gg&list=WL&index=2
 ---
 
-## **Agentic [[RAG]]
+## **Agentic RAG
 
 ### Detailed Overview: Implementing Agentic RAG with Fi Data
 
@@ -130,4 +131,4 @@ With Agentic RAG, AI knowledge systems are evolving from simple information retr
 
 Stay tuned for more tutorials, and check out additional content for implementing more complex AI agents using Fi Data!
 
-[[RAG]]  [[AI Agents]]  [[Python]] 
+[[RAG]]    [[Python]]

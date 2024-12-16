@@ -2,6 +2,7 @@
 tags:
 - speech
 - avatars
+- python
 ---
 
 ### Overview of Speech-to-Text
@@ -211,4 +212,4 @@ For your **AI Companion**, I recommend starting with **OpenAI Whisper** for its 
 
 By leveraging Speech-to-Text effectively, your AI Companion can interact with you seamlessly, converting spoken instructions into actionable insights and responses.
 
-[[AI Agents]]   [[AI Avatars]]  [[AI Dictation]]
+[[Python]]  [[AI Avatars]]  [[Text to Speech]]

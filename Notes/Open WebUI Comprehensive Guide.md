@@ -2,7 +2,7 @@
 Video-URL: https://www.youtube.com/watch?v=VbfHAHCAYT4&list=WL&index=3
 tags:
 - ollama
-- web
+- docker
 url: https://docs.openwebui.com/
 ---
 
@@ -23,7 +23,7 @@ url: https://docs.openwebui.com/
 
 ## Installation Guide
 
-### **1. Installation via [[Docker]] (Recommended)**
+### **1. Installation via Docker (Recommended)**
 
 The most straightforward way to set up Open WebUI is through Docker, which automates the installation and provides an isolated environment for the application.
 
@@ -32,7 +32,7 @@ The most straightforward way to set up Open WebUI is through Docker, which autom
 1. **Install Docker**: Ensure Docker is installed on your system. You can follow Docker's official installation guide.
 2. **Run Open WebUI Docker Container**: Execute the following command to download and start Open WebUI:
 
-    ```
+    ```bash
     docker run -p 8080:8080 openwebui/openwebui:latest
     ```
 
@@ -46,14 +46,14 @@ For those who prefer a non-Docker setup, Open WebUI can be installed natively by
 
 1. **Clone the Repository**:
 
-    ```
+    ```bash
     git clone https://github.com/openwebui/openwebui.git
     ```
 
 2. **Install Dependencies**: Navigate to the cloned directory and install the required dependencies.
 3. **Run Open WebUI**: Once all dependencies are installed, start the server by running the following command:
 
-    ```
+    ```bsh
     python app.py
     ```
 
@@ -90,13 +90,13 @@ If you encounter issues such as "Server Connection Error," consult the Troublesh
 
 To update your existing installation of Open WebUI, use the following command:
 
-```
+```bsh
 docker pull openwebui/openwebui:latest
 ```
 
 Alternatively, you can automate updates using Watchtower:
 
-```
+```bash
 docker run --rm --volume /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once open-webui
 ```
 
@@ -125,4 +125,4 @@ Open WebUI provides a powerful yet accessible platform for managing AI models wi
 - **Broad Model Compatibility**: Supports multiple LLMs for diverse AI tasks.
 - **Community Support**: Join the community for assistance and collaboration.
 
-  [[OpenAI]]  [[LLM]]
+[[Open Web UI]]  [[Ollama]]

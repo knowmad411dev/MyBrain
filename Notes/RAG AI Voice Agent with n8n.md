@@ -6,6 +6,7 @@ tags:
 - automation
 video-url: https://www.youtube.com/watch?v=NB7hMj7pfrA&list=WL&index=1
 ---
+
 ## **RAG AI Voice Agent with n8n
 
 ### **Overview
@@ -170,4 +171,4 @@ Integrate the AI assistant into the website to create a seamless interaction.
 
 In this tutorial, you built a **voice AI assistant** using **N8N**, **Google Drive**, **Pinecone**, and **OpenAI** to create an engaging experience for website visitors. The assistant converts voice to text, searches through stored documents using vector embeddings, and responds in audio format. The WordPress integration makes it accessible to users with a simple chat button, demonstrating how automation tools and AI can work together to build powerful, interactive, and cost-effective solutions.
 
-[[RAG]]  [[AI Voice Assistants]]  [[N8N Masterclass]]  [[Workflow]]  
+[[RAG]]  [[AI Voice Assistants]]    [[Workflow]]

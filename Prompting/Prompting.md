@@ -5,4 +5,4 @@ tags:
 
 ## **Prompting
 
-[[Obsidian]]  [[Thinking]]  [[ChatGPT]]
+[[Obsidian]]

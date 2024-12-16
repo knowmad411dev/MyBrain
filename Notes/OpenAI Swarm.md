@@ -1,156 +1,178 @@
 ---
 tags:
-- agents
 - openai
-video-url: https://www.youtube.com/watch?v=LBih635lzps&list=WL&index=17
+- python
+video-url: https://www.youtube.com/watch?v=q7_5eCmu0MY
 ---
 
-## **OpenAI SWAM: Lightweight Multi-Agent Orchestration Framework**
+## **Overview of OpenAI Swarm**
 
-This video discusses **SWAM**, a lightweight, multi-agent orchestration framework released by OpenAI. It provides a detailed walkthrough of the framework’s concepts, showing how it simplifies multi-agent systems. Below is a structured summary, including how-to instructions, key concepts, and code examples.
+OpenAI Swarm is an open-source AI agent orchestration tool that allows you to write clean and simple Python code to build AI agents and seamlessly connect them to accomplish complex tasks. It aims to provide an educational and experimental approach to AI agent orchestration by showcasing best practices in how agents can be coordinated effectively. While Swarm is not production-grade software, it is an excellent tool for learning how to build robust agent architectures.
 
----
+Swarm is especially useful for managing multiple AI agents that need to collaborate on complex tasks. For instance, instead of overwhelming a single large language model (LLM) with extensive instructions, Swarm facilitates breaking the task into smaller specialized components, with multiple agents handling distinct parts of the overall job. This modular approach helps avoid the "needle in a haystack" problem that occurs when one LLM is overloaded with too many instructions, reducing efficiency and accuracy.
 
-### **Overview of SWAM**
-
-- **What is SWAM?** SWAM is a multi-agent orchestration framework designed to run **OpenAI models** efficiently. It's lightweight and customizable, focused on **agent coordination and execution** without unnecessary abstractions.
-- **Closest Comparison:** SWAM’s design resembles **Transformer Agents 2.0** from Hugging Face but aims for a cleaner implementation.
-- **Open-Source Nature:**
-    - Licensed under **MIT**.
-    - Not an official OpenAI product.
-    - OpenAI does not actively review issues or pull requests for SWAM.
+The library includes well-documented examples, making it ideal for those wanting to learn how to build an orchestrated system of multiple agents. In this guide, we will walk through building a simple AI swarm to manage a SQL database, involving AI agents that specialize in querying, managing tables, and cleaning data.
 
 ---
 
-### **Core Concepts**
+**How to Set Up and Use OpenAI Swarm**
 
-1. **Agents as Routines**:
+### Step 1: Installation and Requirements
 
-    - Agents are encapsulated **LLMs with system prompts**.
-    - Each agent has **a set of functions** it can call to handle user input.
+First, start by cloning the Swarm repository from GitHub. You can find the repository by searching for "OpenAI Swarm GitHub." After cloning, follow the instructions to install it:
 
-2. **Handoff Mechanism**:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/openai/swarm.git
+   cd swarm
+   ```
 
-    - Agents can **transfer control** to another agent using a function call.
-    - This ensures smooth task handoffs in multi-agent setups.
+2. Install required Python packages by running:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. **State Machine Design**:
+3. Set up your OpenAI API key by creating an environment variable:
+   ```bash
+   export OPENAI_API_KEY="your_openai_api_key_here"
+   ```
 
-    - SWAM’s architecture functions as a **state machine with conditionals**.
-    - Developers have **full control** over state transitions, ensuring easy customization.
+Make sure you have SQLite installed since we will be using it for the database.
 
----
+### Step 2: Set Up Your Database
 
-### **SWAM Usage & Setup Instructions**
+For the purpose of this tutorial, we will create a SQLite database to store RSS feed data. We will also add some mock data using a simple Python script:
 
-**Installation:** To begin, install SWAM via `pip` (or directly clone the repository).
+1. Create SQL tables and mock data:
 
-```
-pip install swam
-```
+   ```sql
+   CREATE TABLE rss_sources (
+       id INTEGER PRIMARY KEY,
+       name TEXT,
+       url TEXT
+   );
 
-**Defining Agents:** Each agent has a **name, a system prompt, and functions it can call**.
+   CREATE TABLE articles (
+       id INTEGER PRIMARY KEY,
+       source_id INTEGER,
+       title TEXT,
+       content TEXT,
+       published_date DATE,
+       FOREIGN KEY (source_id) REFERENCES rss_sources(id)
+   );
+   ```
+
+2. Insert mock data into the tables to play around with.
+
+### Step 3: Writing Python Code for Swarm
+
+Below is the Python code to create and orchestrate a swarm of AI agents using OpenAI Swarm to manage our SQL database.
+
+**Step 3.1: Import Required Packages**
 
 ```python
-from swam import Agent
+import sqlite3
+import swarm
 
-# Define Agent A with a transfer function to Agent B
-agent_a = Agent(
-    name="Agent A",
-    system_instructions="Handle general inquiries.",
-    functions=["transfer_to_agent_b"]
-)
-
-# Define Agent B with minimal instructions
-agent_b = Agent(
-    name="Agent B",
-    system_instructions="Provide specialized help."
-)
+# Establish a connection to the SQLite database
+conn = sqlite3.connect('rss_feed.db')
 ```
 
-**Agent Handoff Example:** Agent A can **call a function to transfer control** to Agent B using a function:
+**Step 3.2: Define a SQL Tool for Agents**
 
-```
-response = agent_a.run("transfer_to_agent_b", input_data="Help needed!")
-print(response)  # This will call Agent B
-```
-
----
-
-### **Detailed Code Example: A Multi-Agent Triaging System**
-
-This example shows **three agents working together**:
-
-1. **Triage Agent**: Directs requests to Sales or Refund agents.
-2. **Sales Agent**: Handles product sales queries.
-3. **Refund Agent**: Manages refund-related inquiries, offering discounts if needed.
-
-#### Code Snippet
+This is a helper tool for agents to execute SQL queries.
 
 ```python
-from swam import Agent
-
-# Triage Agent - Redirects to Sales or Refund
-triage_agent = Agent(name="Triage Agent")
-triage_agent.add_function("transfer_to_sales")
-triage_agent.add_function("transfer_to_refund")
-
-# Sales Agent - Enthusiastic about sales
-sales_agent = Agent(
-    name="Sales Agent",
-    system_instructions="Promote products energetically!"
-)
-sales_agent.add_function("transfer_to_triage")
-
-# Refund Agent - Handles refunds and discounts
-refund_agent = Agent(
-    name="Refund Agent",
-    system_instructions="Assist with refunds. Offer discounts if needed.",
-    functions=["process_refund", "apply_discount"]
-)
-refund_agent.add_function("transfer_to_triage")
-
-# Infinite Loop to Interact with User Input
-while True:
-    user_input = input("User: ")
-    response = triage_agent.run(user_input)
-    print(f"Agent Response: {response}")
+def run_sql_query(sql):
+    cursor = conn.cursor()
+    cursor.execute(sql)
+    records = cursor.fetchall()
+    if not records:
+        return "No records found."
+    return records
 ```
 
----
+**Step 3.3: Create Agent Instructions**
 
-### **How SWAM Differs from Other Frameworks**
+Define instruction strings for our router agent and specific query agents:
 
-- **Transparency and Client-Side Control:** SWAM runs similarly to the **chat completion API** but executes locally, allowing developers full transparency and control.
-- **No Memory Handling:** SWAM doesn’t include **persistent memory**; developers need to implement memory management themselves.
-- **Highly Customizable:** It’s designed as a **state machine**, making it scalable and flexible for **multi-agent coordination**.
+```python
+def router_instructions():
+    return "You are an orchestrator. Route user queries to the correct agent based on the request."
 
----
+def feed_agent_instructions():
+    return "You are an RSS feed expert. Handle queries related to RSS feed data."
 
-### **Comparison with OpenAI Assistance API**
+def analytics_agent_instructions():
+    return "You are an analytics expert. Handle questions related to data insights and analysis."
+```
 
-- **SWAM**: Developer-focused, client-side, lightweight.
-- **OpenAI Assistance API**: Hosted solution with built-in tools but less customizable.
+**Step 3.4: Create Agents**
 
----
+We define three agents: a router agent, an RSS feed agent, and an analytics agent.
 
-### **Key Takeaways**
+```python
+router_agent = swarm.Agent(name="router", instructions=router_instructions())
 
-- **SWAM’s focus** is on **coordination between agents** via handoff, ensuring easy-to-manage transitions.
-- Instead of tool usage, **agents are treated like function calls**, allowing the smooth execution of tasks.
-- You can **extend SWAM** or build similar frameworks using their **design patterns**.
+rss_feed_agent = swarm.Agent(name="rss_feed", instructions=feed_agent_instructions(), functions=[run_sql_query])
 
----
+analytics_agent = swarm.Agent(name="analytics", instructions=analytics_agent_instructions(), functions=[run_sql_query])
+```
 
-### **References and Resources**
+**Step 3.5: Setting Up Transfers Between Agents**
 
-- **GitHub Repository** (with Code and Examples): SWAM on GitHub
-- **Detailed Blog Post on SWAM Design**: Orchestrating Agents, Routines, and Handoffs
+We need to create transfer functions so that the router can send tasks to specialized agents and the specialized agents can hand results back.
 
----
+```python
+def route_to_feed(query):
+    return rss_feed_agent.run(query)
 
-### **Conclusion**
+def route_to_analytics(query):
+    return analytics_agent.run(query)
 
-SWAM offers a promising approach for **developers wanting granular control** over multi-agent orchestration. The framework’s **state machine-like design** makes it highly adaptable and suitable for custom workflows. Future updates may bring additional functionalities, but it already serves as a solid foundation for multi-agent systems.
+# Assign routing functions to the router agent
+router_agent.add_route("rss_feed", route_to_feed)
+router_agent.add_route("analytics", route_to_analytics)
+```
 
-[[OpenAI Swarm Framework]] [[Artificial intelligence]]  [[OpenAI]]  [[Python]]
+**Step 3.6: Running the Agent Swarm**
+
+Lastly, we create a demo loop that allows us to interact with the agents.
+
+```python
+def run_demo():
+    while True:
+        user_query = input("Ask a question: ")
+        response = router_agent.run(user_query)
+        print(response)
+
+# Start the interactive demo
+run_demo()
+```
+
+### Step 4: Running the Program
+
+To run the program, save the Python script (let's call it `swarm_demo.py`), and execute it from your terminal:
+
+```bash
+python swarm_demo.py
+```
+
+You can now ask questions like "How many RSS feeds do we have?" or "What is the most popular category among users?" The router will determine which agent to call based on the question, allowing specialized agents to process the data more efficiently.
+
+### Example Output
+
+- **Question**: "How many users are there in the database?"
+  - **Response** (from the user agent): "We currently have 5 users on the platform."
+- **Question**: "How many RSS feeds do we have?"
+  - **Response** (from the RSS feed agent): "We have a total of 5 fantastic RSS feeds available! Isn't it amazing?"
+
+### Summary
+
+OpenAI Swarm simplifies the process of building complex orchestrations of multiple AI agents working in unison to achieve a task. By breaking down large tasks and distributing them among specialized agents, you can achieve efficiency and avoid overwhelming a single model.
+
+Swarm is not designed for production-grade software but rather as a means of learning the best practices for agent coordination. It is easy to extend this setup to add more agents, different tools, or connect Swarm to more complex databases and APIs.
+
+Give Swarm a try and experiment with creating agent-based workflows that make AI management of complex data seamless and insightful.
+
+[[Python]]  [[OpenAI How-to LLM Models]]

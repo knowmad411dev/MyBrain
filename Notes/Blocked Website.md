@@ -1,6 +1,7 @@
 ---
 tags:
-- web
+- web-scrapping
+- python
 video-url: https://www.youtube.com/watch?v=EB2gn9G9sV8&list=WL&index=13
 ---
 
@@ -24,7 +25,7 @@ The video "They know you're using Browser Automation, so try this" on YouTube di
 
     Code example:
 
-    ```
+    ```bash
     console.log(navigator.webdriver);  // returns true if automation is detected
     ```
 
@@ -36,7 +37,7 @@ The video "They know you're using Browser Automation, so try this" on YouTube di
 
     Example of how Playwright might expose automation:
 
-    ```
+    ```python
     const { chromium } = require('playwright');
     (async () => {
         const browser = await chromium.launch({ headless: false });
@@ -53,7 +54,7 @@ The video "They know you're using Browser Automation, so try this" on YouTube di
 
     Code example for running SeleniumBase in UC mode:
 
-    ```
+    ```python
     from seleniumbase import BaseCase
     
     class MyTestClass(BaseCase):
@@ -95,4 +96,4 @@ For more details and to access the resources mentioned, visit:
 - [BrowserLeaks](https://browserleaks.com/)
 - [ProxyScrape](https://proxyscrape.com/)
 
-[[Cloud]] [[Web Scrapping]]
+ [[Web Scrapping]]

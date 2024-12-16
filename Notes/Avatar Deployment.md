@@ -1,6 +1,7 @@
 ---
 tags:
 - avatars
+- python
 ---
 
 # Avatar Deployment for AI Avatars
@@ -24,7 +25,7 @@ tags:
 
 ### Tools and Frameworks for Deployment
 
-- **[[Docker]]**: Containerize the AI avatar application to ensure compatibility across environments and easy scaling.
+- **Docker**: Containerize the AI avatar application to ensure compatibility across environments and easy scaling.
 - **Kubernetes**: Use for container orchestration to manage scaling and ensure reliable deployment of the AI avatar on cloud servers.
 - **Heroku** or **AWS Elastic Beanstalk**: Simple deployment solutions for web applications hosting AI avatars.
 - **Firebase**: Use Firebase for mobile applications to handle user authentication, storage, and hosting services.
@@ -53,7 +54,7 @@ tags:
 
 - **Build and Run Docker Container**:
 
-    ```
+    ```bash
     docker build -t ai-avatar .
     docker run -p 5000:5000 ai-avatar
     ```
@@ -69,20 +70,20 @@ tags:
 - **Deployment on Heroku**:
     - Install the Heroku CLI and create an app:
 
-        ```
+        ```bash
         heroku login
         heroku create my-ai-avatar
         ```
 
     - Push your code to Heroku:
 
-        ```
+        ```bash
         git push heroku main
         ```
 
 - **Firebase Hosting** (for Web Applications): Use Firebase to host front-end interfaces for avatars, including HTML, CSS, and JavaScript.
 
-    ```
+    ```bash
     firebase init
     firebase deploy
     ```
@@ -139,4 +140,4 @@ tags:
 
 Deploying AI avatars requires thoughtful consideration of platform compatibility, scalability, security, and performance. By leveraging cloud solutions like AWS, Azure, Firebase, or container orchestration tools like Kubernetes, developers can successfully deploy AI avatars across various environments. Whether on the web, mobile, or embedded devices, a well-planned deployment approach ensures that avatars provide seamless, engaging, and responsive interactions for users.
 
-[[AI Avatars]]   [[Atomic Notes for Python AI Avatars]]   [[Python]]
+[[AI Avatars]]     [[Python]]

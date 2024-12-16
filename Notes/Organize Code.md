@@ -2,11 +2,14 @@
 tags:
 - vscode
 - obsidian
+- github
 ---
+
+[[Obsidian]]  [[GitHub]]  [[VSCode]]
 
 ## **Organize Code
 
-### 1. **Organize and Sync Code with [[Obsidian]] and [[VSCode]]**
+### 1. **Organize and Sync Code with Obsidian and VSCode**
 
 - **Use Obsidian’s URI Links:**
     - You can create links in Obsidian that point directly to your code files in VSCode. This way, you can keep your code in VSCode but still reference it in your notes.
@@ -77,5 +80,3 @@ tags:
     - Have a specific section or folder in your Obsidian vault dedicated to code snippets and small scripts. Categorize them by language, project, or usage (e.g., "Python Utils," "JavaScript Snippets," etc.).
 
 These strategies and tools should help you streamline the organization of code between Obsidian and VSCode, improve efficiency, and reduce duplication or fragmentation. Let me know if you'd like further details on any of these approaches!
-
-[[Obsidian]]  [[Python]]

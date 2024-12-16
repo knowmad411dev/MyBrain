@@ -5,7 +5,7 @@ tags:
 - obsidian
 ---
 
-## **Obsidian Sync with [[GitHub]]
+## **Obsidian Sync with GitHub
 
 ### **Synchronizing Obsidian with GitHub: A Comprehensive Guide**
 
@@ -237,4 +237,4 @@ git add . git commit -m "Sync notes on 2024-04-27" git push origin main
 
 Synchronizing Obsidian with GitHub not only provides a robust backup solution but also leverages Git's powerful version control features. By following this guide, you can ensure your notes are safely stored and easily accessible across multiple devices. Happy note-taking!
 
-[[Obsidian]]   [[GitHub]]  [[Obsidian Git Plugin]]  [[GitHub from VSCode]]
+[[Obsidian]]   [[GitHub]]

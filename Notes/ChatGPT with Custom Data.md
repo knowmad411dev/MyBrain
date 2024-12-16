@@ -1,9 +1,10 @@
 ---
 tags: 
 - gpt
+- data
 ---
 
-## **[[ChatGPT]] with Custom [[Data]]
+## **ChatGPT with Custom Data
 
 Using ChatGPT with Custom Data allows you to tailor the model's responses by providing it with specific information relevant to your needs. This feature is particularly useful if you want the model to be familiar with certain proprietary documents, FAQs, or databases, making it act more like a specialized assistant.
 
@@ -31,3 +32,5 @@ Using ChatGPT with Custom Data allows you to tailor the model's responses by pro
 - When using custom data, OpenAI takes data privacy seriously, with measures in place to ensure uploaded files are handled securely. However, it’s essential to avoid sharing sensitive information unless you are comfortable with it being used for AI response generation.
 
 For someone in your position—exploring AI for personal interests and retired from a career in IT—this feature can help you collect and organize information, providing personalized responses based on your documents. It may enhance your research into topics like AI avatars or the mind and brain by allowing you to easily reference and query custom data.
+
+[[GPT]]

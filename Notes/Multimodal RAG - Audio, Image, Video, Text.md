@@ -4,8 +4,10 @@ github_link: https://github.com/ALucek/true-multimodal-rag
 tags:
 - rag
 - chromadb
+- python
 video-url: https://www.youtube.com/watch?v=qCAvqsBbN2Y&list=WL&index=2
 ---
+
 ## **Multimodal RAG - Audio, Image, Video, Text
 
 # Detailed Overview: Multimodal RAG with ChromaDB
@@ -241,4 +243,4 @@ This system leverages embedding models and ChromaDB’s multimodal capabilities 
 
 Would you like assistance with implementation or testing this setup on your environment?
 
-[[RAG]]  [[ChromaDB]]
+[[RAG]]  [[ChromaDB]]  [[Python]]

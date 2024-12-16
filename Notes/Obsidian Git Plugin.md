@@ -204,4 +204,4 @@ git push -u origin master`
 
 The Obsidian Git plugin offers a powerful solution for backing up and synchronizing your Obsidian Vault using Git and GitHub. While the setup process requires some familiarity with Git, following the above steps can help streamline the process. Automating backups ensures that your notes are securely stored and accessible across multiple devices, enhancing your productivity and safeguarding your data.
 
-[[Obsidian]]  [[GitHub]]  [[Obsidian Publish Sync with GitHub]]
+[[Obsidian]]  [[GitHub]]  [[Git]]

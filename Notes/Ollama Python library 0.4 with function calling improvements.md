@@ -3,6 +3,7 @@ tags:
 - ollama
 - python
 ---
+
 ## **Ollama Python library 0.4 with function calling improvements
 
 In the latest version of the [Ollama Python library](https://github.com/ollama/ollama-python), functions can now be provided as tools. The library now also has full typing support and [new examples](https://github.com/ollama/ollama-python/tree/main/examples) have been added.

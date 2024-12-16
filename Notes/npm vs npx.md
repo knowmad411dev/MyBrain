@@ -2,6 +2,7 @@
 tags:
 - editors
 ---
+
 ## **npm vs npx**
 
 Let's explore the differences between **npm** and **npx**.

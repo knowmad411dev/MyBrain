@@ -2,14 +2,14 @@
 Video-URL: https://www.youtube.com/watch?v=FSBT-CfAtH4&list=WL&index=16
 tags:
 - ollama
-- web
+- agents
 ---
 
-### Comprehensive Guide to Setting Up and Using Open Web UI with Ollama for AI Chat Models
+## **Open Web UI with Ollama for AI Chat Models
 
 **Introduction**
 
-[[Ollama]] , in conjunction with Open Web UI, offers a robust and flexible platform for interacting with multiple large language models ([[LLM]]s). Whether you're a developer seeking API access or an end-user preferring a graphical interface, this setup caters to a wide range of needs. By following this guide, you can install, configure, and customize your AI chat assistant to enhance productivity, automate tasks, and create dynamic interactions.
+Ollama , in conjunction with Open Web UI, offers a robust and flexible platform for interacting with multiple large language models (LLMs). Whether you're a developer seeking API access or an end-user preferring a graphical interface, this setup caters to a wide range of needs. By following this guide, you can install, configure, and customize your AI chat assistant to enhance productivity, automate tasks, and create dynamic interactions.
 
 ---
 
@@ -20,7 +20,7 @@ tags:
 
 **Installation Script for Ollama**:
 
-```
+```bash
 curl -s https://olama.io/install.sh | bash
 ```
 
@@ -30,31 +30,31 @@ curl -s https://olama.io/install.sh | bash
 
 - **List Models**:
 
-    ```
+    ```bash
     olama list
     ```
 
 - **Pull Model**:
 
-    ```
+    ```bash
     olama pull <model-name>
     ```
 
 - **Remove Model**:
 
-    ```
+    ```bash
     olama remove <model-name>
     ```
 
 - **Run Model**:
 
-    ```
+    ```bash
     olama run <model-name>
     ```
 
 - **Create Custom Model**:
 
-    ```
+    ```bash
     olama create <custom-model-name> -f /path/to/model.file
     ```
 
@@ -88,4 +88,4 @@ curl -s https://olama.io/install.sh | bash
 
 Ollama (oAMA), combined with Open Web UI, offers a versatile and accessible platform for AI interactions. With both CLI and GUI options, it caters to different types of users and offers extensive customization opportunities. By leveraging this powerful tool, you can enhance productivity, automate workflows, and bring AI-driven interactions to your daily routine.
 
-[[Ollama]]  [[Ollama - Run Local]]
+[[Ollama]]

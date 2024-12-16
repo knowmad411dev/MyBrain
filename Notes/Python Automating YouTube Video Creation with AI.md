@@ -4,7 +4,7 @@ tags:
 - python
 ---
 
-## **[[Python]] Automating YouTube Video Creation with AI
+## **Python Automating YouTube Video Creation with AI
 
 In this guide, we'll explore how to create engaging YouTube videos using various AI tools. By automating scriptwriting, voiceovers, image generation, and video editing, you can save time and produce high-quality content efficiently.
 

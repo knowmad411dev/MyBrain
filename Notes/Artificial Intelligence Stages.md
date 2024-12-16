@@ -25,7 +25,7 @@ video-url: https://www.youtube.com/watch?v=HAL9zsCmTis&list=WL&index=17
 - **Definition**: AI systems specialized in specific fields, combining deep knowledge with machine learning.
 - **Characteristics**: Perform tasks requiring human expertise in a particular area.
 
-### **4. [[Thinking]] and Reasoning AI**
+### **4. Thinking and Reasoning AI**
 
 - **Definition**: AI mimicking human cognitive processes, engaging in abstract problem-solving and decision-making.
 - **Examples**: DeepMind's AlphaGo, OpenAI's GPT models.
@@ -43,10 +43,9 @@ video-url: https://www.youtube.com/watch?v=HAL9zsCmTis&list=WL&index=17
 
 ### **7. Self-aware AI**
 
-- **Definition**: AI systems with [[Consciousness]], [[Self-Awareness]], and potentially emotions.
+- **Definition**: AI systems with Consciousness, Self-Awareness, and potentially emotions.
 - **Ethical Questions**: Discussions around AI rights, autonomy, and the need for legal frameworks.
 - **Related Technologies**:
     - **[[Machine learning]]**
-    - **[[Deep Learning]]**
     - **[[Natural Language Processing]] (NLP)**
     - [[Artificial intelligence]]

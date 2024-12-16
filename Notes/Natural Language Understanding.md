@@ -2,6 +2,7 @@
 tags:
 - avatars
 - machine-learning
+- pyhhon
 ---
 
 # Natural Language Understanding (NLU) for AI Avatars
@@ -30,7 +31,7 @@ tags:
 - **Microsoft LUIS (Language Understanding Intelligent Service)**: A cloud-based API that provides pre-trained models for intent recognition and entity extraction.
 - **Hugging Face Transformers**: Pre-trained models like BERT or GPT-3 that can be fine-tuned for understanding user intents and generating relevant responses.
 
-### Steps to Implement NLU for [[AI Avatars]]
+### Steps to Implement NLU for AI Avatars
 
 #### Step 1: Define Intents and Entities
 
@@ -166,4 +167,4 @@ This script extracts the intent and relevant entities from the user message to c
 
 Natural Language Understanding is at the core of making AI avatars intelligent and capable of holding meaningful conversations. By defining clear intents, training effective NLU models, and managing context, you can build avatars that are responsive, context-aware, and emotionally intelligent. Leveraging frameworks like Rasa, spaCy, or cloud services, you can tailor the NLU capabilities to meet your specific requirements, creating more human-like and engaging interactions.
 
-[[AI Avatars]]  [[Atomic Notes for Python AI Avatars]]  [[Python]]
+[[AI Avatars]]   [[Python]]

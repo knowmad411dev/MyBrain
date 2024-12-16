@@ -35,4 +35,4 @@ Readers need intermediate Python skills. No previous experience with Keras, Tens
 
 -   ![](https://images.manning.com/360/480/resize/book/7/65fca1c-6826-472d-bbea-c1d4a7b3c570/Chollet-DLP-HI.png) <small><em>Deep Learning with Python</em> ebook for <strong>free</strong></small>
 
-[[Books]]  [[Deep Learning]]  [[Machine learning]]
+[[Books]]   [[Machine learning]]

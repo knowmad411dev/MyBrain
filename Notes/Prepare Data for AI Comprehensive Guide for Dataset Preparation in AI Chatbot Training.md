@@ -6,11 +6,11 @@ tags:
 
 ## **Dataset Preparation in AI Chatbot Training
 
-By adhering to these guidelines regarding the [[Data]] preparation process and making iterative improvements, you can attain an accuracy level of 95% or higher for your AI application, chatbot, or virtual assistant.
+By adhering to these guidelines regarding the Data preparation process and making iterative improvements, you can attain an accuracy level of 95% or higher for your AI application, chatbot, or virtual assistant.
 
 Preparing data for AI might seem complex, but by understanding [what artificial intelligence means](https://ingestai.io/blog/what-is-artificial-intelligence) in data terms, you'll be able to prepare your data effectively for AI implementation. Check out our in-depth article for more guidance.
 
-## How to Prepare Data for AI Virtual Assistants and AI [[Chatbots]]
+## How to Prepare Data for AI Virtual Assistants and AI Chatbots
 
 After reviewing the Implementation Guide and establishing the business value, initial scope, and expectations, it is crucial to prepare your data. Achieving an acceptable accuracy rate for an AI model requires data scientists to devote up to 80% of their time to data wrangling, ensuring data quality. As Jeffrey Heer, a computer science professor at the University of Washington, stated: "It's an absolute myth that you can send an algorithm over raw data and have insights pop up." While IngestAI does not use your data to train new AI models, the quality of your data remains critical for optimal AI-app performance.
 
@@ -28,7 +28,7 @@ Ensure that all content relevant to a specific topic is stored in the same Libra
 
 ### 2\. Data detalization:
 
-After uploading data to a Library, the raw text is split into several chunks. Subsequently, a chunk containing the most relevant chatbot training dataset to answer a user's query is retrieved through AI-search (also known as [[Semantic Search]]) and transformed into a human-like response using AI. Understanding this simplified high-level explanation helps grasp the importance of finding the optimal level of dataset detalization and splitting your dataset into contextually similar chunks.
+After uploading data to a Library, the raw text is split into several chunks. Subsequently, a chunk containing the most relevant chatbot training dataset to answer a user's query is retrieved through AI-search (also known as Semantic Search) and transformed into a human-like response using AI. Understanding this simplified high-level explanation helps grasp the importance of finding the optimal level of dataset detalization and splitting your dataset into contextually similar chunks.
 
 Contextually rich data requires a higher level of detalization during Library creation. If your dataset consists of sentences, each addressing a separate topic, we suggest setting a maximal level of detalization. For data structures resembling FAQs, a medium level of detalization is appropriate. In cases where several blog posts are on separate web pages, set the level of detalization to low so that the most contextually relevant information includes an entire web page.
 
@@ -69,3 +69,5 @@ If you have paragraphs or rows in Excel or Google Sheets exceeding 2000 characte
 It is also crucial to condense the dataset to include only relevant content that will prove beneficial for your AI application.
 
 In general, we advise making multiple iterations and refining your dataset step by step. Iterate as many times as needed to observe how your AI app's answer accuracy changes with each enhancement to your dataset. The time required for this process can range from a few hours to several weeks, depending on the dataset's size, complexity, and preparation time. Ideally, you should aim for an accuracy level of 95% or higher in data preparation in AI.
+
+   [[GPT]]

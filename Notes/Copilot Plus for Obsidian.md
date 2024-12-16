@@ -3,8 +3,10 @@ github_link: https://github.com/logancyang/obsidian-copilot/discussions/726
 tags:
 - obsidian
 - agents
+- editors
 video-url: https://www.youtube.com/watch?v=tZ2jm_UPc6c&list=WL&index=5
 ---
+
 ## **Copilot Plus for Obsidian
 
 The text is a detailed overview of Copilot Plus, an advanced version of the Obsidian Copilot plugin, which is designed to bring AI-powered features into the Obsidian note-taking environment. Below, I provide a breakdown of all the features mentioned, including how-to instructions and the use of various code and commands to operate Copilot Plus.
@@ -128,4 +130,4 @@ Copilot Plus aims to enhance the use of Obsidian by adding powerful AI-driven ca
 
 With these features, Copilot Plus aims to bring together the best of AI tools like ChatGPT, and integrate them seamlessly into your second brain, enabling a rich, contextually aware personal knowledge management experience.
 
-[[Obsidian]]    [[AI Agents]]   [[Code Editor]] 
+[[Obsidian]]      [[Code Editor]]

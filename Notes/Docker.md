@@ -52,4 +52,4 @@ tags:
 
 Docker revolutionizes application development, deployment, and management through containerization. It ensures consistent environments throughout the application lifecycle, enhances resource utilization, and supports modern development practices like microservices and DevOps. Whether for developers or operations teams, Docker streamlines workflows and improves efficiency.
 
- [[Python]]
+  [[Programming]]

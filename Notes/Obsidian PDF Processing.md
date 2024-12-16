@@ -2,6 +2,7 @@
 tags:
 - pdf
 - obsidian
+- python
 ---
 
 ## **Obsidian PDF Processing

@@ -1,6 +1,7 @@
 ---
 tags:
-- learning
+- math
+- python
 ---
 
 ## **Adaptive Learning Algorithms
@@ -73,7 +74,7 @@ model = tf.keras.Sequential([tf.keras.layers.Dense(128,activation='relu'),
 
 - **Recommendation Systems**: Algorithms that adapt based on user behavior to recommend better products or content.
 - **Finance**: Models that adjust based on market data to make trading decisions.
-- **[[Natural Language Processing]] (NLP)**: Chatbots or translators that improve based on user interactions.
+- **Natural Language Processing (NLP)**: Chatbots or translators that improve based on user interactions.
 
 ### Example: Adaptive Gradient Descent
 
@@ -90,4 +91,4 @@ AdaGrad is widely used in deep learning, especially for sparse data, and is ofte
 
 Adaptive learning algorithms are a dynamic approach in machine learning that allows models to improve iteratively by adjusting their internal parameters based on new data. They rely heavily on optimization techniques like gradient descent, statistics for error minimization, and linear algebra for efficient computation. In programming, these algorithms are implemented in various fields ranging from reinforcement learning to recommendation systems, making them a vital part of the AI landscape.
 
-[[AI Avatars]]  [[AI Agents]]  [[Artificial intelligence]]  [[Machine learning]]
+[[Math]]   [[Machine learning]]  [[Python]]

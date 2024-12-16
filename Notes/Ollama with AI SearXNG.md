@@ -2,11 +2,13 @@
 Video-URL: https://www.youtube.com/watch?v=GMlSFIp1na0&list=WL&index=3
 tags:
 - ollama
+- rag
+- docker
 ---
 
-**Summary of the Video**
+## **Ollama with AI SearXNG
 
-In this video, Matt Williams, a founding member of the Ollama team, explains how to integrate web search functionality into local AI models using Ollama and SearXNG. This integration allows AI models to access the latest information from the internet, overcoming the limitation of models being restricted to their training data or manually added information via Retrieval-Augmented Generation ([[RAG]]).
+In this video, Matt Williams, a founding member of the Ollama team, explains how to integrate web search functionality into local AI models using Ollama and SearXNG. This integration allows AI models to access the latest information from the internet, overcoming the limitation of models being restricted to their training data or manually added information via Retrieval-Augmented Generation (RAG).
 
 ---
 
@@ -38,7 +40,7 @@ In this video, Matt Williams, a founding member of the Ollama team, explains how
 
 **Option B: Self-Host SearXNG Using Docker**
 
-**Prerequisites**: Install [[Docker]].
+**Prerequisites**: Install Docker.
 
 **Instructions**:
 
@@ -263,4 +265,4 @@ By integrating SearXNG with Ollama, you can enhance your AI applications to prov
 
 ---
 
-[[Ollama]]
+[[Ollama]]  [[Python]]  [[Docker]]

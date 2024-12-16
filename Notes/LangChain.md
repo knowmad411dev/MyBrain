@@ -2,6 +2,8 @@
 Video-URL: https://youtu.be/8BV9TW490nQ
 tags:
 - langchain
+- rag
+- python
 ---
 
 ## **LangChain
@@ -18,7 +20,7 @@ In this tutorial, I'll teach you LangChain in 7 easy steps. You will learn the c
 -   Using tools with chains
 -   Building agents with access to tools
 
-By the end of the tutorial, you will have a solid foundation for diving deeper into the LangChain ecosystem and start testing, deploying, and building advanced Multi Agent systems with [[LangGraph]].
+By the end of the tutorial, you will have a solid foundation for diving deeper into the LangChain ecosystem and start testing, deploying, and building advanced Multi Agent systems with LangGraph.
 
 ### Colab Notebook & Interactive Map
 
@@ -36,8 +38,8 @@ LangChain allows users to query data by retrieving relevant context from vector 
 
 Applications developed with LangChain generally fall into three categories:
 
-1.  **[[Chatbots]]**: Enhanced with LLMs for more intelligent marketing, customer support, and education interactions.
-2.  **Retrieval-Augmented Generation ([[RAG]]) Q&A**: Used for summarizing large documents, data analysis, and generating code by referencing external sources.
+1.  **Chatbots**: Enhanced with LLMs for more intelligent marketing, customer support, and education interactions.
+2.  **Retrieval-Augmented Generation (RAG) Q&A**: Used for summarizing large documents, data analysis, and generating code by referencing external sources.
 3.  **Agent Systems** involve multi-agent setups and human interactions, utilizing LangGraph for complex workflows. They are applicable in areas like supply chain management and operations optimization.
 
 ### Why Learn LangChain?
@@ -394,6 +396,4 @@ This agent can now search for videos and transcribe them to analyze content.
 
 The key difference between chains and agents is the dynamic decision-making capability of agents. While chains follow a predetermined sequence of steps, agents can adapt their actions based on intermediate results, making them more flexible for complex tasks that may require different approaches depending on the input or intermediate findings.
 
-[[LLM]]  [[Python]]  [[AI Agents]]
-
-[[LangChain Tutorial]]   [[LangChain Agents]]
+ [[Python]]  [[LangChain]]  [[RAG]]

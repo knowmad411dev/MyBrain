@@ -2,12 +2,14 @@
 github_link: https://github.com/mshumer/ai-researcher
 tags:
 - agents
+- rag
+- python
 video-url: https://www.youtube.com/watch?v=AVInhYBUnKs&list=WL&index=16
 ---
 
 ## **Research Agent
 
-The content presented in the video details a step-by-step guide for creating a multi-agent AI research system using OpenAI [[GPT]]-based assistants and Autogen for collaboration. Below is a breakdown of the main points, relevant instructions, and potential use cases:
+The content presented in the video details a step-by-step guide for creating a multi-agent AI research system using OpenAI GPT-based assistants and Autogen for collaboration. Below is a breakdown of the main points, relevant instructions, and potential use cases:
 
 ### Overview
 
@@ -20,7 +22,7 @@ The goal is to build a network of AI agents that can autonomously conduct resear
     - **Limitation**: Only suitable for simple research; no ability to iteratively refine research based on new information discovered.
 2. **Second Version – AI Agents and Task Breakdown**:
 
-    - Introduction of **[[AI Agents]]** combining [[LLM]]s, memory, and access to tools (e.g., Google Search API).
+    - Introduction of **AI Agents** combining LLMs, memory, and access to tools (e.g., Google Search API).
     - **Goal-Oriented**: Capable of handling ambiguous research goals and autonomously completing tasks by reasoning and using tools.
     - **Improvements**: Enhanced research quality through iterative search and review until adequate information is gathered.
     - **Issues**: Inconsistent quality and limitations in handling constrained tasks (e.g., personal information like phone numbers).
@@ -36,7 +38,7 @@ The goal is to build a network of AI agents that can autonomously conduct resear
     - **Research Manager**: Creates detailed research plans and conducts quality assurance by critiquing and iteratively improving results.
     - **Research Agent**: Executes research tasks, including web searches and scraping, to gather detailed information.
 
-### Fine-Tuning vs. Retrieval Augmented Generation ([[RAG]])
+### Fine-Tuning vs. Retrieval Augmented Generation (RAG)
 
 - **Fine-Tuning**: Customizing an AI model to improve its performance on specific tasks (e.g., categorization, email responses).
     - **Challenge**: Requires specialized hardware and large memory.
@@ -156,4 +158,4 @@ To access the complete code for building a multi-agent research system using GPT
 
 These resources provide all the necessary code and guidance to build a collaborative AI research system with multiple agents that can work together on complex research tasks autonomously.
 
-[[GPT - Researchers]]  [[Research Agent]]  [[AI Agents]]
+[[GPT]]   [[Python]]  [[RAG]]

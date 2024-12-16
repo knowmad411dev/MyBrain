@@ -119,4 +119,4 @@ if __name__ == '__main__':
 - Make sure to handle any authentication needed by Ollama's API.
 - If Ollama’s API requires a different payload format or headers, adjust the `requests.post()` call accordingly.
 
-[[Ollama]] [[Obsidian]] [[Python]]  [[Ollama Model Types]]
+[[Ollama]] [[Obsidian]] [[Python]]

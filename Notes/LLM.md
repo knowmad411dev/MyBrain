@@ -18,7 +18,7 @@ A Large Language Model (LLM) is an advanced AI model designed to process and gen
 
 **Application**:
 
-- **[[Natural Language Processing]] (NLP)** tasks
+- **Natural Language Processing (NLP)** tasks
 - **Content generation**
 - **Chatbots**
 - **Question-answering systems**
@@ -33,4 +33,4 @@ A Large Language Model (LLM) is an advanced AI model designed to process and gen
 - High computational costs
 - Potential for bias based on training data
 
-[[Artificial intelligence]]  [[LLM]]  [[LLM Frameworks]]
+ [[LLM Frameworks]]

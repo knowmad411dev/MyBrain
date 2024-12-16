@@ -2,18 +2,27 @@
 tags:
 - self
 ---
+
 ## **Voting Info
 
-
 Precinct:PCT 142
+
 Congress:CONGRESSIONAL DISTRICT 14
+
 NC Senate:NC SENATE DISTRICT 38
+
 NC House:NC HOUSE DISTRICT 98
+
 Superior Court:SUPERIOR COURT DISTRICT 26C
+
 Judicial:JUDICIAL DISTRICT 26
+
 Prosecutorial:PROSECUTORIAL DISTRICT 26
+
 County Commissioner:BOARD OF COMMISSIONERS DISTRICT 1
+
 Municipality:HUNTERSVILLE
+
 School:SCHOOL BOARD DIST 1
 
 [[Self]]

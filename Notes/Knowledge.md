@@ -29,16 +29,4 @@ Tags:
 
 ### **Related Concepts**:
 
-- **[[Information]]**: The raw data that is processed into knowledge.
-- **[[Wisdom]]**: The application of knowledge with judgment and foresight.
-- **[[Learning]]**: Knowledge acquisition through experience and education.
-- **Explicit & Tacit Knowledge**: Two main forms of knowledge.
-- **[[Epistemology]]**: The philosophical study of knowledge.
-- [[Explicit Knowledge]]
-- [[Tacit Knowledge]]
-- [[Procedural Knowledge]]
-- [[Declarative Knowledge]]
-- [[Knowledge Representation]]
-- [[Personal Knowledge Management]]
-- [[Decision-Making]]
-- [[Subjective Knowledge]]
+[[Information]]  [[Wisdom]]

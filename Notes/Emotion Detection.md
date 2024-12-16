@@ -1,6 +1,8 @@
 ---
 tags:
 - emotions
+- agents
+- ASL
 ---
 
 # Emotion Detection in AI Avatars
@@ -137,4 +139,4 @@ In this example, the avatar's response changes dynamically based on the sentimen
 
 Emotion Detection in AI avatars is a powerful tool for making interactions more human-like and responsive to user needs. By incorporating sentiment analysis, voice tone analysis, and even facial expression recognition, AI avatars can deliver more empathetic and contextually appropriate responses. Whether you're building a customer service assistant or a personal companion bot, integrating emotion detection will significantly enhance the quality and depth of user interactions.
 
-[[AI Avatars]]  [[Emotions]]  [[Atomic Notes for Python AI Avatars]]  [[Python]]
+[[AI Avatars]]  [[Emotions]]    [[Python]]  [[ASL Project Ideas]]

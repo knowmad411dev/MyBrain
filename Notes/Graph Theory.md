@@ -6,7 +6,7 @@ tags:
 
 ## **Graph Theory
 
-Graph Theory is a fascinating field of mathematics that deals with the study of graphs, which are mathematical structures used to model pairwise relationships between objects. Let's break down its core concepts and how it intersects with mathematics and [[Artificial intelligence]] (AI).
+Graph Theory is a fascinating field of mathematics that deals with the study of graphs, which are mathematical structures used to model pairwise relationships between objects. Let's break down its core concepts and how it intersects with mathematics and Artificial intelligence (AI).
 
 ### Overview of Graph Theory
 
@@ -42,7 +42,7 @@ Graph Theory has significant implications in AI, particularly in areas that invo
 1. **Graph-Based Machine Learning**:
 
     - **Graph Neural Networks (GNNs)**: GNNs are a class of neural networks designed to operate on graph-structured data. They are used in tasks like **node classification**, **link prediction**, and **graph classification**.
-    - **[[Knowledge Graphs]]**: In AI, knowledge graphs are used to represent knowledge as entities and their interrelations. They are foundational in **semantic search**, **[[Natural Language Processing]] (NLP)**, and **recommendation systems**.
+    - **Knowledge Graphs**: In AI, knowledge graphs are used to represent knowledge as entities and their interrelations. They are foundational in **semantic search**, **Natural Language Processing (NLP)**, and **recommendation systems**.
 
 1. **Search Algorithms**:
 
@@ -73,4 +73,4 @@ Graph Theory has significant implications in AI, particularly in areas that invo
 
 Graph Theory provides a framework that allows AI systems to model and understand complex, interconnected data effectively. It bridges the gap between abstract mathematical concepts and real-world AI applications, providing the tools needed for solving problems involving relationships, networks, and optimization.
 
-[[Math]]   [[Graphs]]
+[[Math]]     [[Knowledge Graphs]]

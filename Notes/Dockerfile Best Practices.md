@@ -41,7 +41,7 @@ The base image serves as the foundation for your Docker image. Choosing a lightw
     - **Cons**: May require additional configuration; some packages might be missing or behave differently due to using musl instead of glibc.
 - **Scratch**: An empty image ideal for languages that can compile static binaries (e.g., Go, Rust).
 
-    ```
+    ```bash
     FROM scratch
     COPY myapp /myapp
     CMD ["/myapp"]
@@ -53,7 +53,7 @@ Each `RUN`, `COPY`, and `ADD` instruction adds a new layer to your image. Combin
 
 **Inefficient:**
 
-```
+```bash
 RUN apt-get update
 RUN apt-get install -y python
 RUN apt-get install -y pip
@@ -61,7 +61,7 @@ RUN apt-get install -y pip
 
 **Efficient:**
 
-```
+```bash
 RUN apt-get update && apt-get install -y python pip && rm -rf /var/lib/apt/lists/*
 ```
 
@@ -71,7 +71,7 @@ Docker uses layer caching to speed up builds. The order of instructions affects 
 
 - **Copy Dependency Files First**: Copy files that change less frequently (like `package.json` or `requirements.txt`) before copying the rest of the source code.
 
-    ```
+    ```bash
     COPY package.json .
     RUN npm install
     COPY . .
@@ -83,7 +83,7 @@ Docker uses layer caching to speed up builds. The order of instructions affects 
 
 Remove temporary files and caches after installing packages to reduce image size.
 
-```
+```bash
 RUN pip install --no-cache-dir -r requirements.txt
 ```
 
@@ -98,13 +98,13 @@ Never include sensitive data (passwords, API keys) in your Dockerfile.
 
 - **Delete Unnecessary Files**: Clean up caches, logs, and temporary files after installation.
 
-    ```
+    ```bash
     RUN apt-get clean && rm -rf /var/lib/apt/lists/*
     ```
 
 - **Minimize Installed Packages**: Install only the packages you need.
 
-    ```
+    ```bash
     RUN apt-get install -y --no-install-recommends package
     ```
 
@@ -116,7 +116,7 @@ A `.dockerignore` file lets you exclude files and directories from the build con
 
 **Example** `**.dockerignore**`**:**
 
-```
+```bash
 .git
 node_modules
 Dockerfile
@@ -147,7 +147,7 @@ CMD ["./myapp"]
 
 For enhanced security, avoid running applications as the root user.
 
-```
+```bash
 RUN adduser -D appuser
 USER appuser
 ```
@@ -197,7 +197,7 @@ CMD ["node", "app.js"]
 - **Stay Updated**: Regularly update dependencies and base images to include security patches.
 - **Use Metadata**: Add `LABEL` instructions to provide image metadata.
 
-    ```
+    ```bash
     LABEL maintainer="yourname@example.com"
     ```
 
@@ -208,4 +208,4 @@ CMD ["node", "app.js"]
 
 Creating efficient Docker images is both an art and a science. By following best practices when writing your Dockerfile, you can significantly improve the performance, security, and manageability of your containers. Continuously update your knowledge and stay informed about new tools and methodologies in the containerization ecosystem. Remember, optimization is an ongoing process, and there's always room for improvement.
 
- [[Python]]  [[Linux]]
+ [[Docker]]

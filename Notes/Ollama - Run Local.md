@@ -2,7 +2,6 @@
 Video-URL: https://www.youtube.com/watch?v=J6s0n1FhXRo&list=WL&index=19
 tags: 
 - ollama
-- home
 ---
 
 # Comprehensive Guide to Installing and Using Olama AI Chat Assistant
@@ -306,9 +305,6 @@ Olama (oAMA) is a powerful and flexible open-source AI chat assistant that cater
 - **Utilize GUI Frontends**: For a more user-friendly experience, integrate Olama with Page Assist or similar tools.
 - **Engage with the Community**: Participate in forums and discussions to stay updated and contribute to the project's growth.
 
-[[Ollama]]  [[LLM]]  [[Open Web UI - Ollama GUI]]
+[[Ollama]]  
 
-[[Chatbot - Llama 3.2 & Flowwise + Ollama]]
-
-[[Ollama]]   [[home]]
   

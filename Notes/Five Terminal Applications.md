@@ -1,8 +1,10 @@
 ---
 tags:
 - editors
+- linux
 video-url: https://www.youtube.com/watch?v=1QqvL-k11NE&list=WL&index=2
 ---
+
 ## **Five Terminal Applications
 
 Let's dive into the detailed overview of the given text, covering everything from GitHub links to plugins, how-to instructions, and code examples. This guide will also explore the specific tools mentioned, their installation, usage instructions, and benefits.
@@ -213,4 +215,4 @@ These tools help you establish a robust, command-line-driven security and utilit
 
 To recap, the **terminal** is your first line of defense: it's versatile and full of tools waiting to be leveraged. With tools like **Age**, **Termshark**, **SSHS**, **HTTPie**, and **Portal**, you can transform your terminal into a comprehensive, open-source security hub that operates with minimal system impact.
 
-[[Code Editor]]
+[[Code Editor]]  [[Linux]]

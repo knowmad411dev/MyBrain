@@ -3,6 +3,7 @@ tags:
 - python
 video-url: https://www.youtube.com/watch?v=2hWR06BVSg8&list=WL&index=2
 ---
+
 ## **Python DataClasses
 
 **Overview of Python Data Classes**

@@ -6,6 +6,7 @@ tags:
 - home
 video-url: https://www.youtube.com/watch?v=Gn64NNr3bqU&list=WL&index=2
 ---
+
 ## **AI Summarize HUGE Documents Locally
 
 ### **Overview**
@@ -155,4 +156,4 @@ Here’s a concise overview of what the Python code might look like for this pro
 
 The K-means clustering approach allows you to summarize massive documents more efficiently by focusing on representative parts of the document rather than summarizing everything. This is particularly useful if you are using limited-resource LLMs and want to avoid hitting context window limits or incurring high costs. By experimenting with different clustering parameters and embedding models, you can find the balance that works best for your summarization needs.
 
-[[Ollama]]  [[LangChain]]  [[Python]]  [[LLM]]  [[Home]]  
+[[Ollama]]  [[LangChain]]  [[Python]]  [[LLM]]  [[Home]]

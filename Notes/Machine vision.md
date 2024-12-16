@@ -13,6 +13,6 @@ Machine Vision, also known as computer vision, is a field of artificial intellig
 - **Quality Control**: Inspecting products on manufacturing lines for defects.
 - **Autonomous Vehicles**: Enabling vehicles to perceive and navigate their environment.
 
-Machine vision is crucial in areas such as robotics, surveillance, healthcare, and industrial automation, where visual data processing is essential for [[Decision-Making]] and [[Automation]].
+Machine vision is crucial in areas such as robotics, surveillance, healthcare, and industrial automation, where visual data processing is essential for Decision-Making and Automation.
 
 [[Machine learning]]

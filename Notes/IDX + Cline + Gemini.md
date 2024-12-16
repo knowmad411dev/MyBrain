@@ -1,9 +1,11 @@
 ---
 tags:
 - editors
+- google
 video-url: https://www.youtube.com/watch?v=G-iBa1fvQHw&list=WL&index=2
 ---
-## **IDX + Cline + Gemini
+
+## **Project IDX + Cline + Gemini
 
 **Overview of Exploring Google's Cloud-Native IDE, Project IDX**
 
@@ -81,4 +83,4 @@ Project IDX is a capable cloud-based IDE, especially if you’re embedded in the
 - **Rapid Prototyping:** Creating prototypes and getting a working model fast without setting up a local environment.
 - **Learning and Experimentation:** If you want to get acquainted with cloud-based development environments and AI-assisted coding, this is a great tool to start with.
 
-[[Chatbots]]
+[[Code Editor]]

@@ -2,6 +2,7 @@
 tags:
 - avatars
 - companion
+- python
 ---
 
 # Avatar Personality
@@ -14,7 +15,7 @@ tags:
 - **Context Appropriateness**: Different scenarios demand different personas. A professional assistant might require a formal tone, while a fitness coach avatar could be more motivating and energetic.
 - **Emotional Connection**: Personalities allow avatars to create a sense of connection, improving the overall satisfaction of users interacting with AI.
 
-### Key [[Personality Traits]] to Define
+### Key Personality Traits to Define
 
 1. **Tone and Style**: Friendly, formal, empathetic, authoritative, humorous, etc.
 2. **Vocabulary**: The specific choice of words used—e.g., technical vs. simple language.
@@ -104,4 +105,4 @@ In this example, the avatar can switch between friendly and professional tones b
 
 Avatar Personality is essential for making AI avatars relatable and engaging. By carefully defining and implementing personality traits, you can create avatars that offer more human-like interactions and cater better to user needs. The key is to start simple and evolve iteratively based on user feedback.
 
-[[AI Avatars]]   [[Atomic Notes for Python AI Avatars]]  [[Python]]
+[[AI Avatars]]    [[Python]]

@@ -173,4 +173,4 @@ In general, the input prompt is the best lever for improving model outputs. You 
 [GPT3 Apps Blog Post]: https://openai.com/blog/gpt-3-apps/
 [OpenAI Examples]: https://platform.openai.com/examples
 
-[[OpenAI]]  [[LLM]]
+ [[LLM]]

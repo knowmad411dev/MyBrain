@@ -3,6 +3,7 @@ tags:
 - companion
 video-url: https://www.youtube.com/watch?v=3hdtfhCeBsg&list=WL&index=2
 ---
+
 ## **Build Jarvis
 
 This appears to be a transcript from a YouTube video, where someone is explaining how they built an AI assistant modeled after "Jarvis" from Iron Man, using multiple AI tools and platforms to create a conversational AI with specific personality traits. Here's an overview of what they did, what you need, and the learning steps:

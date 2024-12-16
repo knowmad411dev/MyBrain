@@ -14,4 +14,4 @@ Compress the following text between the :text: tags in a way such that you (GPT-
 
 :text:
 
-[[Prompting]]  [[Atomic Notes]]/[[ChatGPT]]
+[[Prompting]]

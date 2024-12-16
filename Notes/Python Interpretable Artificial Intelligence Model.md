@@ -3,13 +3,13 @@ tags:
 - python
 ---
 
-## **[[Python]] Interpretable [[Artificial intelligence]] Model
+## **Python Interpretable Artificial intelligence Model
 
   ![[Wood puzzle pieces.jpg]]
 
 Artificial Intelligence is being used everywhere these days. And many of the groundbreaking applications come from Machine Learning, a subfield of AI.
 
-Within [[Machine learning]], a field called [[Deep Learning]] represents one of the main areas of research. It is from Deep Learning that most new, truly effective AI systems are born.
+Within Machine learning, a field called Deep Learning represents one of the main areas of research. It is from Deep Learning that most new, truly effective AI systems are born.
 
 But typically, the AI systems born from Deep Learning are quite narrow, focused systems. They can outperform humans in one very specific area for which they were made.
 
@@ -41,7 +41,7 @@ The bigger the neural network, the more capable it is of doing awesome things �
 
 To truly understand the basics of neural networks – what every single AI model has in common that enables it to work – we need to understand activation layers.
 
-### Deep Learning = Training [[Neural Networks]]
+### Deep Learning = Training Neural Networks
 
 ![[Simple Neural Network.png]] _Simple neural network_
 

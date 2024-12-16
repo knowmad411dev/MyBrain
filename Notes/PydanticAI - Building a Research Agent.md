@@ -1,8 +1,10 @@
 ---
 tags:
 - agents
+- python
 video-url: https://www.youtube.com/watch?v=MkqkiJgnDxk&list=WL&index=3
 ---
+
 ## **PydanticAI - Building a Research Agent
 
 ### Overview of the Research Agent Tutorial
@@ -182,4 +184,4 @@ The presenter does not explicitly mention any GitHub links, but here are the typ
 
 This video is ideal for understanding how to build a research agent using Pydantic AI and integrate multiple search engines with an LLM, providing a reusable template for research tasks. If you want a working implementation, it would be advisable to look for a GitHub repository containing these examples or recreate them based on the explanations provided here.
 
-[[AI Agents]]  [[Python]]  [[Pydantic AI]]
+ [[Python]]  [[Pydantic AI]]

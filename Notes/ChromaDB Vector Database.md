@@ -3,17 +3,18 @@ Video-URL: https://www.youtube.com/watch?v=61kaK-e3Owc&list=WL&index=3
 tags:
 - chromadb
 - database
+- docker
 ---
 
 # How to Run ChromaDB Vector Database
 
 ## Summary
 
-In this video, Timothy Kbat, founder of MLEx Labs, provides an updated tutorial on setting up and using [[ChromaDB]], a vector database for handling embeddings and retrieval, as of its latest release (v0.4.18 on November 21st, 2023). He covers the installation using Docker, data persistence between container updates, and setting up authentication for securing API access.
+In this video, Timothy Kbat, founder of MLEx Labs, provides an updated tutorial on setting up and using ChromaDB, a vector database for handling embeddings and retrieval, as of its latest release (v0.4.18 on November 21st, 2023). He covers the installation using Docker, data persistence between container updates, and setting up authentication for securing API access.
 
 ## Key Steps Covered
 
-### 1. [[ChromaDB]] Installation via [[Docker]]
+### 1. ChromaDB Installation via Docker
 
 - **Requirement**: Ensure Docker is installed and running.
 - **Pull the latest ChromaDB image** from Docker Hub using the terminal command:
@@ -156,4 +157,4 @@ In this video, Timothy Kbat, founder of MLEx Labs, provides an updated tutorial 
 
 This guide offers a detailed walkthrough for setting up ChromaDB locally with Docker, ensuring data persistence, and adding secure API key access, with promises of future content for cloud deployment.
 
-[[Vector Databases]]  [[ChromaDB on AWS]]
+[[Vector Databases]]  [[ChromaDB]]  [[Docker]]

@@ -2,11 +2,11 @@
 Video-URL: https://www.youtube.com/watch?v=Oo8-nEuDBkk&list=WL&index=14
 tags:
 - python
-- web
+- web-scrapping
 url: https://github.com/techwithtim/AI-Web-Scraper
 ---
 
-## **[[Python]] AI [[Web Scrapping]]**
+## **Python AI Web Scrapping**
 
 Building an AI Web Scraper with Python: A Comprehensive Guide
 

@@ -3,7 +3,10 @@ tags:
 - rag
 - langchain
 - ollama
+- web-scrapping
+- python
 ---
+
 Are you looking to enhance your natural language processing projects with the latest AI technologies? I have already several posts on NLP that you can read, for example [HERE](https://pythonology.eu/category/nlp/ "NLP"). In this tutorial, we’ll walk you through creating a Retrieval-Augmented Generation (RAG) application that doubles as a web scraper. We’ll be using tools like [LangChain](https://python.langchain.com/v0.2/docs/introduction/ "langchain"), [Ollama](https://ollama.com/ "ollama"), and [Chroma](https://www.trychroma.com/ "chroma") to build a powerful system that can extract, process, and generate information from web content.
 
 ## What You’ll Learn
@@ -165,4 +168,4 @@ Whether you’re building a chatbot, a question-answering system, or a content s
 
 I hold a PhD in Applied Linguistics. My passion for natural languages drew me toward NLP and learning Python. Now, I run a Youtube channel called Pythonology.
 
-[[RAG]]  [[LangChain]]  [[Ollama]]   [[ChromaDB]]   [[Python]]
+[[RAG]]  [[LangChain]]  [[Ollama]]   [[ChromaDB]]   [[Python]]  [[LlamaIndex Framework]]

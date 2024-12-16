@@ -1,11 +1,10 @@
 ---
 tags:
 - rag
+- llm
 ---
 
-tags: RAG, AI, LLMs, Retrieval Systems, Knowledge Management
-
-### Retrieval Augmented Generation (RAG)
+## **RAG
 
 Retrieval-Augmented Generation (RAG) is an AI method that enhances the capabilities of large language models (LLMs) by integrating them with a retrieval system. This hybrid approach allows LLMs to access and pull in relevant, external knowledge from curated or real-time sources, leading to more accurate and contextually aware responses.
 
@@ -29,3 +28,5 @@ Retrieval-Augmented Generation (RAG) is an AI method that enhances the capabilit
 - **Enterprise Knowledge Management**: Employees can access the latest internal documents or policies, even if they weren't part of the model's initial training.
 
 RAG represents a significant step forward in AI-driven knowledge systems by combining the strengths of retrieval and generation, resulting in responses that are more relevant, trustworthy, and adaptable.
+
+[[LLM]]

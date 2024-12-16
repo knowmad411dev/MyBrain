@@ -98,6 +98,4 @@ The video provides a step-by-step guide on how to download or clone a GitHub rep
 - **If you don't have** `**git**` **installed**: Download the repository as a ZIP file, extract it, and open it in VS Code.
 - Use **VS Code** to open and run the project in your preferred browser.
 
-[[GitHub]]  [[VSCode]]  [[Git]]   [[GitHub Project Download & Run]]
-
-[[Obsidian Publish Sync with GitHub]]  [[Python]]
+[[GitHub]]  [[VSCode]]  [[Git]]

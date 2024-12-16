@@ -4,6 +4,7 @@ tags:
 - learning
 video-url: https://www.youtube.com/watch?v=URtF_UHYBSo&list=WL&index=2
 ---
+
 ## **Math Behind Machine Learning
 
 **Title: Exploring Machine Learning, Human Cognition, and the Art of Understanding Machines**
@@ -37,4 +38,4 @@ The conversation also explores the limitations of AI and its challenges moving f
 
 The conversation ends on the note that the future of AI may not necessarily be in scaling up deep learning models, but instead integrating symbolic reasoning, biomimetic methods, and possibly a combination of self-supervised learning and reinforcement learning to better simulate human-like cognition.
 
-[[Learning]]  [[Math]]  
+[[Learning]]  [[Math]]

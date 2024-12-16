@@ -1,7 +1,8 @@
 ---
 tags:
 - graph
-- knowledge
+- python
+- database
 video-url: https://www.youtube.com/watch?v=8Y_ZwpumCcA&list=WL&index=14
 ---
 
@@ -11,7 +12,7 @@ video-url: https://www.youtube.com/watch?v=8Y_ZwpumCcA&list=WL&index=14
 
 ---
 
-The text discusses the integration of [[Neural Networks]], specifically large language models ([[LLM]]s), with symbolic AI systems like knowledge graphs to enhance [[Artificial intelligence]] capabilities. This neurosymbolic approach leverages the strengths of both paradigms—pattern recognition from neural networks and logical reasoning from symbolic AI—to address complex, domain-specific problems that neither system could manage effectively on its own.
+The text discusses the integration of Neural Networks, specifically large language models (LLMs), with symbolic AI systems like knowledge graphs to enhance Artificial intelligence capabilities. This neurosymbolic approach leverages the strengths of both paradigms—pattern recognition from neural networks and logical reasoning from symbolic AI—to address complex, domain-specific problems that neither system could manage effectively on its own.
 
 ### Key Studies and Research
 
@@ -162,7 +163,7 @@ The text discusses the integration of [[Neural Networks]], specifically large la
         # Extract entities and relationships
         ```
 
-3. **Build the [[Knowledge Graph]]**
+3. **Build the Knowledge Graph**
 
     - Define nodes and relationships based on extracted information.
     - Insert data into Neo4j.
@@ -231,4 +232,4 @@ Integrating neural networks with symbolic AI through knowledge graphs offers a p
 
 **Note**: The specific studies mentioned are hypothetical and serve as illustrative examples. For actual implementations, please refer to the latest research papers and official documentation of the tools and technologies mentioned.
 
-[[Artificial intelligence]] [[Graphs]] [[Knowledge Graph]]  [[Vector Databases]]
+ [[Graphs]]  [[Vector Databases]]  [[Python]]

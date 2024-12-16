@@ -1,8 +1,10 @@
 ---
 tags:
-- web
+- ollama
+- python
 video-url: https://www.youtube.com/watch?v=Jxt-coDVbR4&list=WL&index=6
 ---
+
 ## **Overview of Open Web UI Features: Tools, Filters, Functions, and Pipelines
 
 ### Introduction to Open Web UI Advanced Features

@@ -4,6 +4,7 @@ tags:
 - vscode
 - python
 ---
+
 ## **OpenAPI Key in .env
 
 Step 1: Create a .env File
@@ -42,4 +43,4 @@ openai.api_key = openai_api_key
 
 Now, you can use the OpenAI API key securely in your code
 
-[[OpenAI]]  [[VSCode]]  [[Python]]  [[Code Editor]]  [[env vs venv]]  [[Self]]
+ [[VSCode]]  [[Python]]  [[Code Editor]]   [[OpenAI How-to LLM Models]]

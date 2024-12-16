@@ -39,4 +39,4 @@ tags:
 - **Flexibility**: Supports complex workflows, including feature development, bug fixing, and release management.
 - **Efficiency**: Lightweight operations and fast branching/merging enable efficient project management.
 
-  [[VSCode]]  [[Python]]  [[Obsidian Git Plugin]]  [[GitHub]]
+   [[GitHub]]

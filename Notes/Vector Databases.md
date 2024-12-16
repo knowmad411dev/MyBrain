@@ -12,13 +12,13 @@ tags:
 ### **Key Features**:
 
 1. **Efficient Similarity Search**: Vector databases use advanced algorithms like approximate nearest neighbor (ANN) search to quickly identify vectors similar to a given query. This capability is crucial for tasks like semantic search, where the meaning or context of the query matters more than exact keyword matches.
-2. **Embedding Storage**: [[Machine learning]] models convert data into vector [[Embeddings]], which capture the semantic relationships between data points. For example, the words "dog" and "puppy" would have similar vector embeddings, while "dog" and "car" would be farther apart. Vector databases efficiently store these high-dimensional vectors, allowing for rapid retrieval.
+2. **Embedding Storage**: Machine learning models convert data into vector Embeddings, which capture the semantic relationships between data points. For example, the words "dog" and "puppy" would have similar vector embeddings, while "dog" and "car" would be farther apart. Vector databases efficiently store these high-dimensional vectors, allowing for rapid retrieval.
 3. **Indexing for Fast Retrieval**: To handle millions or even billions of vectors, vector databases rely on specialized indexing techniques such as **Locality Sensitive Hashing (LSH)** and **KD-trees**. These methods group similar vectors, significantly speeding up search queries.
 4. **Scalability**: Designed for high-performance, vector databases can scale to handle extremely large datasets, making them ideal for AI-driven applications in industries like e-commerce, healthcare, and media.
 
 ### **Use Cases**:
 
-- **[[Semantic Search]]**: Instead of matching keywords, vector databases allow systems to understand the intent behind a query. For example, searching for "best places for sushi in Tokyo" will retrieve relevant results even if the exact words are not present, thanks to the use of embeddings.
+- **Semantic Search**: Instead of matching keywords, vector databases allow systems to understand the intent behind a query. For example, searching for "best places for sushi in Tokyo" will retrieve relevant results even if the exact words are not present, thanks to the use of embeddings.
 - **Recommendation Systems**: Vector databases power recommendation systems by comparing user preferences or behaviors represented as vectors with similar items, enabling more accurate content or product suggestions.
 - **Image and Audio Recognition**: Vectors generated from images or audio files can be stored in a vector database to enable quick searches for similar images or sounds, used in applications like facial recognition and music recommendation.
 
@@ -41,7 +41,7 @@ tags:
 
 ### **Example in AI-Enhanced Applications**:
 
-In a **Retrieval-Augmented Generation ([[RAG]])** setup, vector databases provide relevant context to an LLM by storing embeddings of knowledge documents. When a user query is issued, the system retrieves the most relevant documents based on vector similarity and feeds them into the language model for more accurate, context-aware responses.
+In a **Retrieval-Augmented Generation (RAG)** setup, vector databases provide relevant context to an LLM by storing embeddings of knowledge documents. When a user query is issued, the system retrieves the most relevant documents based on vector similarity and feeds them into the language model for more accurate, context-aware responses.
 
 ---
 
@@ -91,4 +91,3 @@ In a **Retrieval-Augmented Generation ([[RAG]])** setup, vector databases provid
 
 **Conclusion**: Vector databases play a critical role in enabling AI applications that rely on understanding and comparing large-scale, high-dimensional data. They are key to enhancing performance, scalability, and accuracy in tasks like semantic search, recommendation systems, and complex machine learning pipelines.
 
-[[Vector Databases]]   [[Artificial intelligence]]

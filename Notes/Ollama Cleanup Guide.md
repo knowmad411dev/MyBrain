@@ -1,8 +1,10 @@
 ---
 tags:
 - ollama
+- linux
 video-url: https://www.youtube.com/watch?v=aMe1mCD6AEI&list=WL&index=8
 ---
+
 ## **Ollama Cleanup Guide**
 
 ### **Introduction**

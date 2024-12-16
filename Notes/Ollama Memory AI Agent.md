@@ -1,8 +1,11 @@
 ---
 tags:
 - ollama
+- python
+- agents
 video-url: https://www.youtube.com/watch?v=5xPvsMX2q2M&list=WL&index=3
 ---
+
 ## **Overview of Ollama Memory AI Agent**
 
 The **Ollama Memory AI Agent** is a local AI system designed to provide users with conversational memory while ensuring **100% data privacy and security**. Unlike cloud-based solutions, all data is stored locally, allowing for complete ownership of user interactions. This agent utilizes **Retrieval-Augmented Generation (RAG)** to efficiently fetch and use context during conversations, giving highly accurate responses.

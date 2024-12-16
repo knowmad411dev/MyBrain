@@ -68,4 +68,4 @@ People are writing great tools and papers for improving outputs from GPT. Here a
 - [Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP (2023)](https://arxiv.org/abs/2212.14024): Models augmented with knowledge via a "retrieve-then-read" can be improved with multi-hop chains of searches.
 - [Improving Factuality and Reasoning in Language Models through Multiagent Debate (2023)](https://arxiv.org/abs/2305.14325): Generating debates between a few ChatGPT agents over a few rounds improves scores on various benchmarks. Math word problem scores rise from 77% to 85%.
 
-[[OpenAI]]   [[Prompting]]   [[AI Agents]]
+[[OpenAI How-to LLM Models]]

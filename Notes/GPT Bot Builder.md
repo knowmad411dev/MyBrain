@@ -202,4 +202,4 @@ print(bot_response)
 - You need to replace `"your-api-key"` with your actual OpenAI API key.
 - Modify `prompt` and `instructions` to fit the specific AI bot you are trying to build.
 
-[[GPT]] [[Python]]
+[[GPT]]   [[Python]]

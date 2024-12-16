@@ -3,6 +3,7 @@ tags:
 - obsidian
 - editors
 - vscode
+- python
 ---
 
 ## **Obsidian Organized snippets in VSCode**
@@ -262,4 +263,4 @@ for root, _, files in os.walk(vault_path):
 
 This workflow will make your snippets easy to find and manage while maintaining the connection between **Obsidian** and **VS Code**.
 
-[[Obsidian]] [[Python]]
+[[Obsidian]] [[Python]]  [[VSCode]]

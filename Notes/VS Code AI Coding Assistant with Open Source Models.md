@@ -6,6 +6,7 @@ TAGS:
 github_link: https://github.com/gitdagray
 video-url: https://www.youtube.com/watch?v=he0_W5iCv-I&list=WL&index=1
 ---
+
 ## **VS Code AI Coding Assistant with Open Source Models
 
 # Overview
@@ -155,4 +156,4 @@ This guide helps you set up a local AI assistant for coding in VS Code using **O
 
 Key benefits include keeping your code **local** and **free**, which is crucial for privacy and cost savings. The assistant can assist with everything from code generation to explanations and debugging, making it an effective partner in software development.
 
-[[VSCode]]  [[AI Agents]]  [[Ollama]]
+[[VSCode]]  [[Code Editor]]

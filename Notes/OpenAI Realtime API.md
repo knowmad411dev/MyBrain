@@ -72,7 +72,7 @@ There are two ways to instantiate the Real-Time client:
 1. **Using a Local Relay Server (Recommended):** This method is secure and recommended for production environments.
 2. **Quick Setup (For Development):**
 
-    ```
+    ```python
     const client = new RealTimeClient({
       apiKey: 'YOUR_API_KEY',
       dangerouslyAllowApiKeyInBrowser: true, // Use only for development
@@ -85,7 +85,7 @@ _Warning:_ Storing API keys in the browser is insecure and should **only** be us
 
 Set up the session with instructions and configurations:
 
-```
+```python
 client.updateSession({
   instructions: "Aloha and welcome to Pacific Horizon Condo. I'm Kai, your AI concierge. Ask me anything.",
   inputAudioTranscription: true,
@@ -98,7 +98,7 @@ client.updateSession({
 
 OpenAI uses WebSockets to maintain an open connection for instant data transfer. Implement event handling using the `on` method:
 
-```
+```python
 client.on('message', (data) => {
   // Handle incoming messages
 });
@@ -113,7 +113,7 @@ The Real-Time API offers two modes:
     - **Push-to-Talk:** Users manually initiate speaking.
     - **Implementation:**
 
-        ```
+        ```python
         client.updateSession({ conversationType: 'manual' });
         ```
 
@@ -122,7 +122,7 @@ The Real-Time API offers two modes:
     - **Natural Turn-Taking:** The system detects when the user starts and stops speaking.
     - **Implementation:**
 
-        ```
+        ```python
         client.updateSession({ conversationType: 'server_vad' });
         ```
 
@@ -130,7 +130,7 @@ The Real-Time API offers two modes:
 
 Utilize utility functions provided in the GitHub package for handling audio:
 
-```
+```python
 import { WaveRecorder, WaveStreamPlayer } from 'openai-realtime-utils';
 
 const recorder = new WaveRecorder();
@@ -149,13 +149,13 @@ client.sendUserMessage("Hey Kai, what's the Wi-Fi password?");
 
 1. **Connect to the API:**
 
-    ```
+    ```python
     client.connect();
     ```
 
 2. **Initialize the Session with Property Details:** Include all relevant information about the Airbnb property to ensure the AI can respond accurately.
 
-    ```
+    ```python
     client.updateSession({
       instructions: "Aloha and welcome to Pacific Horizon Condo. I'm Kai, your AI concierge. Ask me anything about the property.",
       // Additional property details here
@@ -210,7 +210,7 @@ The Real-Time API by OpenAI offers powerful capabilities for creating interactiv
 
 Here's a simplified example to illustrate setting up the Real-Time client and handling a basic conversation:
 
-```
+```python
 import { RealTimeClient } from 'openai-realtime-api-beta';
 import { WaveRecorder, WaveStreamPlayer } from 'openai-realtime-utils';
 
@@ -255,4 +255,4 @@ _Ensure you replace_ `_'YOUR_API_KEY'_` _with your actual OpenAI API key and han
 
 By leveraging OpenAI's Real-Time API, developers can create highly interactive and intelligent voice assistants tailored to specific applications, enhancing user engagement and streamlining information delivery.
 
-[[OpenAI]] [[AI Agents]]
+  [[Python]]   [[OpenAI How-to LLM Models]]

@@ -2,6 +2,7 @@
 tags:
 - editors
 ---
+
 ## **Qwen2.5-Coder Series Powerful, Diverse, Practical
 
 [GITHUB](https://github.com/QwenLM/Qwen2.5-Coder) [HUGGING FACE](https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f) [MODELSCOPE](https://modelscope.cn/organization/qwen) [KAGGLE](https://www.kaggle.com/models/qwen-lm/qwen2.5-coder) [DEMO](https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo) [DISCORD](https://discord.gg/yPEP2vHTu4)
@@ -97,4 +98,4 @@ We believe that this release can truly help developers and explore more interest
 }
 ```
 
-[[Code Editor]]  
+[[Code Editor]]

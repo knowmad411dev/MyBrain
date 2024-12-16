@@ -4,8 +4,6 @@ tags:
 - automation
 ---
 
-tags: [Web-Scraping, Data-Extraction, Cloud, Automation]
-
 # Web Scraping
 
 **Web Scraping** is the process of automatically extracting data from websites using software tools or scripts. It involves simulating browsing behavior to gather specific information from web pages, such as text, images, or structured data, for further analysis, storage, or manipulation.
@@ -47,9 +45,4 @@ tags: [Web-Scraping, Data-Extraction, Cloud, Automation]
 
 ---
 
-## Related Notes
-
-- [[Cloud]]
-- [[Automation]]
-- [[Data Analysis]]
-- [[APIs]]
+[[Python]]
