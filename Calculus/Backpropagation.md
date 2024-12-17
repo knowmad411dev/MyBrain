@@ -3,7 +3,6 @@ tags:
 - math
 - calculus
 ---
-
 ## **Backpropagation
 
 Backpropagation is a fundamental algorithm in Machine learning, particularly in training artificial neural networks. It efficiently computes the gradient of a loss function with respect to each weight in the network, enabling the optimization of these weights to minimize prediction errors.

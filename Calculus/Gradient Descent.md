@@ -25,7 +25,7 @@ Gradient descent is an optimization technique used to find the local minimum of 
 
 Gradient descent is widely used in various fields, including:
 
-- **[[Machine learning]]:** To minimize loss functions during model training.
+- **Machine learning:** To minimize loss functions during model training.
 
     [Machine Learning Mastery](https://machinelearningmastery.com/gradient-descent-for-machine-learning/)
 
@@ -39,3 +39,5 @@ Gradient descent is widely used in various fields, including:
 - **Function Properties:** The algorithm performs best on convex functions, where any local minimum is also a global minimum.
 
 For a more detailed exploration of gradient descent and its applications, you can refer to resources like the [Gradient Descent article on Khan Academy](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/what-is-gradient-descent).
+
+[[Math]]   [[Calculus]]   [[Machine learning]]  

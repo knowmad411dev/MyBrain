@@ -20,7 +20,7 @@ Calculus has two main branches:
 
     - **Purpose**: Deals with the accumulation of quantities and the area under curves.
     - **Key Concept**: The integral, which measures the accumulation of quantities, such as distance traveled over time given a speed function. It essentially adds up an infinite number of small quantities to find the total.
-    - **Applications**: Used to compute areas, volumes, and totals across continuous functions, and also serves as a tool for reversing differentiation (a process known as the [[Fundamental Theorem of Calculus]]).
+    - **Applications**: Used to compute areas, volumes, and totals across continuous functions, and also serves as a tool for reversing differentiation (a process known as the Fundamental Theorem of Calculus).
 
 ### Fundamental Concepts in Calculus
 
@@ -53,7 +53,7 @@ Calculus is invaluable in solving complex problems that involve change, motion, 
 - **Physics**: Describes motion, force, and energy through differential equations.
 - **Engineering**: Helps in designing and analyzing systems that involve heat, light, sound, fluid, and structural stress.
 - **Economics**: Models profit maximization, cost minimization, and the rate of change in financial variables.
-- **[[Artificial intelligence]]**: Optimizes algorithms, particularly in training machine learning models through techniques like gradient descent.
+- **Artificial intelligence**: Optimizes algorithms, particularly in training machine learning models through techniques like gradient descent.
 
 ### Calculus in AI and Machine Learning
 

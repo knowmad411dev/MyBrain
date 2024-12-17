@@ -6,7 +6,6 @@ tags:
 # About Me
 
 ---
-
 ## Personal Profile Cards
 
 ### Demographics
@@ -41,7 +40,7 @@ tags:
 
 - **Favorite Pastimes**: AI research, [[Note-Taking]], creating a Smart Home
 - **Cultural Interests**: [[Learning]], AI, personal development, help others, minimalism
-- creating complex [[Python]] program projects using LLMs and [[Vector Databases]]
+- creating complex [[Python]] program projects using LLMs and Vector Databases
 - Creating a version of ASL based on math to produce the signs.
 
 #### Learning Preferences
@@ -76,7 +75,7 @@ tags:
 #### AI Interaction History
 
 - **Experience**: Extensive use of ChatGPT and related tools
-- **Common AI Tasks**: Research, [[note-taking]], [[automation]]
+- **Common AI Tasks**: Research, note-taking, [[automation]]
 
 ---
 

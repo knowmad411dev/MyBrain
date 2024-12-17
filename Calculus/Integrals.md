@@ -3,7 +3,6 @@ tags:
 - math
 - calculus
 ---
-
 ## **Overview of Integrals in Calculus
 
 An **integral** is a central concept in calculus that represents accumulation, such as area, volume, or total change over an interval. Integrals are often described as the "opposite" of derivatives because they involve adding up small parts to find a whole, rather than measuring change. This concept of summation is essential in physics, engineering, economics, and machine learning.
@@ -89,10 +88,10 @@ Integrals are used in many real-world situations:
 1. **Physics**: Integrals calculate work done, the area under force and distance curves, or total energy consumption over time.
 2. **Engineering**: Used for designing systems, calculating center of mass, and analyzing changes in quantities over space or time.
 3. **Economics**: Integrals calculate total revenue, cost, or profit over time and help in analyzing accumulated trends.
-4. **[[Machine learning]]**: Integrals appear in probability distributions, where integrating over a distribution provides probabilities, and in techniques like regularization, where smoothness is encouraged in model predictions.
+4. **Machine learning**: Integrals appear in probability distributions, where integrating over a distribution provides probabilities, and in techniques like regularization, where smoothness is encouraged in model predictions.
 
 ### Summary
 
 Integrals measure accumulation and area, making them fundamental to calculus. They allow us to compute totals, areas, and averages across intervals, providing a way to solve complex problems involving continuous change. In applications ranging from physics to machine learning, integrals are essential for summing up quantities and analyzing the full picture within a range.
 
-[[Math]]   [[Calculus]]
+[[Math]]   [[Calculus]]  [[Machine learning]]  

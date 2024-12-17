@@ -39,4 +39,4 @@ The conversation also explores the limitations of AI and its challenges moving f
 
 The conversation ends on the note that the future of AI may not necessarily be in scaling up deep learning models, but instead integrating symbolic reasoning, biomimetic methods, and possibly a combination of self-supervised learning and reinforcement learning to better simulate human-like cognition.
 
-[[Learning]]  [[Math]]  [[Machine learning]]  
+  [[Math]]  [[Machine learning]]  

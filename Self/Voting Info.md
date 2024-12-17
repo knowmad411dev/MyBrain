@@ -2,7 +2,6 @@
 tags:
 - self
 ---
-
 ## **Voting Info
 
 Precinct:PCT 142
